@@ -28,8 +28,6 @@ from ingest.bmf_budget_csv import decode, normalise_name, to_number
 from ingest.common import USER_AGENT, download, staging_path
 
 SOURCE_ID = "wien_ogd_haushalt"
-CKAN = "https://www.data.gv.at/katalog/api/3/action/package_search"
-CKAN_FALLBACK = "https://www.data.gv.at/api/3/action/package_search"
 QUERIES = ["Rechnungsabschluss Wien", "Voranschlag Wien"]
 
 # Columns that hold codes or labels, never amounts, even if they look numeric.
@@ -38,46 +36,93 @@ CODE_COLUMN = re.compile(
 )
 
 
-def discover(years: range) -> list[dict]:
-    """Return CSV resources from data.gv.at whose dataset is about Vienna's VA or RA in the given years."""
-    found: dict[str, dict] = {}
-    for q in QUERIES:
-        result = None
-        for endpoint in (CKAN, CKAN_FALLBACK):
-            try:
-                r = requests.get(endpoint, params={"q": q, "rows": 200},
-                                 headers={"User-Agent": USER_AGENT}, timeout=60)
-                r.raise_for_status()
-                result = r.json()["result"]
+def _ckan(endpoint: str, q: str) -> list[dict]:
+    r = requests.get(endpoint, params={"q": q, "rows": 200}, headers={"User-Agent": USER_AGENT}, timeout=60)
+    r.raise_for_status()
+    out = []
+    for pkg in r.json()["result"]["results"]:
+        for res in pkg.get("resources", []):
+            out.append({
+                "dataset_title": pkg.get("title", ""),
+                "dataset_id": pkg.get("id"),
+                "licence": pkg.get("license_title") or pkg.get("license_id"),
+                "organization": (pkg.get("organization") or {}).get("title"),
+                "format": (res.get("format") or ""),
+                "resource_name": res.get("name"),
+                "url": res.get("url"),
+            })
+    return out
+
+
+def _text(v) -> str:
+    """piveau returns multilingual fields as {"de": "...", "en": "..."}."""
+    if isinstance(v, dict):
+        return v.get("de") or v.get("en") or next(iter(v.values()), "")
+    return v or ""
+
+
+def _piveau(endpoint: str, q: str) -> list[dict]:
+    params = {"q": q, "filter": "dataset", "limit": 200, "facets": json.dumps({"country": ["at"]})}
+    r = requests.get(endpoint, params=params, headers={"User-Agent": USER_AGENT}, timeout=60)
+    r.raise_for_status()
+    out = []
+    for ds in r.json()["result"]["results"]:
+        for dist in ds.get("distributions", []):
+            urls = dist.get("download_url") or dist.get("access_url") or []
+            url = urls[0] if isinstance(urls, list) and urls else urls
+            fmt = dist.get("format") or {}
+            out.append({
+                "dataset_title": _text(ds.get("title")),
+                "dataset_id": ds.get("id"),
+                "licence": _text((dist.get("license") or {}).get("label")) if isinstance(dist.get("license"), dict) else dist.get("license"),
+                "organization": _text((ds.get("publisher") or {}).get("name")),
+                "format": (fmt.get("id") or fmt.get("label") or "") if isinstance(fmt, dict) else str(fmt),
+                "resource_name": _text(dist.get("title")),
+                "url": url,
+            })
+    return out
+
+
+# Tried in order; every attempt is logged so the report shows which catalogue answered.
+ENDPOINTS = [
+    ("ckan", "https://www.data.gv.at/katalog/api/3/action/package_search"),
+    ("ckan", "https://www.data.gv.at/api/3/action/package_search"),
+    ("piveau", "https://www.data.gv.at/api/hub/search/search"),
+    ("piveau", "https://data.europa.eu/api/hub/search/search"),
+]
+
+
+def discover(years: range, log: list[dict]) -> list[dict]:
+    """Find CSV files of Vienna's VA or RA for the given years. Appends one entry per attempt to log."""
+    candidates: list[dict] = []
+    for kind, endpoint in ENDPOINTS:
+        try:
+            for q in QUERIES:
+                candidates += (_ckan if kind == "ckan" else _piveau)(endpoint, q)
+            log.append({"endpoint": endpoint, "ok": True, "items": len(candidates)})
+            if candidates:
                 break
-            except Exception as exc:  # noqa: BLE001 - record and try the fallback
-                last_error = exc
-        if result is None:
-            raise RuntimeError(f"data.gv.at catalogue not reachable: {last_error}")
-        for pkg in result["results"]:
-            title = pkg.get("title", "")
-            if not re.search(r"\bWien\b", title):
-                continue
-            year_match = re.search(r"(20\d\d)", title)
-            if not year_match or int(year_match.group(1)) not in years:
-                continue
-            kind = "rechnungsabschluss" if "Rechnungsabschluss" in title else (
-                "voranschlag" if "Voranschlag" in title else None)
-            if kind is None:
-                continue
-            for res in pkg.get("resources", []):
-                if (res.get("format") or "").lower() != "csv":
-                    continue
-                found[res["url"]] = {
-                    "dataset_title": title,
-                    "dataset_id": pkg.get("id"),
-                    "licence": pkg.get("license_title") or pkg.get("license_id"),
-                    "organization": (pkg.get("organization") or {}).get("title"),
-                    "kind": kind,
-                    "year": int(year_match.group(1)),
-                    "resource_name": res.get("name"),
-                    "url": res["url"],
-                }
+        except Exception as exc:  # noqa: BLE001 - try the next catalogue
+            log.append({"endpoint": endpoint, "ok": False, "error": f"{type(exc).__name__}: {exc}"[:300]})
+    return select(candidates, years)
+
+
+def select(candidates: list[dict], years: range) -> list[dict]:
+    found: dict[str, dict] = {}
+    for c in candidates:
+        title, url = c["dataset_title"], c.get("url")
+        if not url or "csv" not in (c.get("format") or "").lower():
+            continue
+        if not re.search(r"\bWien\b", title):
+            continue
+        year_match = re.search(r"(20\d\d)", title)
+        if not year_match or int(year_match.group(1)) not in years:
+            continue
+        kind = ("rechnungsabschluss" if "Rechnungsabschluss" in title
+                else "voranschlag" if "Voranschlag" in title else None)
+        if kind is None:
+            continue
+        found[url] = {**c, "kind": kind, "year": int(year_match.group(1))}
     return sorted(found.values(), key=lambda d: (d["kind"], d["year"], d["url"]))
 
 
@@ -111,7 +156,9 @@ def main() -> None:
     args = ap.parse_args()
     first, last = (int(x) for x in args.years.split("-"))
 
-    resources = discover(range(first, last + 1))
+    log: list[dict] = []
+    resources = discover(range(first, last + 1), log)
+    staging_path(SOURCE_ID, "discovery_log.json").write_text(json.dumps(log, indent=2, ensure_ascii=False))
     staging_path(SOURCE_ID, "discovery.json").write_text(
         json.dumps(resources, indent=2, ensure_ascii=False))
     print(f"{len(resources)} CSV resources found")

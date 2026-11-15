@@ -10,6 +10,7 @@ import json
 from pathlib import Path
 
 import pandas as pd
+import yaml
 
 from ingest.common import RAW_DIR, REPO_ROOT, STAGING_DIR
 
@@ -31,6 +32,31 @@ def describe(path: Path) -> list[str]:
     return lines + [""]
 
 
+def control_checks() -> list[str]:
+    """Compare parsed data with published totals from ops/control_totals.yaml."""
+    spec = yaml.safe_load((REPO_ROOT / "ops" / "control_totals.yaml").read_text())["controls"]
+    lines = ["## Control totals", "", "| Check | Expected | Parsed | Difference | Result |", "| --- | --- | --- | --- | --- |"]
+    for c in spec:
+        paths = sorted(STAGING_DIR.glob(c["table"]))
+        if not paths:
+            lines.append(f"| {c['id']} | {c['expected']:,.1f} | no table | | skipped |")
+            continue
+        if not c.get("column"):
+            lines.append(f"| {c['id']} | {c['expected']:,.1f} | column not mapped yet | | skipped |")
+            continue
+        df = pd.concat(pd.read_parquet(p) for p in paths)
+        for k, v in c["filter"].items():
+            df = df[df[k].astype(str) == str(v)]
+        if df.empty:
+            lines.append(f"| {c['id']} | {c['expected']:,.1f} | no matching rows | | skipped |")
+            continue
+        parsed = float(df[c["column"]].sum()) * c["multiplier"]
+        diff = (parsed - c["expected"]) / c["expected"]
+        result = "pass" if abs(diff) <= c["tolerance"] else "FAIL"
+        lines.append(f"| {c['id']} | {c['expected']:,.1f} | {parsed:,.1f} | {diff:+.2%} | {result} |")
+    return lines + [""]
+
+
 def main() -> None:
     lines = [f"# Ingest report", "", f"Generated {dt.datetime.utcnow():%Y-%m-%d %H:%M} UTC by the `ingest` workflow.", ""]
 
@@ -39,6 +65,15 @@ def main() -> None:
         for entry in json.loads(manifest.read_text()).values():
             lines.append(f"| {entry['doc_id']} | {entry['bytes']:,} | `{entry['sha256'][:12]}` | {entry['url']} |")
     lines.append("")
+
+    log_path = STAGING_DIR / "wien_ogd_haushalt" / "discovery_log.json"
+    if log_path.exists():
+        lines += ["## Vienna catalogue attempts", "", "| Endpoint | OK | Items or error |", "| --- | --- | --- |"]
+        for a in json.loads(log_path.read_text()):
+            lines.append(f"| {a['endpoint']} | {a['ok']} | {a.get('items', a.get('error', ''))} |".replace("\n", " "))
+        lines.append("")
+
+    lines += control_checks()
 
     discovery = STAGING_DIR / "wien_ogd_haushalt" / "discovery.json"
     if discovery.exists():
