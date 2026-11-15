@@ -18,7 +18,7 @@
 5. What the official record says: Rechnungshof and Stadtrechnungshof reports, Landesrechnungshof, parliamentary or council questions and answers, Förderbericht entries.
 6. Comparison where fair: similar private or public businesses, with the limits of the comparison stated.
 7. Net cost to the taxpayer and what it buys: public money in minus money back, per year and per resident, set against the public task the owner states and any outcome the record shows (visitors, users, jobs, protected land). If the record shows no measurable benefit for the money, say so; if it shows one, say that too.
-8. Ledger row: fill the fields of `registry/public_enterprises.csv` for this entity.
+8. Ledger row: fill the fields of `registry/public_enterprises_manual.csv` for this entity (the generated ledger `registry/public_enterprises.csv` merges it).
 9. Open questions.
 
 **Rules**
