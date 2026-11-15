@@ -44,8 +44,11 @@ Gate: federal and Vienna detail reconcile to control totals.
 
 ## Weekly dossiers on publicly owned businesses
 
-- [ ] Seed the public enterprise ledger (`registry/public_enterprises.csv`) from the Bund's Beteiligungsbericht and Vienna's list of holdings (Wien Holding, Stadtwerke, Unternehmungen), so the backlog is chosen from the full list
-- [ ] Ledger view on the dashboard: one row per enterprise, net cost and outcome side by side
+- [x] Ledger seeded (2026-11-15): 102 federal holdings (BMF CSV, 2025, EUR 13.52 bn paid in, EUR 1.82 bn back) and 30 direct Vienna holdings (Beteiligungsbericht 2024, business year 2023, EUR 1.50 bn subsidies). `models/ledger.py` rebuilds it in every full run
+- [x] Ledger section on the dashboard: top recipients for Bund and Wien, full table
+- [ ] Find Vienna's Beteiligungsbericht 2025 (business year 2024) and the city's payments for services to its companies, not only subsidies
+- [ ] Add per-resident figures to the ledger (population from Statistik Austria)
+- [ ] Add city enterprises without a company (MA 49 farms incl. Weingut Cobenzl, Wiener Wohnen, WIGEV) from the VRV budget lines
 
 - [x] Agent prompt, template and backlog set up (2026-11-15)
 - [ ] First draft: Weingut Cobenzl
