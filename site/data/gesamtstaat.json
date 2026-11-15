@@ -1,0 +1,384 @@
+{
+ "title": "Staatsausgaben Österreich nach Aufgabenbereichen",
+ "source": "Eurostat gov_10a_exp (ESVG 2010), konsolidiert",
+ "basis": "esa2010",
+ "year": 2024,
+ "total_eur": 272668300000.0,
+ "by_function": [
+  {
+   "cofog_code": "GF10",
+   "name": "Soziale Sicherung",
+   "amount_eur": 112496000000.0
+  },
+  {
+   "cofog_code": "GF07",
+   "name": "Gesundheitswesen",
+   "amount_eur": 46782400000.0
+  },
+  {
+   "cofog_code": "GF04",
+   "name": "Wirtschaftliche Angelegenheiten",
+   "amount_eur": 35028600000.0
+  },
+  {
+   "cofog_code": "GF01",
+   "name": "Allgemeine öffentliche Verwaltung",
+   "amount_eur": 29860200000.0
+  },
+  {
+   "cofog_code": "GF09",
+   "name": "Bildungswesen",
+   "amount_eur": 26091900000.0
+  },
+  {
+   "cofog_code": "GF03",
+   "name": "Öffentliche Ordnung und Sicherheit",
+   "amount_eur": 7398400000.0
+  },
+  {
+   "cofog_code": "GF08",
+   "name": "Freizeit, Sport, Kultur und Religion",
+   "amount_eur": 6247400000.0
+  },
+  {
+   "cofog_code": "GF05",
+   "name": "Umweltschutz",
+   "amount_eur": 3483600000.0
+  },
+  {
+   "cofog_code": "GF02",
+   "name": "Verteidigung",
+   "amount_eur": 3339500000.0
+  },
+  {
+   "cofog_code": "GF06",
+   "name": "Wohnungswesen und kommunale Einrichtungen",
+   "amount_eur": 1940300000.0
+  }
+ ],
+ "by_level_unconsolidated": [
+  {
+   "sector": "S1311",
+   "name": "Bund",
+   "amount_eur": 176086600000.0
+  },
+  {
+   "sector": "S1312",
+   "name": "Länder",
+   "amount_eur": 52223500000.0
+  },
+  {
+   "sector": "S1313",
+   "name": "Gemeinden",
+   "amount_eur": 46733600000.0
+  },
+  {
+   "sector": "S1314",
+   "name": "Sozialversicherung",
+   "amount_eur": 93663800000.0
+  }
+ ],
+ "note_levels": "Ebenen unkonsolidiert: Transfers zwischen den Ebenen sind bei beiden Seiten enthalten; die Summe ist größer als der Gesamtstaat.",
+ "pct_gdp": [
+  {
+   "geo": "AT",
+   "year": 2015,
+   "pct_gdp": 51.2
+  },
+  {
+   "geo": "AT",
+   "year": 2016,
+   "pct_gdp": 50.6
+  },
+  {
+   "geo": "AT",
+   "year": 2017,
+   "pct_gdp": 49.8
+  },
+  {
+   "geo": "AT",
+   "year": 2018,
+   "pct_gdp": 49.2
+  },
+  {
+   "geo": "AT",
+   "year": 2019,
+   "pct_gdp": 49.1
+  },
+  {
+   "geo": "AT",
+   "year": 2020,
+   "pct_gdp": 57.3
+  },
+  {
+   "geo": "AT",
+   "year": 2021,
+   "pct_gdp": 56.0
+  },
+  {
+   "geo": "AT",
+   "year": 2022,
+   "pct_gdp": 53.0
+  },
+  {
+   "geo": "AT",
+   "year": 2023,
+   "pct_gdp": 52.2
+  },
+  {
+   "geo": "AT",
+   "year": 2024,
+   "pct_gdp": 55.2
+  },
+  {
+   "geo": "DE",
+   "year": 2015,
+   "pct_gdp": 44.5
+  },
+  {
+   "geo": "DE",
+   "year": 2016,
+   "pct_gdp": 44.7
+  },
+  {
+   "geo": "DE",
+   "year": 2017,
+   "pct_gdp": 44.5
+  },
+  {
+   "geo": "DE",
+   "year": 2018,
+   "pct_gdp": 44.7
+  },
+  {
+   "geo": "DE",
+   "year": 2019,
+   "pct_gdp": 45.5
+  },
+  {
+   "geo": "DE",
+   "year": 2020,
+   "pct_gdp": 51.1
+  },
+  {
+   "geo": "DE",
+   "year": 2021,
+   "pct_gdp": 50.7
+  },
+  {
+   "geo": "DE",
+   "year": 2022,
+   "pct_gdp": 48.6
+  },
+  {
+   "geo": "DE",
+   "year": 2023,
+   "pct_gdp": 48.1
+  },
+  {
+   "geo": "DE",
+   "year": 2024,
+   "pct_gdp": 49.4
+  },
+  {
+   "geo": "DK",
+   "year": 2015,
+   "pct_gdp": 54.4
+  },
+  {
+   "geo": "DK",
+   "year": 2016,
+   "pct_gdp": 52.4
+  },
+  {
+   "geo": "DK",
+   "year": 2017,
+   "pct_gdp": 50.6
+  },
+  {
+   "geo": "DK",
+   "year": 2018,
+   "pct_gdp": 50.8
+  },
+  {
+   "geo": "DK",
+   "year": 2019,
+   "pct_gdp": 49.8
+  },
+  {
+   "geo": "DK",
+   "year": 2020,
+   "pct_gdp": 53.3
+  },
+  {
+   "geo": "DK",
+   "year": 2021,
+   "pct_gdp": 49.7
+  },
+  {
+   "geo": "DK",
+   "year": 2022,
+   "pct_gdp": 45.1
+  },
+  {
+   "geo": "DK",
+   "year": 2023,
+   "pct_gdp": 47.4
+  },
+  {
+   "geo": "DK",
+   "year": 2024,
+   "pct_gdp": 47.3
+  },
+  {
+   "geo": "EU27_2020",
+   "year": 2015,
+   "pct_gdp": 48.3
+  },
+  {
+   "geo": "EU27_2020",
+   "year": 2016,
+   "pct_gdp": 47.5
+  },
+  {
+   "geo": "EU27_2020",
+   "year": 2017,
+   "pct_gdp": 46.9
+  },
+  {
+   "geo": "EU27_2020",
+   "year": 2018,
+   "pct_gdp": 46.6
+  },
+  {
+   "geo": "EU27_2020",
+   "year": 2019,
+   "pct_gdp": 46.6
+  },
+  {
+   "geo": "EU27_2020",
+   "year": 2020,
+   "pct_gdp": 52.8
+  },
+  {
+   "geo": "EU27_2020",
+   "year": 2021,
+   "pct_gdp": 51.1
+  },
+  {
+   "geo": "EU27_2020",
+   "year": 2022,
+   "pct_gdp": 49.1
+  },
+  {
+   "geo": "EU27_2020",
+   "year": 2023,
+   "pct_gdp": 48.8
+  },
+  {
+   "geo": "EU27_2020",
+   "year": 2024,
+   "pct_gdp": 48.8
+  },
+  {
+   "geo": "NL",
+   "year": 2015,
+   "pct_gdp": 45.3
+  },
+  {
+   "geo": "NL",
+   "year": 2016,
+   "pct_gdp": 43.9
+  },
+  {
+   "geo": "NL",
+   "year": 2017,
+   "pct_gdp": 42.8
+  },
+  {
+   "geo": "NL",
+   "year": 2018,
+   "pct_gdp": 42.4
+  },
+  {
+   "geo": "NL",
+   "year": 2019,
+   "pct_gdp": 42.1
+  },
+  {
+   "geo": "NL",
+   "year": 2020,
+   "pct_gdp": 47.8
+  },
+  {
+   "geo": "NL",
+   "year": 2021,
+   "pct_gdp": 45.9
+  },
+  {
+   "geo": "NL",
+   "year": 2022,
+   "pct_gdp": 43.3
+  },
+  {
+   "geo": "NL",
+   "year": 2023,
+   "pct_gdp": 44.0
+  },
+  {
+   "geo": "NL",
+   "year": 2024,
+   "pct_gdp": 44.4
+  },
+  {
+   "geo": "SE",
+   "year": 2015,
+   "pct_gdp": 50.5
+  },
+  {
+   "geo": "SE",
+   "year": 2016,
+   "pct_gdp": 50.6
+  },
+  {
+   "geo": "SE",
+   "year": 2017,
+   "pct_gdp": 50.3
+  },
+  {
+   "geo": "SE",
+   "year": 2018,
+   "pct_gdp": 50.9
+  },
+  {
+   "geo": "SE",
+   "year": 2019,
+   "pct_gdp": 49.8
+  },
+  {
+   "geo": "SE",
+   "year": 2020,
+   "pct_gdp": 53.3
+  },
+  {
+   "geo": "SE",
+   "year": 2021,
+   "pct_gdp": 50.4
+  },
+  {
+   "geo": "SE",
+   "year": 2022,
+   "pct_gdp": 49.4
+  },
+  {
+   "geo": "SE",
+   "year": 2023,
+   "pct_gdp": 50.2
+  },
+  {
+   "geo": "SE",
+   "year": 2024,
+   "pct_gdp": 50.0
+  }
+ ]
+}

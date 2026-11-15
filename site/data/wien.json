@@ -1,0 +1,1454 @@
+{
+ "title": "Auszahlungen der Stadt Wien",
+ "source": "Stadt Wien, Rechnungsabschluss nach VRV 2015, über offenerhaushalt.at (CC BY 4.0)",
+ "basis": "vrv2015_cash",
+ "stage": "actual",
+ "year": 2025,
+ "total_eur": 20496188872.43,
+ "total_incl_financing_eur": 21365031553.190002,
+ "financing_outflows_eur": 868842680.7600001,
+ "definition": "Operative und investive Auszahlungen (MVAG 32 und 34). Auszahlungen aus der Finanzierungstätigkeit (MVAG 36, v. a. Tilgungen) sind separat ausgewiesen.",
+ "note": "Gesamthaushalt der Bundeshauptstadt Wien (Land und Gemeinde gemeinsam). Unternehmungen mit eigenem Abschluss (z. B. Wiener Wohnen) und Beteiligungen sind nur mit den Zahlungen der Stadt an sie enthalten.",
+ "tree": [
+  {
+   "gruppe": "5",
+   "ansatz_uab": "557",
+   "ansatz_text": "Zuschüsse an eigene Krankenanstalten",
+   "amount_eur": 2829177187.67,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "400",
+   "ansatz_text": "Fonds Soziales Wien",
+   "amount_eur": 1945901996.23,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "6",
+   "ansatz_uab": "650",
+   "ansatz_text": "Wiener Linien",
+   "amount_eur": 1415670666.7,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "411",
+   "ansatz_text": "Allgemeine Sozialhilfe",
+   "amount_eur": 1325697327.2399998,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "210",
+   "ansatz_text": "Allgemein bildende Pflichtschulen - Aktivbezüge der Landeslehrerinnen und Landeslehrer",
+   "amount_eur": 1120235561.28,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "210",
+   "ansatz_text": "Allgemein bildende Pflichtschulen",
+   "amount_eur": 870475983.18,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "5",
+   "ansatz_uab": "590",
+   "ansatz_text": "Krankenanstaltenfonds",
+   "amount_eur": 785155620.5,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "080",
+   "ansatz_text": "Pensionen",
+   "amount_eur": 727189818.87,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "240",
+   "ansatz_text": "Kindergärten",
+   "amount_eur": 708268890.98,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "240",
+   "ansatz_text": "Förderung von Kinderbetreuungseinrichtungen",
+   "amount_eur": 515825054.87,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "080",
+   "ansatz_text": "Pensionslasten der Wiener Stadtwerke",
+   "amount_eur": 454194180.76,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "208",
+   "ansatz_text": "Pensionen der Landeslehrerinnen und Landeslehrer",
+   "amount_eur": 388055599.04,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "011",
+   "ansatz_text": "Personalstelle Wr. Stadtwerke  - Verrechnung für das aktive Personal",
+   "amount_eur": 374518306.0,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "8",
+   "ansatz_uab": "852",
+   "ansatz_text": "Müllbeseitigung",
+   "amount_eur": 347014473.0,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "482",
+   "ansatz_text": "Wohnbauförderung Neubau",
+   "amount_eur": 345656102.61,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "439",
+   "ansatz_text": "Pflegekinderwesen",
+   "amount_eur": 283786269.49,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "016",
+   "ansatz_text": "Elektronische Datenverarbeitung - Unternehmensbereich",
+   "amount_eur": 281396310.74,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "1",
+   "ansatz_uab": "162",
+   "ansatz_text": "Feuerwehr und Katastrophenschutz",
+   "amount_eur": 261460894.82,
+   "gruppe_name": "Öffentliche Ordnung und Sicherheit"
+  },
+  {
+   "gruppe": "8",
+   "ansatz_uab": "850",
+   "ansatz_text": "Wasserversorgung",
+   "amount_eur": 221831072.21,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "026",
+   "ansatz_text": "Sammelansatz Magistratsdirektion",
+   "amount_eur": 205667331.74,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "6",
+   "ansatz_uab": "612",
+   "ansatz_text": "Straßenbau",
+   "amount_eur": 184779971.71,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "016",
+   "ansatz_text": "Elektronische Datenverarbeitung - Hoheitsbereich",
+   "amount_eur": 176965685.7,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "026",
+   "ansatz_text": "Sammelansatz Geschäftsgruppe Innovation, Stadtplanung und Mobilität",
+   "amount_eur": 166684742.95,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "8",
+   "ansatz_uab": "815",
+   "ansatz_text": "Park- und Gartenanlagen, Kinderspielplätze",
+   "amount_eur": 166587198.95,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "gruppe": "5",
+   "ansatz_uab": "560",
+   "ansatz_text": "Krankenanstalten anderer Rechtsträger - Betriebsabgangsdeckung",
+   "amount_eur": 148539868.39000002,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "483",
+   "ansatz_text": "Förderung der Wohnhaussanierung",
+   "amount_eur": 146511431.84,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "9",
+   "ansatz_uab": "950",
+   "ansatz_text": "Aufgenommene Darlehen und Schuldendienst",
+   "amount_eur": 144492881.82,
+   "gruppe_name": "Finanzwirtschaft"
+  },
+  {
+   "gruppe": "8",
+   "ansatz_uab": "840",
+   "ansatz_text": "Grundstücksangelegenheiten",
+   "amount_eur": 139811458.7,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "gruppe": "5",
+   "ansatz_uab": "530",
+   "ansatz_text": "Rettungs- und Krankenbeförderungsdienst",
+   "amount_eur": 133966616.02000001,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "gruppe": "5",
+   "ansatz_uab": "500",
+   "ansatz_text": "Gesundheitswesen",
+   "amount_eur": 127952353.07,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "026",
+   "ansatz_text": "Sammelansatz Geschäftsgruppe Klima, Umwelt, Demokratie und Personal",
+   "amount_eur": 125633631.09,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "3",
+   "ansatz_uab": "324",
+   "ansatz_text": "Förderung der darstellenden Kunst",
+   "amount_eur": 124220903.89,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "gruppe": "8",
+   "ansatz_uab": "814",
+   "ansatz_text": "Straßenreinigung",
+   "amount_eur": 121332816.97,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "435",
+   "ansatz_text": "Sozialpädagogische Einrichtungen",
+   "amount_eur": 104903042.57,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "401",
+   "ansatz_text": "Amt für Jugend und Familie",
+   "amount_eur": 102632009.07,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "9",
+   "ansatz_uab": "900",
+   "ansatz_text": "Finanzverwaltung",
+   "amount_eur": 102615425.91,
+   "gruppe_name": "Finanzwirtschaft"
+  },
+  {
+   "gruppe": "6",
+   "ansatz_uab": "610",
+   "ansatz_text": "Hauptstraßen B",
+   "amount_eur": 101672084.67,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "gruppe": "9",
+   "ansatz_uab": "900",
+   "ansatz_text": "Rechnungs- und Abgabenwesen",
+   "amount_eur": 99101835.43,
+   "gruppe_name": "Finanzwirtschaft"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "026",
+   "ansatz_text": "Sammelansatz Geschäftsgruppe Wohnen, Wohnbau, Stadterneuerung und Frauen",
+   "amount_eur": 98767605.26,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "029",
+   "ansatz_text": "Amtsgebäude - Errichtung, Erhaltung und Verwaltung",
+   "amount_eur": 98408193.3,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "7",
+   "ansatz_uab": "782",
+   "ansatz_text": "Wirtschaftsförderung",
+   "amount_eur": 94880730.15,
+   "gruppe_name": "Wirtschaftsförderung"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "481",
+   "ansatz_text": "Förderung des Wohnbaues",
+   "amount_eur": 94642815.43,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "8",
+   "ansatz_uab": "835",
+   "ansatz_text": "Bäder",
+   "amount_eur": 92347736.33,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "029",
+   "ansatz_text": "Bau- und Gebäudemanagement",
+   "amount_eur": 92137263.75,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "026",
+   "ansatz_text": "Sammelansatz Geschäftsgruppe Bildung, Jugend, Integration und Transparenz",
+   "amount_eur": 90310883.63,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "220",
+   "ansatz_text": "Berufsbildende Pflichtschulen - Aktivbezüge der Landeslehrerinnen und Landeslehrer",
+   "amount_eur": 82609685.88,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "3",
+   "ansatz_uab": "381",
+   "ansatz_text": "Kulturelle Jugendbetreuung",
+   "amount_eur": 72388049.67,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "272",
+   "ansatz_text": "Volksbildung",
+   "amount_eur": 70941717.49,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "6",
+   "ansatz_uab": "640",
+   "ansatz_text": "Elektro- und lichttechnische Verkehrsregelung und -sicherung",
+   "amount_eur": 68247461.41,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "000",
+   "ansatz_text": "Vertretung der Stadt",
+   "amount_eur": 67735464.39,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "6",
+   "ansatz_uab": "690",
+   "ansatz_text": "Verkehrsverbund",
+   "amount_eur": 65975000.0,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "gruppe": "5",
+   "ansatz_uab": "512",
+   "ansatz_text": "Sucht- und Drogenkoordination",
+   "amount_eur": 65724585.42,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "263",
+   "ansatz_text": "Turn- und Sporthallen",
+   "amount_eur": 63119113.62,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "026",
+   "ansatz_text": "Sammelansatz Geschäftsgruppe Finanzen, Wirtschaft, Arbeit, Internationales und Wiener Stadtwerke",
+   "amount_eur": 58654649.15,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "6",
+   "ansatz_uab": "639",
+   "ansatz_text": "Schutzwasserbau - Sonstige Einrichtungen und Maßnahmen",
+   "amount_eur": 51792599.54,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "015",
+   "ansatz_text": "Information und Öffentlichkeitsarbeit",
+   "amount_eur": 50037365.43,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "262",
+   "ansatz_text": "Sportplätze",
+   "amount_eur": 48751543.47,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "050",
+   "ansatz_text": "Zuweisungen an die Bezirke für überregionale und investive Maßnahmen",
+   "amount_eur": 46819119.06,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "060",
+   "ansatz_text": "Beiträge an Verbände, Vereine und sonstige Organisationen",
+   "amount_eur": 45622410.99999999,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "8",
+   "ansatz_uab": "866",
+   "ansatz_text": "Stadtforste",
+   "amount_eur": 44628787.69,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "gruppe": "8",
+   "ansatz_uab": "828",
+   "ansatz_text": "Marktservice und Lebensmittelsicherheit",
+   "amount_eur": 42966280.72,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "gruppe": "3",
+   "ansatz_uab": "322",
+   "ansatz_text": "Musikpflege",
+   "amount_eur": 42263707.39,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "220",
+   "ansatz_text": "Berufsbildende Pflichtschulen",
+   "amount_eur": 39409078.55,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "3",
+   "ansatz_uab": "340",
+   "ansatz_text": "Museen",
+   "amount_eur": 36111965.04,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "gruppe": "3",
+   "ansatz_uab": "381",
+   "ansatz_text": "Sonstige kulturelle Maßnahmen",
+   "amount_eur": 34713183.14,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "gruppe": "3",
+   "ansatz_uab": "320",
+   "ansatz_text": "Musikschule Wien",
+   "amount_eur": 34379925.94,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "469",
+   "ansatz_text": "Familienfördernde Maßnahmen",
+   "amount_eur": 33999258.620000005,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "6",
+   "ansatz_uab": "612",
+   "ansatz_text": "Brückenbau",
+   "amount_eur": 33218749.2,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "gruppe": "3",
+   "ansatz_uab": "381",
+   "ansatz_text": "Kulturförderung",
+   "amount_eur": 32387382.36,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "gruppe": "6",
+   "ansatz_uab": "612",
+   "ansatz_text": "Straßenbau, Oberflächenwiederherstellung",
+   "amount_eur": 31933915.529999997,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "050",
+   "ansatz_text": "Bezirksvoranschläge",
+   "amount_eur": 31510230.259999998,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "273",
+   "ansatz_text": "Büchereien",
+   "amount_eur": 31127868.54,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "7",
+   "ansatz_uab": "771",
+   "ansatz_text": "Sonstige Fremdenverkehrsförderung",
+   "amount_eur": 30494163.42,
+   "gruppe_name": "Wirtschaftsförderung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "031",
+   "ansatz_text": "Erfordernisse für Stadterneuerung",
+   "amount_eur": 29817656.14,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "049",
+   "ansatz_text": "Verwaltungsgericht Wien",
+   "amount_eur": 29023951.78,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "3",
+   "ansatz_uab": "320",
+   "ansatz_text": "Konservatorium Wien",
+   "amount_eur": 28825615.48,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "099",
+   "ansatz_text": "Sonstige Einrichtungen und Maßnahmen der Personalbetreuung",
+   "amount_eur": 27043304.64,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "024",
+   "ansatz_text": "Wahlamt",
+   "amount_eur": 26088995.509999998,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "026",
+   "ansatz_text": "Sammelansatz Geschäftsgruppe Kultur und Wissenschaft",
+   "amount_eur": 25977559.18,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "289",
+   "ansatz_text": "Förderung von Forschung und Wissenschaft",
+   "amount_eur": 25120903.57,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "422",
+   "ansatz_text": "Pensionistenklubs",
+   "amount_eur": 22884185.96,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "9",
+   "ansatz_uab": "914",
+   "ansatz_text": "Beteiligungen",
+   "amount_eur": 22643379.950000003,
+   "gruppe_name": "Finanzwirtschaft"
+  },
+  {
+   "gruppe": "7",
+   "ansatz_uab": "759",
+   "ansatz_text": "Energieplanung",
+   "amount_eur": 21425962.67,
+   "gruppe_name": "Wirtschaftsförderung"
+  },
+  {
+   "gruppe": "8",
+   "ansatz_uab": "899",
+   "ansatz_text": "Forschungs-, Prüf-, Überwachungs- und Zertifizierungsstelle",
+   "amount_eur": 20364774.7,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "gruppe": "3",
+   "ansatz_uab": "312",
+   "ansatz_text": "Maßnahmen zur Förderung der bildenden Künste",
+   "amount_eur": 17917186.78,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "200",
+   "ansatz_text": "Städtische Schulverwaltung",
+   "amount_eur": 17836629.39,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "014",
+   "ansatz_text": "Stadtrechnungshof",
+   "amount_eur": 17713037.48,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "8",
+   "ansatz_uab": "812",
+   "ansatz_text": "Bedürfnisanstalten",
+   "amount_eur": 15665323.600000001,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "439",
+   "ansatz_text": "Sonstige Einrichtungen und Maßnahmen der Kinder- und Jugendhilfe",
+   "amount_eur": 14131399.27,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "469",
+   "ansatz_text": "Frauenförderung und Koordinierung von Frauenangelegenheiten",
+   "amount_eur": 14010125.48,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "3",
+   "ansatz_uab": "325",
+   "ansatz_text": "Wiener Festwochen",
+   "amount_eur": 13600000.0,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "202",
+   "ansatz_text": "Sportamt",
+   "amount_eur": 13499884.79,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "459",
+   "ansatz_text": "Integration und Diversität",
+   "amount_eur": 13328985.99,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "8",
+   "ansatz_uab": "820",
+   "ansatz_text": "Zentraler Einkauf",
+   "amount_eur": 12546372.83,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "gruppe": "9",
+   "ansatz_uab": "920",
+   "ansatz_text": "Landes- und Gemeindeabgaben",
+   "amount_eur": 11724059.73,
+   "gruppe_name": "Finanzwirtschaft"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "205",
+   "ansatz_text": "Bildungsdirektion für Wien",
+   "amount_eur": 11275812.440000001,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "6",
+   "ansatz_uab": "650",
+   "ansatz_text": "Eisenbahnen",
+   "amount_eur": 11228865.87,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "gruppe": "5",
+   "ansatz_uab": "500",
+   "ansatz_text": "Gesundheitsplanung",
+   "amount_eur": 10845992.2,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "gruppe": "5",
+   "ansatz_uab": "500",
+   "ansatz_text": "Gesundheitsförderung",
+   "amount_eur": 10741839.85,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "010",
+   "ansatz_text": "Organisation",
+   "amount_eur": 10694255.82,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "1",
+   "ansatz_uab": "133",
+   "ansatz_text": "Veterinäramt",
+   "amount_eur": 10660865.46,
+   "gruppe_name": "Öffentliche Ordnung und Sicherheit"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "269",
+   "ansatz_text": "Sportförderung",
+   "amount_eur": 10475280.2,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "224",
+   "ansatz_text": "Bildungsanstalt für Kindergartenpädagogik",
+   "amount_eur": 9213334.17,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "031",
+   "ansatz_text": "Stadtentwicklung, Stadtplanung",
+   "amount_eur": 8931861.26,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "6",
+   "ansatz_uab": "640",
+   "ansatz_text": "Technische Verkehrsleiteinrichtungen - Bodenmarkierungen und Verkehrszeichen",
+   "amount_eur": 8629160.93,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "gruppe": "3",
+   "ansatz_uab": "371",
+   "ansatz_text": "Filmförderung",
+   "amount_eur": 7831592.18,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "gruppe": "5",
+   "ansatz_uab": "501",
+   "ansatz_text": "Umweltschutz",
+   "amount_eur": 7476901.42,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "gruppe": "8",
+   "ansatz_uab": "862",
+   "ansatz_text": "Landwirtschaftsbetrieb",
+   "amount_eur": 6918951.26,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "gruppe": "9",
+   "ansatz_uab": "910",
+   "ansatz_text": "Geldverkehr",
+   "amount_eur": 6775509.91,
+   "gruppe_name": "Finanzwirtschaft"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "011",
+   "ansatz_text": "Personalamt",
+   "amount_eur": 6550500.82,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "010",
+   "ansatz_text": "Europäische Angelegenheiten",
+   "amount_eur": 6346415.32,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "229",
+   "ansatz_text": "Modeschule",
+   "amount_eur": 5996484.99,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "010",
+   "ansatz_text": "Koordination von EU-Förderungsprogrammen",
+   "amount_eur": 4637047.28,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "061",
+   "ansatz_text": "Sonstige Subventionen",
+   "amount_eur": 4531472.0,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "280",
+   "ansatz_text": "Förderung von Fachhochschulen und Fachhochschulstudiengängen",
+   "amount_eur": 3971947.0,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "3",
+   "ansatz_uab": "330",
+   "ansatz_text": "Förderung von Schrifttum und Sprache",
+   "amount_eur": 3614450.02,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "gruppe": "7",
+   "ansatz_uab": "749",
+   "ansatz_text": "Förderung der Land- und Forstwirtschaft",
+   "amount_eur": 3348424.88,
+   "gruppe_name": "Wirtschaftsförderung"
+  },
+  {
+   "gruppe": "5",
+   "ansatz_uab": "500",
+   "ansatz_text": "Wiener Pflege-, Patientinnen- und Patientenanwaltschaft",
+   "amount_eur": 2993073.71,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "069",
+   "ansatz_text": "Beiträge für internationale Einrichtungen",
+   "amount_eur": 2527765.18,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "019",
+   "ansatz_text": "Repräsentation",
+   "amount_eur": 2504749.44,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "221",
+   "ansatz_text": "Fachschulen",
+   "amount_eur": 2453543.04,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "7",
+   "ansatz_uab": "782",
+   "ansatz_text": "Wirtschafts- und Technologieentwicklung",
+   "amount_eur": 2397840.36,
+   "gruppe_name": "Wirtschaftsförderung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "091",
+   "ansatz_text": "Wien-Akademie",
+   "amount_eur": 2262256.5,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "3",
+   "ansatz_uab": "363",
+   "ansatz_text": "Altstadterhaltung und Ortsbildpflege",
+   "amount_eur": 2161046.86,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "062",
+   "ansatz_text": "Ehrungen und Auszeichnungen",
+   "amount_eur": 2144155.26,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "026",
+   "ansatz_text": "Sammelansatz Geschäftsgruppe Soziales, Gesundheit und Sport",
+   "amount_eur": 1947855.46,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "8",
+   "ansatz_uab": "821",
+   "ansatz_text": "Fuhrpark",
+   "amount_eur": 1908633.9300000002,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "gruppe": "5",
+   "ansatz_uab": "528",
+   "ansatz_text": "Tierkörperbeseitigung",
+   "amount_eur": 1775511.74,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "gruppe": "1",
+   "ansatz_uab": "131",
+   "ansatz_text": "Ersatzvornahmen im Zuge von Bauaufträgen",
+   "amount_eur": 1570779.34,
+   "gruppe_name": "Öffentliche Ordnung und Sicherheit"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "429",
+   "ansatz_text": "Internationale Hilfsmaßnahmen",
+   "amount_eur": 1384804.1099999999,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "284",
+   "ansatz_text": "Stadt- und Landesbibliothek",
+   "amount_eur": 1260713.76,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "070",
+   "ansatz_text": "Geschäfte der Bezirksvorsteherinnen oder Bezirksvorsteher",
+   "amount_eur": 1122073.68,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "9",
+   "ansatz_uab": "913",
+   "ansatz_text": "Wertpapiere",
+   "amount_eur": 1068570.34,
+   "gruppe_name": "Finanzwirtschaft"
+  },
+  {
+   "gruppe": "7",
+   "ansatz_uab": "788",
+   "ansatz_text": "Wirtschaftliche (Notstands-) Maßnahmen",
+   "amount_eur": 972376.37,
+   "gruppe_name": "Wirtschaftsförderung"
+  },
+  {
+   "gruppe": "5",
+   "ansatz_uab": "522",
+   "ansatz_text": "Klimaschutzkoordination",
+   "amount_eur": 941972.0399999999,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "gruppe": "6",
+   "ansatz_uab": "610",
+   "ansatz_text": "Personalüberlassung ASFINAG",
+   "amount_eur": 883966.86,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "gruppe": "1",
+   "ansatz_uab": "180",
+   "ansatz_text": "Zivilschutz",
+   "amount_eur": 858093.71,
+   "gruppe_name": "Öffentliche Ordnung und Sicherheit"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "010",
+   "ansatz_text": "Krisenmanagement und Sofortmaßnahmen",
+   "amount_eur": 635711.22,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "030",
+   "ansatz_text": "Stadtbaudirektion",
+   "amount_eur": 589097.69,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "7",
+   "ansatz_uab": "719",
+   "ansatz_text": "Siedlungs- und Kleingartenwesen",
+   "amount_eur": 564832.37,
+   "gruppe_name": "Wirtschaftsförderung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "021",
+   "ansatz_text": "Statistisches Amt",
+   "amount_eur": 472216.73,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "063",
+   "ansatz_text": "Städtekontakte und Partnerschaften",
+   "amount_eur": 433850.49,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "020",
+   "ansatz_text": "Rechtsamt",
+   "amount_eur": 373323.06000000006,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "5",
+   "ansatz_uab": "501",
+   "ansatz_text": "Wiener Umweltanwaltschaft",
+   "amount_eur": 299714.13,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "015",
+   "ansatz_text": "Partizipation und Mitgestaltung",
+   "amount_eur": 298635.92000000004,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "090",
+   "ansatz_text": "Bezugsvorschüsse",
+   "amount_eur": 276030.0,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "283",
+   "ansatz_text": "Stadt- und Landesarchiv",
+   "amount_eur": 263702.95,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "2",
+   "ansatz_uab": "282",
+   "ansatz_text": "Studienförderung",
+   "amount_eur": 205000.0,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "010",
+   "ansatz_text": "Versicherungen",
+   "amount_eur": 52938.56,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "019",
+   "ansatz_text": "Landtag",
+   "amount_eur": 18587.34,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "4",
+   "ansatz_uab": "429",
+   "ansatz_text": "Förderung sozialer Einrichtungen",
+   "amount_eur": 15411.72,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "gruppe": "9",
+   "ansatz_uab": "911",
+   "ansatz_text": "Darlehen",
+   "amount_eur": 11913.16,
+   "gruppe_name": "Finanzwirtschaft"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "070",
+   "ansatz_text": "Aufwendungen nach dem Ermessen des Bürgermeisters",
+   "amount_eur": 10668.74,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "gruppe": "0",
+   "ansatz_uab": "010",
+   "ansatz_text": "Verwaltungsstrafen",
+   "amount_eur": 100.0,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  }
+ ],
+ "trend_by_group": [
+  {
+   "jahr": 2020,
+   "gruppe": "0",
+   "amount_eur": 2593184183.3600006,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "jahr": 2020,
+   "gruppe": "1",
+   "amount_eur": 190502376.22000003,
+   "gruppe_name": "Öffentliche Ordnung und Sicherheit"
+  },
+  {
+   "jahr": 2020,
+   "gruppe": "2",
+   "amount_eur": 2662091565.83,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "jahr": 2020,
+   "gruppe": "3",
+   "amount_eur": 359680799.9699999,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "jahr": 2020,
+   "gruppe": "4",
+   "amount_eur": 3030131552.8000007,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "jahr": 2020,
+   "gruppe": "5",
+   "amount_eur": 2767434366.48,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "jahr": 2020,
+   "gruppe": "6",
+   "amount_eur": 937336988.92,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "jahr": 2020,
+   "gruppe": "7",
+   "amount_eur": 160745379.65,
+   "gruppe_name": "Wirtschaftsförderung"
+  },
+  {
+   "jahr": 2020,
+   "gruppe": "8",
+   "amount_eur": 830409362.81,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "jahr": 2020,
+   "gruppe": "9",
+   "amount_eur": 205517257.41,
+   "gruppe_name": "Finanzwirtschaft"
+  },
+  {
+   "jahr": 2021,
+   "gruppe": "0",
+   "amount_eur": 2636853842.67,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "jahr": 2021,
+   "gruppe": "1",
+   "amount_eur": 196152002.27999997,
+   "gruppe_name": "Öffentliche Ordnung und Sicherheit"
+  },
+  {
+   "jahr": 2021,
+   "gruppe": "2",
+   "amount_eur": 2790629391.68,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "jahr": 2021,
+   "gruppe": "3",
+   "amount_eur": 358156222.19,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "jahr": 2021,
+   "gruppe": "4",
+   "amount_eur": 3072390318.8700004,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "jahr": 2021,
+   "gruppe": "5",
+   "amount_eur": 3776256877.94,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "jahr": 2021,
+   "gruppe": "6",
+   "amount_eur": 1276589264.04,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "jahr": 2021,
+   "gruppe": "7",
+   "amount_eur": 142213576.22,
+   "gruppe_name": "Wirtschaftsförderung"
+  },
+  {
+   "jahr": 2021,
+   "gruppe": "8",
+   "amount_eur": 852918769.68,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "jahr": 2021,
+   "gruppe": "9",
+   "amount_eur": 262631848.88,
+   "gruppe_name": "Finanzwirtschaft"
+  },
+  {
+   "jahr": 2022,
+   "gruppe": "0",
+   "amount_eur": 2785092006.7100005,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "jahr": 2022,
+   "gruppe": "1",
+   "amount_eur": 204537363.73,
+   "gruppe_name": "Öffentliche Ordnung und Sicherheit"
+  },
+  {
+   "jahr": 2022,
+   "gruppe": "2",
+   "amount_eur": 3009659515.55,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "jahr": 2022,
+   "gruppe": "3",
+   "amount_eur": 365908756.01,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "jahr": 2022,
+   "gruppe": "4",
+   "amount_eur": 3282864935.7900004,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "jahr": 2022,
+   "gruppe": "5",
+   "amount_eur": 3976736188.5600004,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "jahr": 2022,
+   "gruppe": "6",
+   "amount_eur": 1392627455.6599998,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "jahr": 2022,
+   "gruppe": "7",
+   "amount_eur": 103534143.18,
+   "gruppe_name": "Wirtschaftsförderung"
+  },
+  {
+   "jahr": 2022,
+   "gruppe": "8",
+   "amount_eur": 878382058.4399998,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "jahr": 2022,
+   "gruppe": "9",
+   "amount_eur": 1929508023.6800003,
+   "gruppe_name": "Finanzwirtschaft"
+  },
+  {
+   "jahr": 2023,
+   "gruppe": "0",
+   "amount_eur": 2946234906.2699995,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "jahr": 2023,
+   "gruppe": "1",
+   "amount_eur": 221227445.65,
+   "gruppe_name": "Öffentliche Ordnung und Sicherheit"
+  },
+  {
+   "jahr": 2023,
+   "gruppe": "2",
+   "amount_eur": 3400999729.13,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "jahr": 2023,
+   "gruppe": "3",
+   "amount_eur": 392199321.82,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "jahr": 2023,
+   "gruppe": "4",
+   "amount_eur": 4176406860.6899996,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "jahr": 2023,
+   "gruppe": "5",
+   "amount_eur": 3632992102.0,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "jahr": 2023,
+   "gruppe": "6",
+   "amount_eur": 1732090536.24,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "jahr": 2023,
+   "gruppe": "7",
+   "amount_eur": 109351868.14000002,
+   "gruppe_name": "Wirtschaftsförderung"
+  },
+  {
+   "jahr": 2023,
+   "gruppe": "8",
+   "amount_eur": 980229926.71,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "jahr": 2023,
+   "gruppe": "9",
+   "amount_eur": 485608253.76000005,
+   "gruppe_name": "Finanzwirtschaft"
+  },
+  {
+   "jahr": 2024,
+   "gruppe": "0",
+   "amount_eur": 3283177169.47,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "jahr": 2024,
+   "gruppe": "1",
+   "amount_eur": 246043561.81000003,
+   "gruppe_name": "Öffentliche Ordnung und Sicherheit"
+  },
+  {
+   "jahr": 2024,
+   "gruppe": "2",
+   "amount_eur": 3855172262.9299994,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "jahr": 2024,
+   "gruppe": "3",
+   "amount_eur": 405734558.9,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "jahr": 2024,
+   "gruppe": "4",
+   "amount_eur": 4279420838.29,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "jahr": 2024,
+   "gruppe": "5",
+   "amount_eur": 3416529320.9,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "jahr": 2024,
+   "gruppe": "6",
+   "amount_eur": 1811828800.9699998,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "jahr": 2024,
+   "gruppe": "7",
+   "amount_eur": 100666653.25,
+   "gruppe_name": "Wirtschaftsförderung"
+  },
+  {
+   "jahr": 2024,
+   "gruppe": "8",
+   "amount_eur": 1108732722.2,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "jahr": 2024,
+   "gruppe": "9",
+   "amount_eur": 376886873.76000005,
+   "gruppe_name": "Finanzwirtschaft"
+  },
+  {
+   "jahr": 2025,
+   "gruppe": "0",
+   "amount_eur": 3405279265.58,
+   "gruppe_name": "Vertretungskörper und allgemeine Verwaltung"
+  },
+  {
+   "jahr": 2025,
+   "gruppe": "1",
+   "amount_eur": 274550633.33,
+   "gruppe_name": "Öffentliche Ordnung und Sicherheit"
+  },
+  {
+   "jahr": 2025,
+   "gruppe": "2",
+   "amount_eur": 4040393333.200001,
+   "gruppe_name": "Unterricht, Erziehung, Sport und Wissenschaft"
+  },
+  {
+   "jahr": 2025,
+   "gruppe": "3",
+   "amount_eur": 450415008.75000006,
+   "gruppe_name": "Kunst, Kultur und Kultus"
+  },
+  {
+   "jahr": 2025,
+   "gruppe": "4",
+   "amount_eur": 4449485165.63,
+   "gruppe_name": "Soziale Wohlfahrt und Wohnbauförderung"
+  },
+  {
+   "jahr": 2025,
+   "gruppe": "5",
+   "amount_eur": 4125591236.1600003,
+   "gruppe_name": "Gesundheit"
+  },
+  {
+   "jahr": 2025,
+   "gruppe": "6",
+   "amount_eur": 1974032442.42,
+   "gruppe_name": "Straßen- und Wasserbau, Verkehr"
+  },
+  {
+   "jahr": 2025,
+   "gruppe": "7",
+   "amount_eur": 154084330.21999997,
+   "gruppe_name": "Wirtschaftsförderung"
+  },
+  {
+   "jahr": 2025,
+   "gruppe": "8",
+   "amount_eur": 1233923880.8899999,
+   "gruppe_name": "Dienstleistungen"
+  },
+  {
+   "jahr": 2025,
+   "gruppe": "9",
+   "amount_eur": 388433576.25,
+   "gruppe_name": "Finanzwirtschaft"
+  }
+ ]
+}

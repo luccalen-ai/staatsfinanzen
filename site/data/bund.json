@@ -1,0 +1,2065 @@
+{
+ "title": "Auszahlungen des Bundes",
+ "source": "BMF, Bundeshaushalt Budget 2024 bis 2028 (CSV)",
+ "basis": "bhg_cash",
+ "stage": "actual",
+ "year": 2025,
+ "total_eur": 121468603415.53,
+ "tree": [
+  {
+   "untergliederung": "01 Präsidentschaftskanzlei",
+   "globalbudget": "01.01 Präsidentschaftskanzlei",
+   "detailbudget1": "01.01.01 Präsidentschaftskanzlei",
+   "amount_eur": 12696330.429999998
+  },
+  {
+   "untergliederung": "02 Bundesgesetzgebung",
+   "globalbudget": "02.01 Bundesgesetzgebung",
+   "detailbudget1": "02.01.01 Nationalrat",
+   "amount_eur": 58658379.49999999
+  },
+  {
+   "untergliederung": "02 Bundesgesetzgebung",
+   "globalbudget": "02.01 Bundesgesetzgebung",
+   "detailbudget1": "02.01.02 Bundesrat",
+   "amount_eur": 7925640.300000001
+  },
+  {
+   "untergliederung": "02 Bundesgesetzgebung",
+   "globalbudget": "02.01 Bundesgesetzgebung",
+   "detailbudget1": "02.01.03 Klubförderung und gemeinsame Ausgaben für Mandatarinnen und",
+   "amount_eur": 31218225.849999998
+  },
+  {
+   "untergliederung": "02 Bundesgesetzgebung",
+   "globalbudget": "02.01 Bundesgesetzgebung",
+   "detailbudget1": "02.01.04 Parlamentsdirektion-Verwaltung",
+   "amount_eur": 150646214.17
+  },
+  {
+   "untergliederung": "02 Bundesgesetzgebung",
+   "globalbudget": "02.01 Bundesgesetzgebung",
+   "detailbudget1": "02.01.05 Nationalfonds für Opfer des Nationalsozialismus",
+   "amount_eur": 10718280.0
+  },
+  {
+   "untergliederung": "02 Bundesgesetzgebung",
+   "globalbudget": "02.01 Bundesgesetzgebung",
+   "detailbudget1": "02.01.07 Parlamentarisches Datenschutzkomitee (PDK)",
+   "amount_eur": 677911.78
+  },
+  {
+   "untergliederung": "03 Verfassungsgerichtshof",
+   "globalbudget": "03.01 Verfassungsgerichtshof",
+   "detailbudget1": "03.01.01 Verfassungsgerichtshof",
+   "amount_eur": 20244771.220000003
+  },
+  {
+   "untergliederung": "04 Verwaltungsgerichtshof",
+   "globalbudget": "04.01 Verwaltungsgerichtshof",
+   "detailbudget1": "04.01.01 Verwaltungsgerichtshof",
+   "amount_eur": 25831816.829999994
+  },
+  {
+   "untergliederung": "05 Volksanwaltschaft",
+   "globalbudget": "05.01 Volksanwaltschaft",
+   "detailbudget1": "05.01.01 Volksanwaltschaft",
+   "amount_eur": 16113669.759999996
+  },
+  {
+   "untergliederung": "06 Rechnungshof",
+   "globalbudget": "06.01 Rechnungshof",
+   "detailbudget1": "06.01.01 Rechnungshof",
+   "amount_eur": 46831164.470000006
+  },
+  {
+   "untergliederung": "10 Bundeskanzleramt",
+   "globalbudget": "10.01 Steuerung, Koordination und Services",
+   "detailbudget1": "10.01.01 Ressortübergreifende Vorhaben",
+   "amount_eur": 156181122.9
+  },
+  {
+   "untergliederung": "10 Bundeskanzleramt",
+   "globalbudget": "10.01 Steuerung, Koordination und Services",
+   "detailbudget1": "10.01.02 Zentralstelle",
+   "amount_eur": 109535691.59000002
+  },
+  {
+   "untergliederung": "10 Bundeskanzleramt",
+   "globalbudget": "10.01 Steuerung, Koordination und Services",
+   "detailbudget1": "10.01.03 Informationstätigkeit",
+   "amount_eur": 393921.25
+  },
+  {
+   "untergliederung": "10 Bundeskanzleramt",
+   "globalbudget": "10.01 Steuerung, Koordination und Services",
+   "detailbudget1": "10.01.04 Dienststellen und ausgegliederte Bereiche",
+   "amount_eur": 129908780.85
+  },
+  {
+   "untergliederung": "10 Bundeskanzleramt",
+   "globalbudget": "10.01 Steuerung, Koordination und Services",
+   "detailbudget1": "10.01.05 Digitalisierung",
+   "amount_eur": 69768792.99999999
+  },
+  {
+   "untergliederung": "10 Bundeskanzleramt",
+   "globalbudget": "10.01 Steuerung, Koordination und Services",
+   "detailbudget1": "10.01.06 Integration",
+   "amount_eur": 85413520.87000002
+  },
+  {
+   "untergliederung": "10 Bundeskanzleramt",
+   "globalbudget": "10.01 Steuerung, Koordination und Services",
+   "detailbudget1": "10.01.07 Kultus und Volksgruppen",
+   "amount_eur": 91144405.99999999
+  },
+  {
+   "untergliederung": "10 Bundeskanzleramt",
+   "globalbudget": "10.02 Frauenangelegenheiten und Gleichstellung",
+   "detailbudget1": "10.02.01 Frauenangelegenheiten und Gleichstellung",
+   "amount_eur": 657456.02
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.01 Steuerung",
+   "detailbudget1": "11.01.01 Zentralstelle",
+   "amount_eur": 65888476.11
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.01 Steuerung",
+   "detailbudget1": "11.01.02 Sicherheitsakademie",
+   "amount_eur": 81557972.03999999
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.01 Steuerung",
+   "detailbudget1": "11.01.03 EU und Internationales",
+   "amount_eur": 11771259.79
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.02 Sicherheit",
+   "detailbudget1": "11.02.01 Landespolizeidirektionen",
+   "amount_eur": 3012567727.66
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.02 Sicherheit",
+   "detailbudget1": "11.02.02 Auslandseinsätze",
+   "amount_eur": 28465645.799999997
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.02 Sicherheit",
+   "detailbudget1": "11.02.03 Direktion Spezialeinheiten/Einsatzkommando Cobra",
+   "amount_eur": 153996437.39999998
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.02 Sicherheit",
+   "detailbudget1": "11.02.05 Krisenmanagement",
+   "amount_eur": 35526859.699999996
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.02 Sicherheit",
+   "detailbudget1": "11.02.06 Bundeskriminalamt",
+   "amount_eur": 127893670.02
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.02 Sicherheit",
+   "detailbudget1": "11.02.08 Zentrale Sicherheitsaufgaben",
+   "amount_eur": 134422611.75000003
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.03 Recht/Wahlen",
+   "detailbudget1": "11.03.05 Legistik, Wahlen und rechtliche Angelegenheiten",
+   "amount_eur": 31246887.3
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.03 Recht/Wahlen",
+   "detailbudget1": "11.03.06 Bundesamt zur Korruptionsprävention und Korruptionsbekämpfun",
+   "amount_eur": 14646101.860000001
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.04 Services",
+   "detailbudget1": "11.04.03 Bau/Liegenschaften (zentrale Dienste)",
+   "amount_eur": 44526837.80000001
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.04 Services",
+   "detailbudget1": "11.04.04 Direktion Digitale Services",
+   "amount_eur": 330982980.7399999
+  },
+  {
+   "untergliederung": "11 Inneres",
+   "globalbudget": "11.04 Services",
+   "detailbudget1": "11.04.05 Sonstige Serviceleistungen",
+   "amount_eur": 34785370.68
+  },
+  {
+   "untergliederung": "12 Äußeres",
+   "globalbudget": "12.01 Außenpolitische Planung, Infrastruktur u. Koordination",
+   "detailbudget1": "12.01.01 Zentralstelle",
+   "amount_eur": 113847225.07000001
+  },
+  {
+   "untergliederung": "12 Äußeres",
+   "globalbudget": "12.01 Außenpolitische Planung, Infrastruktur u. Koordination",
+   "detailbudget1": "12.01.02 Vertretungsbehörden",
+   "amount_eur": 226736579.26999995
+  },
+  {
+   "untergliederung": "12 Äußeres",
+   "globalbudget": "12.02 Außenpolitische Maßnahmen",
+   "detailbudget1": "12.02.01 Entwicklungszusammenarbeit und Auslandskatastrophenfonds",
+   "amount_eur": 183625000.0
+  },
+  {
+   "untergliederung": "12 Äußeres",
+   "globalbudget": "12.02 Außenpolitische Maßnahmen",
+   "detailbudget1": "12.02.02 Beiträge an Internationale Organisationen",
+   "amount_eur": 107187466.12
+  },
+  {
+   "untergliederung": "13 Justiz",
+   "globalbudget": "13.01 Steuerung und Services",
+   "detailbudget1": "13.01.01 Strategie, Legistik",
+   "amount_eur": 58622096.230000004
+  },
+  {
+   "untergliederung": "13 Justiz",
+   "globalbudget": "13.01 Steuerung und Services",
+   "detailbudget1": "13.01.02 Erwachsenenschutz",
+   "amount_eur": 70345039.07
+  },
+  {
+   "untergliederung": "13 Justiz",
+   "globalbudget": "13.01 Steuerung und Services",
+   "detailbudget1": "13.01.03 Opferhilfe",
+   "amount_eur": 15590037.35
+  },
+  {
+   "untergliederung": "13 Justiz",
+   "globalbudget": "13.01 Steuerung und Services",
+   "detailbudget1": "13.01.04 Datenschutzbehörde",
+   "amount_eur": 6015761.49
+  },
+  {
+   "untergliederung": "13 Justiz",
+   "globalbudget": "13.02 Rechtsprechung",
+   "detailbudget1": "13.02.01 Oberster Gerichtshof und Generalprokuratur",
+   "amount_eur": 25007353.589999992
+  },
+  {
+   "untergliederung": "13 Justiz",
+   "globalbudget": "13.02 Rechtsprechung",
+   "detailbudget1": "13.02.02 Oberlandesgericht Wien",
+   "amount_eur": 563026478.6800001
+  },
+  {
+   "untergliederung": "13 Justiz",
+   "globalbudget": "13.02 Rechtsprechung",
+   "detailbudget1": "13.02.03 Oberlandesgericht Linz",
+   "amount_eur": 235810365.64000002
+  },
+  {
+   "untergliederung": "13 Justiz",
+   "globalbudget": "13.02 Rechtsprechung",
+   "detailbudget1": "13.02.04 Oberlandesgericht Graz",
+   "amount_eur": 226735232.20000002
+  },
+  {
+   "untergliederung": "13 Justiz",
+   "globalbudget": "13.02 Rechtsprechung",
+   "detailbudget1": "13.02.05 Oberlandesgericht Innsbruck",
+   "amount_eur": 136926669.96999997
+  },
+  {
+   "untergliederung": "13 Justiz",
+   "globalbudget": "13.02 Rechtsprechung",
+   "detailbudget1": "13.02.06 Zentrale Ressourcensteuerung",
+   "amount_eur": 151071499.82000002
+  },
+  {
+   "untergliederung": "13 Justiz",
+   "globalbudget": "13.02 Rechtsprechung",
+   "detailbudget1": "13.02.07 Bundesverwaltungsgericht",
+   "amount_eur": 102984204.44999999
+  },
+  {
+   "untergliederung": "13 Justiz",
+   "globalbudget": "13.03 Strafvollzug",
+   "detailbudget1": "13.03.01 Justizanstalten",
+   "amount_eur": 743218937.68
+  },
+  {
+   "untergliederung": "13 Justiz",
+   "globalbudget": "13.03 Strafvollzug",
+   "detailbudget1": "13.03.02 Bewährungshilfe",
+   "amount_eur": 49933788.38
+  },
+  {
+   "untergliederung": "14 Militärische Angelegenheiten",
+   "globalbudget": "14.07 Zentrale Steuerung",
+   "detailbudget1": "14.07.01 S I - Generaldirektion für Verteidigungspolitik",
+   "amount_eur": 116998129.13
+  },
+  {
+   "untergliederung": "14 Militärische Angelegenheiten",
+   "globalbudget": "14.07 Zentrale Steuerung",
+   "detailbudget1": "14.07.02 S II - Generaldirektion Präsidium",
+   "amount_eur": 162690381.85000002
+  },
+  {
+   "untergliederung": "14 Militärische Angelegenheiten",
+   "globalbudget": "14.08 Landesverteidigung",
+   "detailbudget1": "14.08.01 Generaldirektion für Landesverteidigung",
+   "amount_eur": 4329178515.560001
+  },
+  {
+   "untergliederung": "15 Finanzverwaltung",
+   "globalbudget": "15.01 Steuerung & Services",
+   "detailbudget1": "15.01.01 Zentralstelle",
+   "amount_eur": 351017916.81999993
+  },
+  {
+   "untergliederung": "15 Finanzverwaltung",
+   "globalbudget": "15.01 Steuerung & Services",
+   "detailbudget1": "15.01.02 Einhebungsvergütungen",
+   "amount_eur": 167490.53
+  },
+  {
+   "untergliederung": "15 Finanzverwaltung",
+   "globalbudget": "15.01 Steuerung & Services",
+   "detailbudget1": "15.01.03 Personal, das für Dritte leistet",
+   "amount_eur": 5067940.03
+  },
+  {
+   "untergliederung": "15 Finanzverwaltung",
+   "globalbudget": "15.01 Steuerung & Services",
+   "detailbudget1": "15.01.06 Sicherheitsforschung",
+   "amount_eur": 121609489.66
+  },
+  {
+   "untergliederung": "15 Finanzverwaltung",
+   "globalbudget": "15.01 Steuerung & Services",
+   "detailbudget1": "15.01.07 Bergbau",
+   "amount_eur": 17055513.09
+  },
+  {
+   "untergliederung": "15 Finanzverwaltung",
+   "globalbudget": "15.02 Steuer- & Zollverwaltung",
+   "detailbudget1": "15.02.01 Finanzamt Österreich",
+   "amount_eur": 570763735.88
+  },
+  {
+   "untergliederung": "15 Finanzverwaltung",
+   "globalbudget": "15.02 Steuer- & Zollverwaltung",
+   "detailbudget1": "15.02.03 Zollamt Österreich",
+   "amount_eur": 162586269.36
+  },
+  {
+   "untergliederung": "15 Finanzverwaltung",
+   "globalbudget": "15.02 Steuer- & Zollverwaltung",
+   "detailbudget1": "15.02.04 Finanzamt für Großbetriebe",
+   "amount_eur": 75754835.03999998
+  },
+  {
+   "untergliederung": "15 Finanzverwaltung",
+   "globalbudget": "15.02 Steuer- & Zollverwaltung",
+   "detailbudget1": "15.02.05 Amt für Betrugsbekämpfung",
+   "amount_eur": 78179766.50999999
+  },
+  {
+   "untergliederung": "15 Finanzverwaltung",
+   "globalbudget": "15.02 Steuer- & Zollverwaltung",
+   "detailbudget1": "15.02.06 Prüfdienst für Lohnabgaben und Beiträge",
+   "amount_eur": 33096500.96
+  },
+  {
+   "untergliederung": "15 Finanzverwaltung",
+   "globalbudget": "15.02 Steuer- & Zollverwaltung",
+   "detailbudget1": "15.02.07 Zentrale Services",
+   "amount_eur": 32409534.050000012
+  },
+  {
+   "untergliederung": "15 Finanzverwaltung",
+   "globalbudget": "15.03 Rechtsvertretung & Rechtsinstanz",
+   "detailbudget1": "15.03.01 Bundesfinanzgericht",
+   "amount_eur": 40601766.160000004
+  },
+  {
+   "untergliederung": "15 Finanzverwaltung",
+   "globalbudget": "15.03 Rechtsvertretung & Rechtsinstanz",
+   "detailbudget1": "15.03.02 Finanzprokuratur",
+   "amount_eur": 10918596.01
+  },
+  {
+   "untergliederung": "17 Wohnen, Medien, Telekommunikation und Sport",
+   "globalbudget": "17.01 Steuerung und Services",
+   "detailbudget1": "17.01.01 Zentralstelle",
+   "amount_eur": 40306479.95
+  },
+  {
+   "untergliederung": "17 Wohnen, Medien, Telekommunikation und Sport",
+   "globalbudget": "17.01 Steuerung und Services",
+   "detailbudget1": "17.01.02 Medien",
+   "amount_eur": 121845760.09999998
+  },
+  {
+   "untergliederung": "17 Wohnen, Medien, Telekommunikation und Sport",
+   "globalbudget": "17.01 Steuerung und Services",
+   "detailbudget1": "17.01.03 Telekommunikation und Breitband",
+   "amount_eur": 50574510.3
+  },
+  {
+   "untergliederung": "17 Wohnen, Medien, Telekommunikation und Sport",
+   "globalbudget": "17.02 Sport",
+   "detailbudget1": "17.02.01 Allgemeine Sportförderung & Services",
+   "amount_eur": 84340206.24000002
+  },
+  {
+   "untergliederung": "17 Wohnen, Medien, Telekommunikation und Sport",
+   "globalbudget": "17.02 Sport",
+   "detailbudget1": "17.02.02 Besondere Sportförderung",
+   "amount_eur": 110000000.0
+  },
+  {
+   "untergliederung": "17 Wohnen, Medien, Telekommunikation und Sport",
+   "globalbudget": "17.02 Sport",
+   "detailbudget1": "17.02.04 Bundessporteinrichtungen GmbH",
+   "amount_eur": 6649999.999999999
+  },
+  {
+   "untergliederung": "18 Fremdenwesen",
+   "globalbudget": "18.01 Fremdenwesen",
+   "detailbudget1": "18.01.01 Grundversorgung",
+   "amount_eur": 500013577.44000006
+  },
+  {
+   "untergliederung": "18 Fremdenwesen",
+   "globalbudget": "18.01 Fremdenwesen",
+   "detailbudget1": "18.01.02 Bundesamt für Fremdenwesen und Asyl, Rückkehr",
+   "amount_eur": 120505645.21000001
+  },
+  {
+   "untergliederung": "18 Fremdenwesen",
+   "globalbudget": "18.01 Fremdenwesen",
+   "detailbudget1": "18.01.03 Infrastruktur",
+   "amount_eur": 6716833.509999999
+  },
+  {
+   "untergliederung": "18 Fremdenwesen",
+   "globalbudget": "18.01 Fremdenwesen",
+   "detailbudget1": "18.01.04 Migration und Zentrale Dienste",
+   "amount_eur": 40115434.64999999
+  },
+  {
+   "untergliederung": "18 Fremdenwesen",
+   "globalbudget": "18.01 Fremdenwesen",
+   "detailbudget1": "18.01.05 Grenz-, Visa- und fremdenpolizeiliche Angelegenheiten",
+   "amount_eur": 6580098.36
+  },
+  {
+   "untergliederung": "20 Arbeit",
+   "globalbudget": "20.01 Arbeitsmarkt",
+   "detailbudget1": "20.01.01 Arbeitsmarktadministration BMASGPK",
+   "amount_eur": 1084143450.04
+  },
+  {
+   "untergliederung": "20 Arbeit",
+   "globalbudget": "20.01 Arbeitsmarkt",
+   "detailbudget1": "20.01.02 Aktive Arbeitsmarktpolitik",
+   "amount_eur": 1161100228.8600001
+  },
+  {
+   "untergliederung": "20 Arbeit",
+   "globalbudget": "20.01 Arbeitsmarkt",
+   "detailbudget1": "20.01.03 Leistungen/Beiträge BMASGPK",
+   "amount_eur": 8451645527.19
+  },
+  {
+   "untergliederung": "20 Arbeit",
+   "globalbudget": "20.01 Arbeitsmarkt",
+   "detailbudget1": "20.01.04 Arbeitsmarktadministration AMS",
+   "amount_eur": 31203873.95
+  },
+  {
+   "untergliederung": "20 Arbeit",
+   "globalbudget": "20.02 Arbeitsinspektion",
+   "detailbudget1": "20.02.01 Arbeitsinspektion",
+   "amount_eur": 43862987.28
+  },
+  {
+   "untergliederung": "20 Arbeit",
+   "globalbudget": "20.03 Steuerung und Services",
+   "detailbudget1": "20.03.01 Zentralstelle",
+   "amount_eur": 9956203.49
+  },
+  {
+   "untergliederung": "21 Soziales und Konsumentenschutz",
+   "globalbudget": "21.01 Steuerung und Services",
+   "detailbudget1": "21.01.01 Zentralstelle",
+   "amount_eur": 142780839.45999998
+  },
+  {
+   "untergliederung": "21 Soziales und Konsumentenschutz",
+   "globalbudget": "21.01 Steuerung und Services",
+   "detailbudget1": "21.01.02 Bundesamt für Soziales und Behindertenwesen",
+   "amount_eur": 82787734.3
+  },
+  {
+   "untergliederung": "21 Soziales und Konsumentenschutz",
+   "globalbudget": "21.01 Steuerung und Services",
+   "detailbudget1": "21.01.03 Konsumentenschutz",
+   "amount_eur": 8063149.170000001
+  },
+  {
+   "untergliederung": "21 Soziales und Konsumentenschutz",
+   "globalbudget": "21.01 Steuerung und Services",
+   "detailbudget1": "21.01.04 EU, Internationales, Soziales, Senioren",
+   "amount_eur": 132785103.2
+  },
+  {
+   "untergliederung": "21 Soziales und Konsumentenschutz",
+   "globalbudget": "21.02 Pflege",
+   "detailbudget1": "21.02.01 Pflegegeld und Pflegekarenz",
+   "amount_eur": 3371912174.5
+  },
+  {
+   "untergliederung": "21 Soziales und Konsumentenschutz",
+   "globalbudget": "21.02 Pflege",
+   "detailbudget1": "21.02.02 Pflegefonds, 24h-Betreuung, pflegende Angehörige",
+   "amount_eur": 1656448621.8400002
+  },
+  {
+   "untergliederung": "21 Soziales und Konsumentenschutz",
+   "globalbudget": "21.03 Versorgungs- und Entschädigungsgesetze",
+   "detailbudget1": "21.03.01 Kriegsopferversorgung",
+   "amount_eur": 26069984.8
+  },
+  {
+   "untergliederung": "21 Soziales und Konsumentenschutz",
+   "globalbudget": "21.03 Versorgungs- und Entschädigungsgesetze",
+   "detailbudget1": "21.03.02 Heeresentschädigung, Impfschaden",
+   "amount_eur": 23636165.09
+  },
+  {
+   "untergliederung": "21 Soziales und Konsumentenschutz",
+   "globalbudget": "21.03 Versorgungs- und Entschädigungsgesetze",
+   "detailbudget1": "21.03.03 Opferfürsorge",
+   "amount_eur": 11155407.99
+  },
+  {
+   "untergliederung": "21 Soziales und Konsumentenschutz",
+   "globalbudget": "21.03 Versorgungs- und Entschädigungsgesetze",
+   "detailbudget1": "21.03.04 Hilfeleistung für Opfer von Verbrechen, Heimopfer",
+   "amount_eur": 50016300.60999999
+  },
+  {
+   "untergliederung": "21 Soziales und Konsumentenschutz",
+   "globalbudget": "21.04 Maßnahmen für Menschen mit Behinderungen",
+   "detailbudget1": "21.04.01 Maßnahmen für Menschen mit Behinderungen",
+   "amount_eur": 117622659.58999999
+  },
+  {
+   "untergliederung": "22 Pensionsversicherung",
+   "globalbudget": "22.01 Bundesbeitrag Partnerleistung Ausgleichszulagen NSchG var.",
+   "detailbudget1": "22.01.01 Bundesbeitrag, Partnerleistung variabel",
+   "amount_eur": 18034250719.68
+  },
+  {
+   "untergliederung": "22 Pensionsversicherung",
+   "globalbudget": "22.01 Bundesbeitrag Partnerleistung Ausgleichszulagen NSchG var.",
+   "detailbudget1": "22.01.02 Ausgleichszulagen variabel",
+   "amount_eur": 1304030761.09
+  },
+  {
+   "untergliederung": "22 Pensionsversicherung",
+   "globalbudget": "22.01 Bundesbeitrag Partnerleistung Ausgleichszulagen NSchG var.",
+   "detailbudget1": "22.01.03 Nachtschwerarbeit variabel",
+   "amount_eur": 108455116.50999999
+  },
+  {
+   "untergliederung": "23 Pensionen - Beamtinnen und Beamte",
+   "globalbudget": "23.01 Ruhe und Versorgungsgenüsse inkl. SV",
+   "detailbudget1": "23.01.01 Hoheitsverwaltung und Ausgegliederte Institutionen Pensionen",
+   "amount_eur": 6035379574.819999
+  },
+  {
+   "untergliederung": "23 Pensionen - Beamtinnen und Beamte",
+   "globalbudget": "23.01 Ruhe und Versorgungsgenüsse inkl. SV",
+   "detailbudget1": "23.01.02 Post Ruhe- und Versorgungsgenüsse inkl. SV",
+   "amount_eur": 1500685828.9
+  },
+  {
+   "untergliederung": "23 Pensionen - Beamtinnen und Beamte",
+   "globalbudget": "23.01 Ruhe und Versorgungsgenüsse inkl. SV",
+   "detailbudget1": "23.01.03 ÖBB Ruhe- und Versorgungsgenüsse inkl. SV",
+   "amount_eur": 2523557418.34
+  },
+  {
+   "untergliederung": "23 Pensionen - Beamtinnen und Beamte",
+   "globalbudget": "23.01 Ruhe und Versorgungsgenüsse inkl. SV",
+   "detailbudget1": "23.01.04 Landeslehrer Ruhe- und Versorgungsgenüsse inkl. SV",
+   "amount_eur": 2949327326.1699996
+  },
+  {
+   "untergliederung": "23 Pensionen - Beamtinnen und Beamte",
+   "globalbudget": "23.02 Pflegegeld",
+   "detailbudget1": "23.02.01 Hoheitsverwaltung und Ausgegliederte Institutionen Pflegegel",
+   "amount_eur": 155230416.95000002
+  },
+  {
+   "untergliederung": "23 Pensionen - Beamtinnen und Beamte",
+   "globalbudget": "23.02 Pflegegeld",
+   "detailbudget1": "23.02.02 Post Pflegegeld",
+   "amount_eur": 47344241.059999995
+  },
+  {
+   "untergliederung": "23 Pensionen - Beamtinnen und Beamte",
+   "globalbudget": "23.02 Pflegegeld",
+   "detailbudget1": "23.02.03 ÖBB Pflegegeld",
+   "amount_eur": 60156104.910000004
+  },
+  {
+   "untergliederung": "23 Pensionen - Beamtinnen und Beamte",
+   "globalbudget": "23.02 Pflegegeld",
+   "detailbudget1": "23.02.04 Landeslehrer Pflegegeld",
+   "amount_eur": 36829882.53
+  },
+  {
+   "untergliederung": "24 Gesundheit",
+   "globalbudget": "24.01 Steuerung Gesundheitssystem",
+   "detailbudget1": "24.01.01 e-health und Gesundheitsgesetze",
+   "amount_eur": 65533425.040000014
+  },
+  {
+   "untergliederung": "24 Gesundheit",
+   "globalbudget": "24.01 Steuerung Gesundheitssystem",
+   "detailbudget1": "24.01.02 Beteilig. und Überweisungen (AGES und GÖG)",
+   "amount_eur": 111215641.55999999
+  },
+  {
+   "untergliederung": "24 Gesundheit",
+   "globalbudget": "24.02 Gesundheitssystemfinanzierung",
+   "detailbudget1": "24.02.01 Krankenanstaltenfinanzierung nach dem KAKuG, variabel",
+   "amount_eur": 933506972.3
+  },
+  {
+   "untergliederung": "24 Gesundheit",
+   "globalbudget": "24.02 Gesundheitssystemfinanzierung",
+   "detailbudget1": "24.02.02 Finanzausgleich, Primärversorgung",
+   "amount_eur": 1030772450.59
+  },
+  {
+   "untergliederung": "24 Gesundheit",
+   "globalbudget": "24.02 Gesundheitssystemfinanzierung",
+   "detailbudget1": "24.02.03 Leistungen an Sozialversicherungen",
+   "amount_eur": 491812194.84000003
+  },
+  {
+   "untergliederung": "24 Gesundheit",
+   "globalbudget": "24.03 Gesundheitsvorsorge u. Verbrauchergesundheit",
+   "detailbudget1": "24.03.01 Gesundh. fördg. , - prävention u. Maßn. gg. Suchtmittelm.",
+   "amount_eur": 149054585.91999996
+  },
+  {
+   "untergliederung": "24 Gesundheit",
+   "globalbudget": "24.03 Gesundheitsvorsorge u. Verbrauchergesundheit",
+   "detailbudget1": "24.03.02 Veterinär-, Lebensmittel- u. Gentechnologieangelegenheiten",
+   "amount_eur": 11273837.990000002
+  },
+  {
+   "untergliederung": "25 Familie und Jugend",
+   "globalbudget": "25.01 Ausgleichsfonds für Familienbeihilfen",
+   "detailbudget1": "25.01.01 Familienbeihilfe",
+   "amount_eur": 4406196013.4800005
+  },
+  {
+   "untergliederung": "25 Familie und Jugend",
+   "globalbudget": "25.01 Ausgleichsfonds für Familienbeihilfen",
+   "detailbudget1": "25.01.02 Kinderbetreuungsgeld",
+   "amount_eur": 1352595915.94
+  },
+  {
+   "untergliederung": "25 Familie und Jugend",
+   "globalbudget": "25.01 Ausgleichsfonds für Familienbeihilfen",
+   "detailbudget1": "25.01.03 Fahrtbeihilfe, Freifahrten, Schulbücher",
+   "amount_eur": 769167681.9399998
+  },
+  {
+   "untergliederung": "25 Familie und Jugend",
+   "globalbudget": "25.01 Ausgleichsfonds für Familienbeihilfen",
+   "detailbudget1": "25.01.04 Transfers Sozialversicherungsträger",
+   "amount_eur": 2039919103.5
+  },
+  {
+   "untergliederung": "25 Familie und Jugend",
+   "globalbudget": "25.01 Ausgleichsfonds für Familienbeihilfen",
+   "detailbudget1": "25.01.05 Sonstige familienpolitische Maßnahmen des FLAF",
+   "amount_eur": 237652112.83999997
+  },
+  {
+   "untergliederung": "25 Familie und Jugend",
+   "globalbudget": "25.01 Ausgleichsfonds für Familienbeihilfen",
+   "detailbudget1": "25.01.06 Unterhaltsvorschüsse",
+   "amount_eur": 144622341.61999997
+  },
+  {
+   "untergliederung": "25 Familie und Jugend",
+   "globalbudget": "25.02 Familienpolitische Maßnahmen und Jugend",
+   "detailbudget1": "25.02.01 Familienpolitische Maßnahmen",
+   "amount_eur": 4089445.9899999998
+  },
+  {
+   "untergliederung": "25 Familie und Jugend",
+   "globalbudget": "25.02 Familienpolitische Maßnahmen und Jugend",
+   "detailbudget1": "25.02.02 Jugendpolitische Maßnahmen",
+   "amount_eur": 10551252.549999999
+  },
+  {
+   "untergliederung": "25 Familie und Jugend",
+   "globalbudget": "25.02 Familienpolitische Maßnahmen und Jugend",
+   "detailbudget1": "25.02.03 Steuerung und Services",
+   "amount_eur": 12485174.83
+  },
+  {
+   "untergliederung": "25 Familie und Jugend",
+   "globalbudget": "25.02 Familienpolitische Maßnahmen und Jugend",
+   "detailbudget1": "25.02.04 Zivildienst",
+   "amount_eur": 67063777.43
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.01 Steuerung und Services",
+   "detailbudget1": "30.01.01 Zentralstelle",
+   "amount_eur": 85346793.49999999
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.01 Steuerung und Services",
+   "detailbudget1": "30.01.02 Regionale Schulverwaltung",
+   "amount_eur": 192023120.86000007
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.01 Steuerung und Services",
+   "detailbudget1": "30.01.03 Räumliche Infrastruktur",
+   "amount_eur": 722940479.44
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.01 Steuerung und Services",
+   "detailbudget1": "30.01.04 Qualitätsentwicklung und -steuerung",
+   "amount_eur": 57468681.63999999
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.01 Steuerung und Services",
+   "detailbudget1": "30.01.05 Lehrer/innenbildung",
+   "amount_eur": 304231930.5
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.01 Steuerung und Services",
+   "detailbudget1": "30.01.06 Lebenslanges Lernen",
+   "amount_eur": 3470386.76
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.01 Steuerung und Services",
+   "detailbudget1": "30.01.07 Förderungen und Transfers",
+   "amount_eur": 65466801.51
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.01 Steuerung und Services",
+   "detailbudget1": "30.01.08 Institut für QS im österreichischen Schulwesen",
+   "amount_eur": 16830930.869999997
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.01 Steuerung und Services",
+   "detailbudget1": "30.01.09 Steuerung Elementarpädagogik",
+   "amount_eur": 200332261.90999997
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.01 Steuerung und Services",
+   "detailbudget1": "30.01.10 Digitale Schule",
+   "amount_eur": 47821162.61
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.02 Schule einschließlich Lehrpersonal",
+   "detailbudget1": "30.02.01 Pflichtschulen Primar- und Sekundarstufe I",
+   "amount_eur": 5761653761.78
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.02 Schule einschließlich Lehrpersonal",
+   "detailbudget1": "30.02.02 AHS-Sekundarstufe I",
+   "amount_eur": 1818880941.3400002
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.02 Schule einschließlich Lehrpersonal",
+   "detailbudget1": "30.02.03 Pflichtschulen Sekundarstufe II",
+   "amount_eur": 227982160.13
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.02 Schule einschließlich Lehrpersonal",
+   "detailbudget1": "30.02.05 Berufsbildende mittlere und höhere Schulen",
+   "amount_eur": 1670988785.29
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.02 Schule einschließlich Lehrpersonal",
+   "detailbudget1": "30.02.06 Bildungsanstalten f. Elementar- u. Sozialpädagogik",
+   "amount_eur": 100383431.97
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.02 Schule einschließlich Lehrpersonal",
+   "detailbudget1": "30.02.07 Zweckgebundene Gebarung Bundesschulen",
+   "amount_eur": 21169208.049999997
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.02 Schule einschließlich Lehrpersonal",
+   "detailbudget1": "30.02.08 Auslandsschulen",
+   "amount_eur": 37968921.349999994
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.02 Schule einschließlich Lehrpersonal",
+   "detailbudget1": "30.02.09 Heime sowie besondere Einrichtungen",
+   "amount_eur": 34775934.2
+  },
+  {
+   "untergliederung": "30 Bildung",
+   "globalbudget": "30.02 Schule einschließlich Lehrpersonal",
+   "detailbudget1": "30.02.10 Ressourcen für private mittlere und höhere Schulen",
+   "amount_eur": 717948705.19
+  },
+  {
+   "untergliederung": "31 Wissenschaft und Forschung",
+   "globalbudget": "31.01 Steuerung und Services",
+   "detailbudget1": "31.01.01 Zentralstelle und Serviceeinrichtungen",
+   "amount_eur": 72588279.61
+  },
+  {
+   "untergliederung": "31 Wissenschaft und Forschung",
+   "globalbudget": "31.02 Tertiäre Bildung",
+   "detailbudget1": "31.02.01 Universitäten",
+   "amount_eur": 5381811474.11
+  },
+  {
+   "untergliederung": "31 Wissenschaft und Forschung",
+   "globalbudget": "31.02 Tertiäre Bildung",
+   "detailbudget1": "31.02.02 Fachhochschulen",
+   "amount_eur": 466804033.03
+  },
+  {
+   "untergliederung": "31 Wissenschaft und Forschung",
+   "globalbudget": "31.02 Tertiäre Bildung",
+   "detailbudget1": "31.02.03 Services und Förderungen für Studierende",
+   "amount_eur": 329661731.88
+  },
+  {
+   "untergliederung": "31 Wissenschaft und Forschung",
+   "globalbudget": "31.02 Tertiäre Bildung",
+   "detailbudget1": "31.02.04 Studienbeihilfenbehörde",
+   "amount_eur": 13204067.79
+  },
+  {
+   "untergliederung": "31 Wissenschaft und Forschung",
+   "globalbudget": "31.02 Tertiäre Bildung",
+   "detailbudget1": "31.02.05 Lebenslanges Lernen",
+   "amount_eur": 42400150.13000001
+  },
+  {
+   "untergliederung": "31 Wissenschaft und Forschung",
+   "globalbudget": "31.03 Forschung und Entwicklung",
+   "detailbudget1": "31.03.01 Projekte und Programme",
+   "amount_eur": 73327941.72999999
+  },
+  {
+   "untergliederung": "31 Wissenschaft und Forschung",
+   "globalbudget": "31.03 Forschung und Entwicklung",
+   "detailbudget1": "31.03.03 Basisfinanzierung von Institutionen",
+   "amount_eur": 808592518.4900001
+  },
+  {
+   "untergliederung": "31 Wissenschaft und Forschung",
+   "globalbudget": "31.04 Frauenangelegenheiten und Gleichstellung",
+   "detailbudget1": "31.04.01 Frauenangelegenheiten und Gleichstellung",
+   "amount_eur": 32942000.0
+  },
+  {
+   "untergliederung": "32 Kunst und Kultur",
+   "globalbudget": "32.01 Kunst und Kultur",
+   "detailbudget1": "32.01.02 Kunst- und Kulturförderung",
+   "amount_eur": 229519092.48000002
+  },
+  {
+   "untergliederung": "32 Kunst und Kultur",
+   "globalbudget": "32.01 Kunst und Kultur",
+   "detailbudget1": "32.01.03 Denkmalschutz",
+   "amount_eur": 54812743.519999996
+  },
+  {
+   "untergliederung": "32 Kunst und Kultur",
+   "globalbudget": "32.01 Kunst und Kultur",
+   "detailbudget1": "32.01.04 Steuerung und Infrastruktur",
+   "amount_eur": 13936400.44
+  },
+  {
+   "untergliederung": "32 Kunst und Kultur",
+   "globalbudget": "32.03 Kultureinrichtungen",
+   "detailbudget1": "32.03.01 Bundesmuseen",
+   "amount_eur": 159075703.87
+  },
+  {
+   "untergliederung": "32 Kunst und Kultur",
+   "globalbudget": "32.03 Kultureinrichtungen",
+   "detailbudget1": "32.03.02 Bundestheater",
+   "amount_eur": 203938827.04
+  },
+  {
+   "untergliederung": "33 Wirtschaft (Forschung)",
+   "globalbudget": "33.01 Wirtschaft (Forschung)",
+   "detailbudget1": "33.01.01 Kooperation Wissenschaft-Wirtschaft",
+   "amount_eur": 50349774.74999999
+  },
+  {
+   "untergliederung": "33 Wirtschaft (Forschung)",
+   "globalbudget": "33.01 Wirtschaft (Forschung)",
+   "detailbudget1": "33.01.02 Innovation, Technologietransfer",
+   "amount_eur": 156593678.48
+  },
+  {
+   "untergliederung": "33 Wirtschaft (Forschung)",
+   "globalbudget": "33.01 Wirtschaft (Forschung)",
+   "detailbudget1": "33.01.03 Gründung innovativer Unternehmen",
+   "amount_eur": 28497351.000000004
+  },
+  {
+   "untergliederung": "34 Innovation und Technologie (Forschung)",
+   "globalbudget": "34.01 Forschung, Technologie und Innovation",
+   "detailbudget1": "34.01.01 Internationale Kooperation",
+   "amount_eur": 81645826.44
+  },
+  {
+   "untergliederung": "34 Innovation und Technologie (Forschung)",
+   "globalbudget": "34.01 Forschung, Technologie und Innovation",
+   "detailbudget1": "34.01.02 FTI-Infrastruktur",
+   "amount_eur": 142309905.79999998
+  },
+  {
+   "untergliederung": "34 Innovation und Technologie (Forschung)",
+   "globalbudget": "34.01 Forschung, Technologie und Innovation",
+   "detailbudget1": "34.01.03 FTI-Förderung",
+   "amount_eur": 406705961.46999997
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.01 Steuerung und Services",
+   "detailbudget1": "40.01.01 Zentralstelle",
+   "amount_eur": 96261933.82
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.01 Steuerung und Services",
+   "detailbudget1": "40.01.02 Bundesmobilienverwaltung",
+   "amount_eur": 3415001.8999999994
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.01 Steuerung und Services",
+   "detailbudget1": "40.01.03 Bundeswettbewerbsbehörde",
+   "amount_eur": 8037425.52
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.01 Steuerung und Services",
+   "detailbudget1": "40.01.04 Beschusswesen",
+   "amount_eur": 1268376.51
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.01 Steuerung und Services",
+   "detailbudget1": "40.01.05 Strategische Unternehmensbeteiligungen",
+   "amount_eur": 271718.4
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.01 Steuerung und Services",
+   "detailbudget1": "40.01.06 Personal, das für Dritte leistet",
+   "amount_eur": 21484629.91
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.02 Transferleistungen an die Wirtschaft",
+   "detailbudget1": "40.02.01 Wirtschaftsförderung",
+   "amount_eur": 752664808.79
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.02 Transferleistungen an die Wirtschaft",
+   "detailbudget1": "40.02.03 Tourismus",
+   "amount_eur": 68364454.13999999
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.03 Eich- und Vermessungswesen",
+   "detailbudget1": "40.03.01 Eich- und Vermessungswesen",
+   "amount_eur": 106981066.15
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.04 Historische Objekte",
+   "detailbudget1": "40.04.01 Burghauptmannschaft Österreich",
+   "amount_eur": 13618335.429999998
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.04 Historische Objekte",
+   "detailbudget1": "40.04.02 Bau u. Liegenschaftsmanagement",
+   "amount_eur": 71882662.84
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.06 Energie",
+   "detailbudget1": "40.06.01 Energie und Transformation",
+   "amount_eur": 74378673.49
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.06 Energie",
+   "detailbudget1": "40.06.02 Energieversorgungssicherheit",
+   "amount_eur": 103932831.68
+  },
+  {
+   "untergliederung": "40 Wirtschaft",
+   "globalbudget": "40.06 Energie",
+   "detailbudget1": "40.06.03 Klima- und Energiefonds",
+   "amount_eur": 7587500.0
+  },
+  {
+   "untergliederung": "41 Mobilität",
+   "globalbudget": "41.01 Steuerung und Services",
+   "detailbudget1": "41.01.01 Zentralstelle",
+   "amount_eur": 90572727.63000001
+  },
+  {
+   "untergliederung": "41 Mobilität",
+   "globalbudget": "41.01 Steuerung und Services",
+   "detailbudget1": "41.01.02 Klima- und Energiefonds (KLI.EN)",
+   "amount_eur": 163050000.0
+  },
+  {
+   "untergliederung": "41 Mobilität",
+   "globalbudget": "41.01 Steuerung und Services",
+   "detailbudget1": "41.01.03 Österreichisches Patentamt",
+   "amount_eur": 28822526.169999998
+  },
+  {
+   "untergliederung": "41 Mobilität",
+   "globalbudget": "41.02 Mobilität und Infrastruktur",
+   "detailbudget1": "41.02.01 Gesamtverkehr und Beteiligungen im Verkehr",
+   "amount_eur": 344774439.37
+  },
+  {
+   "untergliederung": "41 Mobilität",
+   "globalbudget": "41.02 Mobilität und Infrastruktur",
+   "detailbudget1": "41.02.02 Schiene",
+   "amount_eur": 4184090819.44
+  },
+  {
+   "untergliederung": "41 Mobilität",
+   "globalbudget": "41.02 Mobilität und Infrastruktur",
+   "detailbudget1": "41.02.04 Straße",
+   "amount_eur": 10510238.51
+  },
+  {
+   "untergliederung": "41 Mobilität",
+   "globalbudget": "41.02 Mobilität und Infrastruktur",
+   "detailbudget1": "41.02.05 Luft",
+   "amount_eur": 14624747.679999998
+  },
+  {
+   "untergliederung": "41 Mobilität",
+   "globalbudget": "41.02 Mobilität und Infrastruktur",
+   "detailbudget1": "41.02.06 Wasser",
+   "amount_eur": 59086539.5
+  },
+  {
+   "untergliederung": "41 Mobilität",
+   "globalbudget": "41.03 Klimaticket",
+   "detailbudget1": "41.03.01 Klimaticket",
+   "amount_eur": 772255707.37
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.04 Steuerung und Services",
+   "detailbudget1": "42.04.01 Zentralstelle",
+   "amount_eur": 124880513.2
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.04 Steuerung und Services",
+   "detailbudget1": "42.04.02 Beteiligungen",
+   "amount_eur": 127853839.99999999
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.04 Steuerung und Services",
+   "detailbudget1": "42.04.05 Land- und forstwirtschaftliches Schulwesen",
+   "amount_eur": 236915997.51000005
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.05 Agrar-und Regionalpolitik",
+   "detailbudget1": "42.05.01 Gemeinsame Agrarpolitik - EU, variabel",
+   "amount_eur": 1429849376.52
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.05 Agrar-und Regionalpolitik",
+   "detailbudget1": "42.05.02 Gemeinsame Agrarpolitik - Bund",
+   "amount_eur": 420666542.43
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.05 Agrar-und Regionalpolitik",
+   "detailbudget1": "42.05.03 Nationale Agrarmaßnahmen",
+   "amount_eur": 58349809.60000002
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.05 Agrar-und Regionalpolitik",
+   "detailbudget1": "42.05.04 Dienststellen Landwirtschaft",
+   "amount_eur": 15148961.869999997
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.05 Agrar-und Regionalpolitik",
+   "detailbudget1": "42.05.05 EFRE Förderprogr. (variabel)",
+   "amount_eur": 27174472.45
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.05 Agrar-und Regionalpolitik",
+   "detailbudget1": "42.05.06 Regionalpolitik",
+   "amount_eur": 2653233.85
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.06 Forst-, Wasserressourcen und Naturgefahrenmanagement",
+   "detailbudget1": "42.06.01 Wildbach- und Lawinenverbauung",
+   "amount_eur": 154918197.86999997
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.06 Forst-, Wasserressourcen und Naturgefahrenmanagement",
+   "detailbudget1": "42.06.02 Nationale und internat. Forstmaßnahmen",
+   "amount_eur": 54113009.97
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.06 Forst-, Wasserressourcen und Naturgefahrenmanagement",
+   "detailbudget1": "42.06.03 Wasserbau",
+   "amount_eur": 104661772.02000001
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.06 Forst-, Wasserressourcen und Naturgefahrenmanagement",
+   "detailbudget1": "42.06.04 Wasser u. sonst. Maßnahmen",
+   "amount_eur": 5834421.35
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.06 Forst-, Wasserressourcen und Naturgefahrenmanagement",
+   "detailbudget1": "42.06.05 Bundesamt für Wasserwirtschaft",
+   "amount_eur": 8391417.459999997
+  },
+  {
+   "untergliederung": "42 Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+   "globalbudget": "42.06 Forst-, Wasserressourcen und Naturgefahrenmanagement",
+   "detailbudget1": "42.06.06  Siedlungswasserwirtschaft",
+   "amount_eur": 245375597.85000002
+  },
+  {
+   "untergliederung": "43 Umwelt, Klima und Kreislaufwirtschaft",
+   "globalbudget": "43.01 Umwelt und Klima",
+   "detailbudget1": "43.01.02 Umweltförderung im Inland",
+   "amount_eur": 1886742088.46
+  },
+  {
+   "untergliederung": "43 Umwelt, Klima und Kreislaufwirtschaft",
+   "globalbudget": "43.01 Umwelt und Klima",
+   "detailbudget1": "43.01.03 Klima- und Energiefonds",
+   "amount_eur": 128600000.0
+  },
+  {
+   "untergliederung": "43 Umwelt, Klima und Kreislaufwirtschaft",
+   "globalbudget": "43.01 Umwelt und Klima",
+   "detailbudget1": "43.01.04 Emissionshandel",
+   "amount_eur": 705.87
+  },
+  {
+   "untergliederung": "43 Umwelt, Klima und Kreislaufwirtschaft",
+   "globalbudget": "43.01 Umwelt und Klima",
+   "detailbudget1": "43.01.05 Umwelt und Klima",
+   "amount_eur": 196728636.98000002
+  },
+  {
+   "untergliederung": "43 Umwelt, Klima und Kreislaufwirtschaft",
+   "globalbudget": "43.01 Umwelt und Klima",
+   "detailbudget1": "43.01.08 Energieversorgungssicherheit und Kompensationsmaßnahmen",
+   "amount_eur": 39877000.0
+  },
+  {
+   "untergliederung": "43 Umwelt, Klima und Kreislaufwirtschaft",
+   "globalbudget": "43.02 Kreislaufwirtschaft, Chemie und Strahlenschutz",
+   "detailbudget1": "43.02.01 Kreislaufwirtschaft und Chemie",
+   "amount_eur": 101347352.55000001
+  },
+  {
+   "untergliederung": "43 Umwelt, Klima und Kreislaufwirtschaft",
+   "globalbudget": "43.02 Kreislaufwirtschaft, Chemie und Strahlenschutz",
+   "detailbudget1": "43.02.02 Altlastensanierung",
+   "amount_eur": 69406766.19999999
+  },
+  {
+   "untergliederung": "43 Umwelt, Klima und Kreislaufwirtschaft",
+   "globalbudget": "43.02 Kreislaufwirtschaft, Chemie und Strahlenschutz",
+   "detailbudget1": "43.02.04 Strahlenschutz",
+   "amount_eur": 18482428.57
+  },
+  {
+   "untergliederung": "43 Umwelt, Klima und Kreislaufwirtschaft",
+   "globalbudget": "43.02 Kreislaufwirtschaft, Chemie und Strahlenschutz",
+   "detailbudget1": "43.02.05 Kreislaufwirtschaft (UFG)",
+   "amount_eur": 50579983.44
+  },
+  {
+   "untergliederung": "44 Finanzausgleich",
+   "globalbudget": "44.01 Transfers an Länder und Gemeinden",
+   "detailbudget1": "44.01.01 Finanzkraftstärkung der Gemeinden, variabel",
+   "amount_eur": 178845658.0
+  },
+  {
+   "untergliederung": "44 Finanzausgleich",
+   "globalbudget": "44.01 Transfers an Länder und Gemeinden",
+   "detailbudget1": "44.01.02 Finanzzuweisungen in Nahverkehrsangelegenheiten, variabel",
+   "amount_eur": 136192585.46
+  },
+  {
+   "untergliederung": "44 Finanzausgleich",
+   "globalbudget": "44.01 Transfers an Länder und Gemeinden",
+   "detailbudget1": "44.01.03 Zuschüsse für Krankenanstalten, variabel",
+   "amount_eur": 233779552.0
+  },
+  {
+   "untergliederung": "44 Finanzausgleich",
+   "globalbudget": "44.01 Transfers an Länder und Gemeinden",
+   "detailbudget1": "44.01.04 Transfers an Länder und Gemeinden, nicht variabel",
+   "amount_eur": 2570433253.3900003
+  },
+  {
+   "untergliederung": "44 Finanzausgleich",
+   "globalbudget": "44.01 Transfers an Länder und Gemeinden",
+   "detailbudget1": "44.01.05 Bedarfszuweisung an Länder (variabel)",
+   "amount_eur": 23525771.0
+  },
+  {
+   "untergliederung": "44 Finanzausgleich",
+   "globalbudget": "44.02 Katastrophenfonds",
+   "detailbudget1": "44.02.01 Katastrophenfonds, variabel",
+   "amount_eur": 601625610.8
+  },
+  {
+   "untergliederung": "45 Bundesvermögen",
+   "globalbudget": "45.01 Haftungen des Bundes",
+   "detailbudget1": "45.01.01 Ausfuhrförderungsgesetz",
+   "amount_eur": 164939410.76999998
+  },
+  {
+   "untergliederung": "45 Bundesvermögen",
+   "globalbudget": "45.01 Haftungen des Bundes",
+   "detailbudget1": "45.01.02 Ausfuhrfinanzierungsförderungsgesetz",
+   "amount_eur": 166087798.18
+  },
+  {
+   "untergliederung": "45 Bundesvermögen",
+   "globalbudget": "45.01 Haftungen des Bundes",
+   "detailbudget1": "45.01.03 Sonstige Finanzhaftungen (fix)",
+   "amount_eur": 86102350.84
+  },
+  {
+   "untergliederung": "45 Bundesvermögen",
+   "globalbudget": "45.01 Haftungen des Bundes",
+   "detailbudget1": "45.01.04 Sonstige Finanzhaftungen (variabel)",
+   "amount_eur": 14143873.43
+  },
+  {
+   "untergliederung": "45 Bundesvermögen",
+   "globalbudget": "45.02 Bundesvermögensverwaltung",
+   "detailbudget1": "45.02.01 Kapitalbeteiligungen",
+   "amount_eur": 7100924.909999996
+  },
+  {
+   "untergliederung": "45 Bundesvermögen",
+   "globalbudget": "45.02 Bundesvermögensverwaltung",
+   "detailbudget1": "45.02.03 Unbewegliches Bundesvermögen",
+   "amount_eur": 2159711.7399999998
+  },
+  {
+   "untergliederung": "45 Bundesvermögen",
+   "globalbudget": "45.02 Bundesvermögensverwaltung",
+   "detailbudget1": "45.02.04 Besondere Zahlungsverpflichtungen",
+   "amount_eur": 773767500.22
+  },
+  {
+   "untergliederung": "46 Finanzmarktstabilität",
+   "globalbudget": "46.01 Finanzmarktstabilität",
+   "detailbudget1": "46.01.02 Haftungen (fix)",
+   "amount_eur": 5580.0
+  },
+  {
+   "untergliederung": "51 Kassenverwaltung",
+   "globalbudget": "51.01 Kassenverwaltung",
+   "detailbudget1": "51.01.04 Transfer von der EU",
+   "amount_eur": 300231.0
+  },
+  {
+   "untergliederung": "58 Finanzierungen, Währungstauschverträge",
+   "globalbudget": "58.01 Finanzierungen und Währungstauschverträge",
+   "detailbudget1": "58.01.01 Finanzierungen, Währungstauschverträge, Wertpapiergebarung",
+   "amount_eur": 6566346256.97
+  },
+  {
+   "untergliederung": "58 Finanzierungen, Währungstauschverträge",
+   "globalbudget": "58.01 Finanzierungen und Währungstauschverträge",
+   "detailbudget1": "58.01.02 Kurzfristige Verpflichtungen",
+   "amount_eur": 257132868.06000003
+  }
+ ],
+ "by_theme": [
+  {
+   "ug_themenbereich": "Bundesbeitrag",
+   "amount_eur": 18034250719.68
+  },
+  {
+   "ug_themenbereich": "Pensionen Beamtinnen und Beamte",
+   "amount_eur": 13008950148.23
+  },
+  {
+   "ug_themenbereich": "Sonstiges",
+   "amount_eur": 10762973805.58
+  },
+  {
+   "ug_themenbereich": "ALV-Leistungen",
+   "amount_eur": 6820925590.75
+  },
+  {
+   "ug_themenbereich": "Landeslehrpersonal",
+   "amount_eur": 5896188842.22
+  },
+  {
+   "ug_themenbereich": "Zinsen",
+   "amount_eur": 5687226536.92
+  },
+  {
+   "ug_themenbereich": "Universitäten (exkl. Klinischer Mehraufwand Klinikbauten)",
+   "amount_eur": 5247610890.42
+  },
+  {
+   "ug_themenbereich": "Bundespersonal",
+   "amount_eur": 4454033433.76
+  },
+  {
+   "ug_themenbereich": "Familienbeihilfe",
+   "amount_eur": 4401370041.559999
+  },
+  {
+   "ug_themenbereich": "Pflegegeld",
+   "amount_eur": 3242173919.16
+  },
+  {
+   "ug_themenbereich": "Zuschussverträge (ÖBB-Infrastruktur)",
+   "amount_eur": 2653022774.5699997
+  },
+  {
+   "ug_themenbereich": "Grüne Transformation",
+   "amount_eur": 2400366439.83
+  },
+  {
+   "ug_themenbereich": "Transfers an die Sozialversicherung",
+   "amount_eur": 2039919103.5000002
+  },
+  {
+   "ug_themenbereich": "Rüstung",
+   "amount_eur": 1940692897.8400002
+  },
+  {
+   "ug_themenbereich": "Aktive Arbeitsmarktpolitik: Förderbudget Arbeitsmarkt",
+   "amount_eur": 1418414945.8400002
+  },
+  {
+   "ug_themenbereich": "Kinderbetreuungsgeld",
+   "amount_eur": 1315562028.28
+  },
+  {
+   "ug_themenbereich": "Ausgleichszulagen",
+   "amount_eur": 1304030761.09
+  },
+  {
+   "ug_themenbereich": "Verkehrsdiensteverträge (ÖBB-PV und Privatbahnen)",
+   "amount_eur": 1248214000.0
+  },
+  {
+   "ug_themenbereich": "Pflegefonds",
+   "amount_eur": 1155000000.0
+  },
+  {
+   "ug_themenbereich": "Sonstige Finanzaufwendungen",
+   "amount_eur": 1136252588.1100001
+  },
+  {
+   "ug_themenbereich": "Zukunftsfonds",
+   "amount_eur": 1133000000.0
+  },
+  {
+   "ug_themenbereich": "Landstreitkräfte",
+   "amount_eur": 1033180975.6999998
+  },
+  {
+   "ug_themenbereich": "Finanzausgleich Gesundheit",
+   "amount_eur": 934311180.71
+  },
+  {
+   "ug_themenbereich": "Krankenanstalten Zweckzuschuss",
+   "amount_eur": 933506972.3
+  },
+  {
+   "ug_themenbereich": "Grundlagenforschung gem. FoFinaG",
+   "amount_eur": 881920460.22
+  },
+  {
+   "ug_themenbereich": "Gebäudeinfrastruktur",
+   "amount_eur": 829435648.81
+  },
+  {
+   "ug_themenbereich": "1502 Personal",
+   "amount_eur": 822485351.52
+  },
+  {
+   "ug_themenbereich": "Wirtschaftsförderung",
+   "amount_eur": 822105965.01
+  },
+  {
+   "ug_themenbereich": "Klimatickets",
+   "amount_eur": 772255707.37
+  },
+  {
+   "ug_themenbereich": "Gemeinsame Agrarpolitik (EU var.) - ELER",
+   "amount_eur": 741536975.39
+  },
+  {
+   "ug_themenbereich": "AMS-Verwaltungskosten",
+   "amount_eur": 730203873.95
+  },
+  {
+   "ug_themenbereich": "Finanzzuweisungen Gemeinden",
+   "amount_eur": 698571658.0
+  },
+  {
+   "ug_themenbereich": "Gemeinsame Agrarpolitik (EU var.) - EGFL",
+   "amount_eur": 688348093.11
+  },
+  {
+   "ug_themenbereich": "Altersteilzeit",
+   "amount_eur": 687298783.2900001
+  },
+  {
+   "ug_themenbereich": "Freifahrten für Schüler, Schülerinnen und Lehrlinge",
+   "amount_eur": 632110971.8000001
+  },
+  {
+   "ug_themenbereich": "Katastrophenfonds",
+   "amount_eur": 601625610.8
+  },
+  {
+   "ug_themenbereich": "Personal",
+   "amount_eur": 549090043.86
+  },
+  {
+   "ug_themenbereich": "Infrastruktur",
+   "amount_eur": 492673912.48999995
+  },
+  {
+   "ug_themenbereich": "Fachhochschulen",
+   "amount_eur": 466804033.03
+  },
+  {
+   "ug_themenbereich": "Forschungsförderungsgesellschaft",
+   "amount_eur": 447802097.61
+  },
+  {
+   "ug_themenbereich": "Gemeinsame Agrarpolitik (Bund fix) - Ländliche Entwicklung",
+   "amount_eur": 420666542.43
+  },
+  {
+   "ug_themenbereich": "Finanzzuweisungen Länder",
+   "amount_eur": 409799771.0
+  },
+  {
+   "ug_themenbereich": "Bildungskarenz",
+   "amount_eur": 376860801.03000003
+  },
+  {
+   "ug_themenbereich": "Stromkostenzuschuss",
+   "amount_eur": 345606866.71999997
+  },
+  {
+   "ug_themenbereich": "Zuführung Arbeitsmarktrücklage",
+   "amount_eur": 338909188.41
+  },
+  {
+   "ug_themenbereich": "Exportförderung",
+   "amount_eur": 331027208.95
+  },
+  {
+   "ug_themenbereich": "Unterstützungsleistungen für Studierende",
+   "amount_eur": 329661731.88
+  },
+  {
+   "ug_themenbereich": "Internationale Finanzinstitutionen (IFIs)",
+   "amount_eur": 310748973.74
+  },
+  {
+   "ug_themenbereich": "Pflegeregress",
+   "amount_eur": 300000000.0
+  },
+  {
+   "ug_themenbereich": "Pflegegeld Beamtinnen und Beamte",
+   "amount_eur": 299560645.45
+  },
+  {
+   "ug_themenbereich": "Betr. Lehrstellenförderung",
+   "amount_eur": 280000000.0
+  },
+  {
+   "ug_themenbereich": "Präsidiale",
+   "amount_eur": 279688510.98
+  },
+  {
+   "ug_themenbereich": "Luftstreitkräfte",
+   "amount_eur": 278615216.74
+  },
+  {
+   "ug_themenbereich": "Naturgefahren",
+   "amount_eur": 259579969.89
+  },
+  {
+   "ug_themenbereich": "Siedlungswasserwirtschaft",
+   "amount_eur": 245375597.85
+  },
+  {
+   "ug_themenbereich": "Umwelt und Kreislaufwirtschaft",
+   "amount_eur": 239816530.76000002
+  },
+  {
+   "ug_themenbereich": "Land- und forstwirtschaftliches Schulwesen",
+   "amount_eur": 236915997.51000002
+  },
+  {
+   "ug_themenbereich": "Krankenanstaltenfinanzierung",
+   "amount_eur": 233779552.0
+  },
+  {
+   "ug_themenbereich": "Kunst- und Kulturförderung",
+   "amount_eur": 229869533.42000002
+  },
+  {
+   "ug_themenbereich": "Ämter und Dienststellen",
+   "amount_eur": 226687498.26000002
+  },
+  {
+   "ug_themenbereich": "Logistik",
+   "amount_eur": 221354561.27
+  },
+  {
+   "ug_themenbereich": "Medien",
+   "amount_eur": 213520481.02
+  },
+  {
+   "ug_themenbereich": "Kommunalinvestitionsgesetze",
+   "amount_eur": 211559666.17000002
+  },
+  {
+   "ug_themenbereich": "Beitragsersätze an SVS",
+   "amount_eur": 206532096.94
+  },
+  {
+   "ug_themenbereich": "Bundestheater",
+   "amount_eur": 203938827.04000002
+  },
+  {
+   "ug_themenbereich": "Schienengüterverkehrsförderung",
+   "amount_eur": 203500000.0
+  },
+  {
+   "ug_themenbereich": "1501 Betr. Sachaufwand - IT",
+   "amount_eur": 202274559.82
+  },
+  {
+   "ug_themenbereich": "Zweckzuschuss Wohnbauförderung",
+   "amount_eur": 183633175.45000002
+  },
+  {
+   "ug_themenbereich": "Entwicklungszusammenarbeit und Auslandskatastrophenfonds",
+   "amount_eur": 183625000.0
+  },
+  {
+   "ug_themenbereich": "Bundesmuseen",
+   "amount_eur": 159075703.87
+  },
+  {
+   "ug_themenbereich": "Beteiligungen",
+   "amount_eur": 152073471.85999998
+  },
+  {
+   "ug_themenbereich": "Energie Krisenmaßnahmen",
+   "amount_eur": 143809831.68
+  },
+  {
+   "ug_themenbereich": "Finanzzuw. in Nahverkehrsangelegenheiten",
+   "amount_eur": 136192585.46
+  },
+  {
+   "ug_themenbereich": "Universitäten - Klinischer Mehraufwand Klinikbauten",
+   "amount_eur": 134200583.69
+  },
+  {
+   "ug_themenbereich": "Maßnahmen für pflegende Angehörige",
+   "amount_eur": 126909584.91000001
+  },
+  {
+   "ug_themenbereich": "24-h-Betreuung",
+   "amount_eur": 126400000.0
+  },
+  {
+   "ug_themenbereich": "Unterstützung für Menschen mit Behinderung",
+   "amount_eur": 117622659.59
+  },
+  {
+   "ug_themenbereich": "Generalstab",
+   "amount_eur": 114632801.77
+  },
+  {
+   "ug_themenbereich": "Sozialentschädigung",
+   "amount_eur": 110877858.49000001
+  },
+  {
+   "ug_themenbereich": "Besondere Sportförderung",
+   "amount_eur": 110000000.0
+  },
+  {
+   "ug_themenbereich": "Beiträge an internationale Organisationen",
+   "amount_eur": 107187466.12
+  },
+  {
+   "ug_themenbereich": "IKT und Cyber",
+   "amount_eur": 101469256.02
+  },
+  {
+   "ug_themenbereich": "1501 Personal",
+   "amount_eur": 101299471.05
+  },
+  {
+   "ug_themenbereich": "C19-Maßnahmen",
+   "amount_eur": 99999764.86
+  },
+  {
+   "ug_themenbereich": "Betriebs- und Investitionskosten (In- und Ausland)",
+   "amount_eur": 99004137.44
+  },
+  {
+   "ug_themenbereich": "Zentralstelle",
+   "amount_eur": 96261933.82
+  },
+  {
+   "ug_themenbereich": "Parlamentsdirektion-Verwaltung",
+   "amount_eur": 91851147.08
+  },
+  {
+   "ug_themenbereich": "Ausbildung",
+   "amount_eur": 90606942.34
+  },
+  {
+   "ug_themenbereich": "Klima- und Anti-Teuerungsbonus",
+   "amount_eur": 88018692.86
+  },
+  {
+   "ug_themenbereich": "Integration",
+   "amount_eur": 85413520.87
+  },
+  {
+   "ug_themenbereich": "1501 Transfers Breitband/RIC",
+   "amount_eur": 84966941.0
+  },
+  {
+   "ug_themenbereich": "Allgemeine Sportförderung",
+   "amount_eur": 84340206.24
+  },
+  {
+   "ug_themenbereich": "Kultus",
+   "amount_eur": 83819033.41
+  },
+  {
+   "ug_themenbereich": "Forschungsförderung für Transformation",
+   "amount_eur": 83801197.0
+  },
+  {
+   "ug_themenbereich": "Weltraum",
+   "amount_eur": 81888035.3
+  },
+  {
+   "ug_themenbereich": "Sonderdotierung Nationalstiftung",
+   "amount_eur": 81284155.09
+  },
+  {
+   "ug_themenbereich": "Sonderzuwendungen gem. LWA-G",
+   "amount_eur": 80357197.74000001
+  },
+  {
+   "ug_themenbereich": "U-Bahn Wien",
+   "amount_eur": 78000000.0
+  },
+  {
+   "ug_themenbereich": "Privatbahnförderung (MIP)",
+   "amount_eur": 70471325.36
+  },
+  {
+   "ug_themenbereich": "Austrian Institute of Technology",
+   "amount_eur": 67173000.0
+  },
+  {
+   "ug_themenbereich": "IPCEI RRF Mikroelektronik II u. Wasserstoff",
+   "amount_eur": 66975389.6
+  },
+  {
+   "ug_themenbereich": "1502 Betr. Sachaufw - Gebäudeinfrastr. (Mieten,BK,Instandh.)",
+   "amount_eur": 64446201.45
+  },
+  {
+   "ug_themenbereich": "Digitalisierung",
+   "amount_eur": 61499624.480000004
+  },
+  {
+   "ug_themenbereich": "Nationalrat",
+   "amount_eur": 58658379.5
+  },
+  {
+   "ug_themenbereich": "COVID-19 Schadloshaltung",
+   "amount_eur": 58430904.28
+  },
+  {
+   "ug_themenbereich": "Nationale Agrarmaßnahmen",
+   "amount_eur": 58349809.6
+  },
+  {
+   "ug_themenbereich": "Statistik Austria",
+   "amount_eur": 56996912.66
+  },
+  {
+   "ug_themenbereich": "Personalähnliche und personalrelevante Auszahlungen",
+   "amount_eur": 56588225.15
+  },
+  {
+   "ug_themenbereich": "Militärisches Gesundheitswesen",
+   "amount_eur": 55951951.39
+  },
+  {
+   "ug_themenbereich": "4502 sonstige Auszahlungen/Aufwendungen",
+   "amount_eur": 52655144.129999995
+  },
+  {
+   "ug_themenbereich": "Partei- und Parteiakademieförderung",
+   "amount_eur": 50693197.169999994
+  },
+  {
+   "ug_themenbereich": "Austria Wirtschaftsservice",
+   "amount_eur": 49667094.650000006
+  },
+  {
+   "ug_themenbereich": "IT",
+   "amount_eur": 46931004.779999994
+  },
+  {
+   "ug_themenbereich": "Waldfonds",
+   "amount_eur": 46247577.660000004
+  },
+  {
+   "ug_themenbereich": "1503 Personal",
+   "amount_eur": 46046759.97
+  },
+  {
+   "ug_themenbereich": "Breitband und Telekommunikation",
+   "amount_eur": 38843642.23
+  },
+  {
+   "ug_themenbereich": "Frauenangelegenheiten und Gleichstellung",
+   "amount_eur": 33599456.019999996
+  },
+  {
+   "ug_themenbereich": "Entgelte BHAG",
+   "amount_eur": 32222561.0
+  },
+  {
+   "ug_themenbereich": "Zuschüsse zur Theaterführung",
+   "amount_eur": 31518000.0
+  },
+  {
+   "ug_themenbereich": "Klubförderung und gemeinsame Ausgaben für Mandatar:innen",
+   "amount_eur": 31218225.849999998
+  },
+  {
+   "ug_themenbereich": "Europäischer Fonds f. regionale Entwicklung (EFRE) (EU var.)",
+   "amount_eur": 27174472.450000003
+  },
+  {
+   "ug_themenbereich": "1502 Sonstiger betr. Sachaufwand",
+   "amount_eur": 27149134.01
+  },
+  {
+   "ug_themenbereich": "1501 Betr. Sachaufwand - Werkleistungen",
+   "amount_eur": 27044768.54
+  },
+  {
+   "ug_themenbereich": "1501 sonstige Transfers",
+   "amount_eur": 26550444.16
+  },
+  {
+   "ug_themenbereich": "Hospiz- und Palliativfonds",
+   "amount_eur": 24906152.73
+  },
+  {
+   "ug_themenbereich": "Refundierungen Bezüge RMgl. und LH",
+   "amount_eur": 20437189.26
+  },
+  {
+   "ug_themenbereich": "Silicon Austria Labs",
+   "amount_eur": 20150000.0
+  },
+  {
+   "ug_themenbereich": "COVID-19 OeKB Garantien",
+   "amount_eur": 19272785.6
+  },
+  {
+   "ug_themenbereich": "1502 Betr. Sachaufwand - Nachrichtenübermittlung",
+   "amount_eur": 19231593.24
+  },
+  {
+   "ug_themenbereich": "1501 Sonstiger betr. Sachaufwand",
+   "amount_eur": 19112377.75
+  },
+  {
+   "ug_themenbereich": "Stadtregionalbahnen",
+   "amount_eur": 18038304.96
+  },
+  {
+   "ug_themenbereich": "1501 Transfers Sicherheitsklammer",
+   "amount_eur": 17908848.0
+  },
+  {
+   "ug_themenbereich": "1502 Betr. Sachaufwand - Werkleistungen",
+   "amount_eur": 17840431.19
+  },
+  {
+   "ug_themenbereich": "Emissionsfreie Busse (RRF)",
+   "amount_eur": 17000000.0
+  },
+  {
+   "ug_themenbereich": "Miete, Instandhaltung, Energie",
+   "amount_eur": 16225461.77
+  },
+  {
+   "ug_themenbereich": "Sonstiger Betriebsaufwand",
+   "amount_eur": 15961514.36
+  },
+  {
+   "ug_themenbereich": "Sonstige Finanzhaftungen (variabel)",
+   "amount_eur": 14143873.43
+  },
+  {
+   "ug_themenbereich": "RRF-Projekte",
+   "amount_eur": 14059785.739999998
+  },
+  {
+   "ug_themenbereich": "Kostenersatz IAKW",
+   "amount_eur": 13652968.86
+  },
+  {
+   "ug_themenbereich": "Übrige Transferaufwendungen",
+   "amount_eur": 13161631.89
+  },
+  {
+   "ug_themenbereich": "Amtssitz, Konferenzen und Förderungen (Inland)",
+   "amount_eur": 11781976.34
+  },
+  {
+   "ug_themenbereich": "1501 Betr. Sachaufw - Gebäudeinfrastr. (Mieten,BK,Instandh.)",
+   "amount_eur": 10724590.73
+  },
+  {
+   "ug_themenbereich": "Nationalfonds für Opfer des Nationalsozialismus",
+   "amount_eur": 10718280.0
+  },
+  {
+   "ug_themenbereich": "Garantiegesetz 1977",
+   "amount_eur": 9971817.71
+  },
+  {
+   "ug_themenbereich": "Energiekostenzuschuss-NPO",
+   "amount_eur": 9380000.0
+  },
+  {
+   "ug_themenbereich": "Christian Doppler Gesellschaft",
+   "amount_eur": 8919685.25
+  },
+  {
+   "ug_themenbereich": "Aktive Arbeitsmarktpolitik: ESF",
+   "amount_eur": 8684681.9
+  },
+  {
+   "ug_themenbereich": "Scheidemünzengesetz",
+   "amount_eur": 8133057.52
+  },
+  {
+   "ug_themenbereich": "Bundesrat",
+   "amount_eur": 7925640.300000001
+  },
+  {
+   "ug_themenbereich": "Auslandskultur und Förderungen (Ausland)",
+   "amount_eur": 7881167.09
+  },
+  {
+   "ug_themenbereich": "IPCEI Mikroelektronik I u. Batterie",
+   "amount_eur": 7394832.390000001
+  },
+  {
+   "ug_themenbereich": "Volksgruppen",
+   "amount_eur": 7325372.590000001
+  },
+  {
+   "ug_themenbereich": "Sonstiger Personalaufwand",
+   "amount_eur": 5019479.22
+  },
+  {
+   "ug_themenbereich": "1501 Transfers WAG-LOOP",
+   "amount_eur": 5000000.0
+  },
+  {
+   "ug_themenbereich": "Sonstige Forschungseinrichtungen",
+   "amount_eur": 3786649.9999999995
+  },
+  {
+   "ug_themenbereich": "IPCEI national",
+   "amount_eur": 3114350.0
+  },
+  {
+   "ug_themenbereich": "1503 Betr. Sachaufw - Gebäudeinfrastr. (Mieten,BK,Instandh.)",
+   "amount_eur": 2991495.77
+  },
+  {
+   "ug_themenbereich": "1502 Investitionen, Darlehen u. Vorschüsse",
+   "amount_eur": 1588956.8299999998
+  },
+  {
+   "ug_themenbereich": "1503 Betr. Sachaufwand - Werkleistungen",
+   "amount_eur": 1415098.3800000001
+  },
+  {
+   "ug_themenbereich": "1503 Sonstiger betr. Sachaufwand",
+   "amount_eur": 719803.2
+  },
+  {
+   "ug_themenbereich": "Parlamentarisches Datenschutzkomitee (PDK)",
+   "amount_eur": 431063.11
+  },
+  {
+   "ug_themenbereich": "1503 Investitionen, Darlehen u. Vorschüsse",
+   "amount_eur": 347204.85000000003
+  },
+  {
+   "ug_themenbereich": "Energiekostenausgleich",
+   "amount_eur": 245844.37
+  },
+  {
+   "ug_themenbereich": "1501 Investitionen, Darlehen u. Vorschüsse",
+   "amount_eur": 85322.64
+  },
+  {
+   "ug_themenbereich": "Haftungen",
+   "amount_eur": 5580.0
+  },
+  {
+   "ug_themenbereich": "Kurzarbeit",
+   "amount_eur": -1408949.6800000002
+  },
+  {
+   "ug_themenbereich": "RRF-Projekt (Community Nurses)",
+   "amount_eur": -10000000.0
+  },
+  {
+   "ug_themenbereich": "Wohnschirm",
+   "amount_eur": -10391953.280000001
+  },
+  {
+   "ug_themenbereich": "COFAG & COFAG-NoAG",
+   "amount_eur": -87314223.17
+  }
+ ],
+ "by_economic": [
+  {
+   "okongliederung_ebene1": "Transfers",
+   "amount_eur": 91468923464.87
+  },
+  {
+   "okongliederung_ebene1": "Personalaufwand",
+   "amount_eur": 12704079185.81
+  },
+  {
+   "okongliederung_ebene1": "Sachaufwand",
+   "amount_eur": 8321084076.6
+  },
+  {
+   "okongliederung_ebene1": "Finanzaufwand",
+   "amount_eur": 6823804690.91
+  },
+  {
+   "okongliederung_ebene1": "Investitionstätigkeit",
+   "amount_eur": 1843611745.16
+  },
+  {
+   "okongliederung_ebene1": "Darlehen und Vorschüsse",
+   "amount_eur": 307100252.18
+  }
+ ],
+ "foerderungen_eur": 10509020874.52
+}
