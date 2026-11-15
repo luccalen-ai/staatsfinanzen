@@ -37,7 +37,8 @@ Status: `eurostat_cofog` and `bmf_budget_csv` written with offline tests; they r
 Then:
 
 - [ ] Reconciliation to control totals, transfers Bund–Vienna matched
-- [ ] First flow diagram and treemap, private
+- [x] First private dashboard (2026-11-15): general government by function, spending ratio vs peers, Bund by Untergliederung, Vienna by group and top 15 lines. Claude artifact https://claude.ai/artifact/EFr4MzJgzsXZduXaSG9M5X, built from site/data/*.json; refresh by re-uploading those files
+- [ ] First flow diagram (who pays whom: Bund → Länder/Gemeinden/SV, Vienna's transfers to its companies)
 
 Gate: federal and Vienna detail reconcile to control totals.
 
