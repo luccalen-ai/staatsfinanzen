@@ -44,6 +44,9 @@ Gate: federal and Vienna detail reconcile to control totals.
 
 ## Weekly dossiers on publicly owned businesses
 
+- [ ] Seed the public enterprise ledger (`registry/public_enterprises.csv`) from the Bund's Beteiligungsbericht and Vienna's list of holdings (Wien Holding, Stadtwerke, Unternehmungen), so the backlog is chosen from the full list
+- [ ] Ledger view on the dashboard: one row per enterprise, net cost and outcome side by side
+
 - [x] Agent prompt, template and backlog set up (2026-11-15)
 - [ ] First draft: Weingut Cobenzl
 - [x] Publication rhythm: every two weeks (drafting stays weekly)

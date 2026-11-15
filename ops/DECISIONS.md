@@ -13,6 +13,7 @@
 | 2026-11-15 | Dossiers published every two weeks for now; drafting stays weekly | A buffer of drafts, and the ten working days needed for the right of reply |
 | 2026-11-15 | Vienna's detailed files are downloaded by hand through the offenerhaushalt.at form and committed (CC BY 4.0) | The site blocks automated downloads; the owner chose a browser download over waiting for bulk access |
 | 2026-11-15 | The private prototype dashboard uses ranked bars, not treemaps; the three levels are shown side by side and never added | Bars are easier to read and compare at a glance; ESVG, federal budget law and VRV 2015 totals are not additive |
+| 2026-11-15 | Focus: individual cases of public enterprises, Förderungen and transfers, with net cost and benefit to citizens, plus a public ledger of all publicly owned businesses. The platform argues for cuts where the facts show spending without public benefit; the conclusion follows the facts | Owner direction. Master prompt version 2 |
 
 ## Open
 
