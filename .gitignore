@@ -1,0 +1,22 @@
+# Raw and generated data stay out of git; they are rebuilt by the ingest scripts
+data/raw/*
+data/staging/*
+data/core/*
+!data/*/.gitkeep
+*.duckdb
+*.duckdb.wal
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Site build
+site/dist/
+site/.observablehq/cache/
+node_modules/
+
+# OS
+.DS_Store
