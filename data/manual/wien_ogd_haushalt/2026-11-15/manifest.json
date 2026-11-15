@@ -1,0 +1,614 @@
+{
+  "offenerhaushalt_90001_2020_ra_ehh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2020_ra_ehh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2020",
+      "rechnungsabschluss": "ra",
+      "haushalt": "ehh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "0dcdd9759c3ce40b8ad2259c6d4af055fa41c56c4e9bd3ad95b7962b3f5deab9",
+    "bytes_uncompressed": 1224372,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2020_ra_fhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2020_ra_fhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2020",
+      "rechnungsabschluss": "ra",
+      "haushalt": "fhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "9f11e0d35e066486c9313de2bb29fa3d0dfbb6a30ac30edd0f557426c2a931eb",
+    "bytes_uncompressed": 1557908,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2020_ra_fhh_statistik_at.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2020_ra_fhh_statistik_at.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2020",
+      "rechnungsabschluss": "ra",
+      "haushalt": "fhh",
+      "origin": "statistik_at"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "34f27b1db452e7f69412946b85a4b60e753d012ebcc05e2634b11326317e1343",
+    "bytes_uncompressed": 598229,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2020_ra_vhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2020_ra_vhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2020",
+      "rechnungsabschluss": "ra",
+      "haushalt": "vhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "d3338df774dda6a4d4b18e595d24dcd4460f62a326f9ab0b46460ce705179b63",
+    "bytes_uncompressed": 870100,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2021_ra_ehh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2021_ra_ehh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2021",
+      "rechnungsabschluss": "ra",
+      "haushalt": "ehh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "120825d7b9abafa381b06700e7cf40acbff9e0638377d198fdebc3e8a3c35c83",
+    "bytes_uncompressed": 1290719,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2021_ra_fhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2021_ra_fhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2021",
+      "rechnungsabschluss": "ra",
+      "haushalt": "fhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "752ad4f60b2969b0ff137feffee33d12ad484b5497a27a8a4a076650227d3822",
+    "bytes_uncompressed": 1530729,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2021_ra_fhh_statistik_at.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2021_ra_fhh_statistik_at.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2021",
+      "rechnungsabschluss": "ra",
+      "haushalt": "fhh",
+      "origin": "statistik_at"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "902b6e45819f108299507b006a46792f2997b1aec4b5f2d2d22342d483ce1c46",
+    "bytes_uncompressed": 564445,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2021_ra_vhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2021_ra_vhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2021",
+      "rechnungsabschluss": "ra",
+      "haushalt": "vhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "c25ad6680736fa8a499746adbcff0c9cc26c517eb4fd1bc38803d3ba72ca672b",
+    "bytes_uncompressed": 965983,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2021_va_ehh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2021_va_ehh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2021",
+      "rechnungsabschluss": "va",
+      "haushalt": "ehh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "b8afefc4cadfc63eaa1ce3b9ec3a94b43b3d4fc5f5dc8915d2be01bdc26464f2",
+    "bytes_uncompressed": 1079366,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2021_va_fhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2021_va_fhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2021",
+      "rechnungsabschluss": "va",
+      "haushalt": "fhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "ecc66ac19d3437e6c5883c35eb54334ae12f175518272488e5d0815388789458",
+    "bytes_uncompressed": 1365743,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2022_ra_ehh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2022_ra_ehh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2022",
+      "rechnungsabschluss": "ra",
+      "haushalt": "ehh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "5d4099bc47deae86b6f9828dda0838942a98ae821370831fdea60cd3c239237c",
+    "bytes_uncompressed": 1262705,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2022_ra_fhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2022_ra_fhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2022",
+      "rechnungsabschluss": "ra",
+      "haushalt": "fhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "49c9e4a0324da6ff7b60d3568cf6cf90588dffc163f166d50d17225ac6df74c7",
+    "bytes_uncompressed": 1518137,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2022_ra_fhh_statistik_at.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2022_ra_fhh_statistik_at.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2022",
+      "rechnungsabschluss": "ra",
+      "haushalt": "fhh",
+      "origin": "statistik_at"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "f78984394599238c94a672d1883fe3f815681d952e1ca1d38634bc4b78dae637",
+    "bytes_uncompressed": 563818,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2022_ra_vhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2022_ra_vhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2022",
+      "rechnungsabschluss": "ra",
+      "haushalt": "vhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "ab47ad4052e8f751999700694d987a59bd96373b2c2811813e82d26105c7958d",
+    "bytes_uncompressed": 1439379,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2022_va_ehh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2022_va_ehh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2022",
+      "rechnungsabschluss": "va",
+      "haushalt": "ehh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "65035f872af0f41ae5f93aa9f95d443dced34e54d031275391c0a037fbe23b46",
+    "bytes_uncompressed": 1147542,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2022_va_fhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2022_va_fhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2022",
+      "rechnungsabschluss": "va",
+      "haushalt": "fhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "00cf317954e4b023bafda8aa49449a1199bf3489d582539a538512a30335875a",
+    "bytes_uncompressed": 1369795,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2023_ra_ehh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2023_ra_ehh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2023",
+      "rechnungsabschluss": "ra",
+      "haushalt": "ehh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "7edcbab5f3e7e0363c8e19799215fffbfb0d8912f912d43ef5b1adb28c85981a",
+    "bytes_uncompressed": 1310171,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2023_ra_fhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2023_ra_fhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2023",
+      "rechnungsabschluss": "ra",
+      "haushalt": "fhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "bd6333148472e6e88f181282d298f9d1e43801084d2e5cc3d2c681de40bff939",
+    "bytes_uncompressed": 1571090,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2023_ra_fhh_statistik_at.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2023_ra_fhh_statistik_at.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2023",
+      "rechnungsabschluss": "ra",
+      "haushalt": "fhh",
+      "origin": "statistik_at"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "2f80dc4a512b8f1da659018fbe67e0a35b9980754a4de6a185cacee855741390",
+    "bytes_uncompressed": 566807,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2023_ra_vhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2023_ra_vhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2023",
+      "rechnungsabschluss": "ra",
+      "haushalt": "vhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "dd84376e158e9d6a8b2fab5f2a001d74e20bfec73fec231b1512443bd2a75740",
+    "bytes_uncompressed": 1400287,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2023_va_ehh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2023_va_ehh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2023",
+      "rechnungsabschluss": "va",
+      "haushalt": "ehh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "07711f22b88a8e93e7c17ea6495ea9087df5562f065e8cc694f17a21e5e56931",
+    "bytes_uncompressed": 1097977,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2023_va_fhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2023_va_fhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2023",
+      "rechnungsabschluss": "va",
+      "haushalt": "fhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "f4da819953615a0156f2d545baf9effa16a62931131cc4bdcd53a0b319c96fa5",
+    "bytes_uncompressed": 1252002,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2024_ra_ehh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2024_ra_ehh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2024",
+      "rechnungsabschluss": "ra",
+      "haushalt": "ehh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "6dd537b96640cfdbc36edba7c404562142431bc3d12716db8f0f5ae50497fc2e",
+    "bytes_uncompressed": 1289963,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2024_ra_fhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2024_ra_fhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2024",
+      "rechnungsabschluss": "ra",
+      "haushalt": "fhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "a6cf7c3d464218ea8ee7f05a78abf771d03529970a1b0ac6125ea9c0521eec62",
+    "bytes_uncompressed": 1583664,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2024_ra_fhh_statistik_at.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2024_ra_fhh_statistik_at.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2024",
+      "rechnungsabschluss": "ra",
+      "haushalt": "fhh",
+      "origin": "statistik_at"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "239301a50f8f6ecfbd8655db11f4b80d75fb17bd1c60a2de53d393c1d84761da",
+    "bytes_uncompressed": 591568,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2024_ra_vhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2024_ra_vhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2024",
+      "rechnungsabschluss": "ra",
+      "haushalt": "vhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "5871d45e3bf3d15d6d5c9d6001cffdb4d856ff0addf9bba5b8016a93f243fdca",
+    "bytes_uncompressed": 1353002,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2024_va_ehh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2024_va_ehh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2024",
+      "rechnungsabschluss": "va",
+      "haushalt": "ehh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "39fbe5039371da5db86ab2676737a907d95b17516b16ab2bc352176d5ce2cf47",
+    "bytes_uncompressed": 1150404,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2024_va_fhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2024_va_fhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2024",
+      "rechnungsabschluss": "va",
+      "haushalt": "fhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "a63bcbc3835715405a9f78758ade4c1e424d04e37950697523e9d6a1219079fa",
+    "bytes_uncompressed": 1392909,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2025_ra_ehh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2025_ra_ehh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2025",
+      "rechnungsabschluss": "ra",
+      "haushalt": "ehh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "6d649c6e42bdeadcd95c6b4cb19d2bb8045c625ec5fe6b83f1df84252bca03f4",
+    "bytes_uncompressed": 1299143,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2025_ra_fhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2025_ra_fhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2025",
+      "rechnungsabschluss": "ra",
+      "haushalt": "fhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "2fb95cfc2e054af4987082ede2ce98d044b5802220edc8874f406e69384e0be1",
+    "bytes_uncompressed": 1581041,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2025_ra_fhh_statistik_at.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2025_ra_fhh_statistik_at.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2025",
+      "rechnungsabschluss": "ra",
+      "haushalt": "fhh",
+      "origin": "statistik_at"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "9fd3736b070bfe1ae1e0ad4ea3dc5fc2767c80a2ae8d19d4bfd15f69ffd5eb3d",
+    "bytes_uncompressed": 581198,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2025_ra_vhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2025_ra_vhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2025",
+      "rechnungsabschluss": "ra",
+      "haushalt": "vhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "2dba51fe553683e84911469e3148182325982d22cd08542704a3d21374c188e7",
+    "bytes_uncompressed": 1342357,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2025_va_ehh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2025_va_ehh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2025",
+      "rechnungsabschluss": "va",
+      "haushalt": "ehh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "53786cb437fa94927f5e01ff413eea0003e224e9dbb0eb1710d7bf5503bd74ca",
+    "bytes_uncompressed": 1107142,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2025_va_fhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2025_va_fhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2025",
+      "rechnungsabschluss": "va",
+      "haushalt": "fhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "69ee22ea04b5a61a8935b3404028b77d1a5fc57c0f3d4a3e963dbda7cccef99d",
+    "bytes_uncompressed": 1278554,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2026_va_ehh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2026_va_ehh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2026",
+      "rechnungsabschluss": "va",
+      "haushalt": "ehh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "d4f824559399ac447cd90ce4610a750ee45397ed37c2f504e7b553215642a796",
+    "bytes_uncompressed": 1080878,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  },
+  "offenerhaushalt_90001_2026_va_fhh_gemeinde.csv.gz": {
+    "doc_id": "wien_ogd_haushalt/2026-11-15/offenerhaushalt_90001_2026_va_fhh_gemeinde.csv",
+    "source_id": "wien_ogd_haushalt",
+    "url": "https://www.offenerhaushalt.at/downloads/ghdByParams",
+    "form": {
+      "gkz": "90001",
+      "year": "2026",
+      "rechnungsabschluss": "va",
+      "haushalt": "fhh",
+      "origin": "gemeinde"
+    },
+    "retrieved_at": "2026-11-15",
+    "sha256_uncompressed": "bb8476ab057981eb218dfb6dc32e94d6b51b879a4401b8856fc4c43f9247332d",
+    "bytes_uncompressed": 1074295,
+    "licence": "CC BY 4.0, Offener Haushalt / KDZ (https://www.offenerhaushalt.at/impressum)",
+    "how": "Downloaded through the site's own download form in a browser, because automated requests receive a bot-check page"
+  }
+}

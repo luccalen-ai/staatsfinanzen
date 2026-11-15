@@ -10,10 +10,11 @@
 | 2026-11-15 | Presentation rule: most intuitive and visually beautiful form, five-second test, beauty never bends the data | Owner requirement |
 | 2026-11-15 | Benchmarks include non-EU peers and Austria against itself since 2019 | Owner request |
 | 2026-11-15 | Weekly dossier on one publicly owned business, drafted automatically, published only after verification, owner approval and right of reply | Owner request; regular publishable output |
+| 2026-11-15 | Dossiers published every two weeks for now; drafting stays weekly | A buffer of drafts, and the ten working days needed for the right of reply |
+| 2026-11-15 | Vienna's detailed files are downloaded by hand through the offenerhaushalt.at form and committed (CC BY 4.0) | The site blocks automated downloads; the owner chose a browser download over waiting for bulk access |
 
 ## Open
 
 - When to open the site to the public: from day one, or after the phase 1 gate and legal review
 - EU peer set: Germany, Netherlands, Denmark, Sweden proposed, not confirmed
 - Licences for code and data
-- Publication rhythm for dossiers: weekly or every two weeks

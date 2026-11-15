@@ -43,11 +43,21 @@ controls:
     source: https://www.parlament.gv.at/dokument/budgetdienst/budgetvollzug/BD-Vorlaeufiger-Gebarungserfolg-2025.pdf
 
   - id: wien_auszahlungen_2024
-    description: Vienna cash payments 2024 (central budget), Rechnungsabschluss
-    table: wien_ogd_haushalt/rechnungsabschluss_2024_*.parquet
-    filter: {}
-    column: null                 # column mapping for Vienna not fixed yet; reported, not checked
+    description: Vienna cash payments 2024 (central budget, Rechnungsabschluss), MVAG 32 + 34 + 36
+    table: wien_ogd_haushalt/wien_vrv2015.parquet
+    filter: {jahr: "2024", voranschlag_rechnungsabschluss: Rechnungsabschluss, datenquelle: Gemeinde, haushalt: Finanzierungshaushalt, mvag: "re:3[246]"}
+    column: wert
     multiplier: 1
     expected: 19930000000
-    tolerance: 0.01
+    tolerance: 0.005             # published figure is rounded to EUR 10 million
+    source: https://wien.gv.at/spezial/leistungsberichte/leistungsberichte-der-magistratsdienststellen/magistratsabteilung-5-finanzwesen/
+
+  - id: wien_einzahlungen_2024
+    description: Vienna cash receipts 2024 (central budget, Rechnungsabschluss), MVAG 31 + 33 + 35
+    table: wien_ogd_haushalt/wien_vrv2015.parquet
+    filter: {jahr: "2024", voranschlag_rechnungsabschluss: Rechnungsabschluss, datenquelle: Gemeinde, haushalt: Finanzierungshaushalt, mvag: "re:3[135]"}
+    column: wert
+    multiplier: 1
+    expected: 19980000000
+    tolerance: 0.005
     source: https://wien.gv.at/spezial/leistungsberichte/leistungsberichte-der-magistratsdienststellen/magistratsabteilung-5-finanzwesen/

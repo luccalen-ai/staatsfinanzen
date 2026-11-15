@@ -154,15 +154,15 @@ sources:
   # ---------- Vienna ----------
 
   - id: wien_ogd_haushalt
-    name: Vienna budget and accounts as open data (Voranschlag, Rechnungsabschluss)
-    publisher: Stadt Wien, via offenerhaushalt.at and data.gv.at
+    name: Vienna budget and accounts under VRV 2015 (Voranschlag, Rechnungsabschluss)
+    publisher: Stadt Wien and Statistik Austria, via offenerhaushalt.at (KDZ)
     url: https://www.offenerhaushalt.at/gemeinde/wien/downloads
-    provides: Voranschlag and Rechnungsabschluss from the city 2020-2026; Statistik Austria accounts back to 2009
-    format: CSV
+    provides: Accounts 2020-2025 (cash, accrual, balance sheet) and budgets 2021-2026 (cash, accrual) by Ansatz, Konto and MVAG; Statistik Austria version of the cash accounts 2020-2025
+    format: CSV (semicolon, decimal comma), 36 files, stored gzipped in data/manual/wien_ogd_haushalt/
+    licence: CC BY 4.0, attribution to Offener Haushalt / KDZ
     module: [money_map, rigidity]
-    licence: to_check
-    status: located
-    notes: offenerhaushalt.at blocks automated fetching in robots.txt. ingest/wien_haushalt.py finds the same datasets through the data.gv.at catalogue API instead. Check whether the files cover Wien as Land, as Gemeinde, or both.
+    status: verified
+    notes: Automated downloads get a bot-check page, so the files were downloaded through the site's form in a browser on 2026-11-15 and committed. Refresh by hand once a year when the new accounts are published. 2024 cash totals reproduce the city's published figures (receipts EUR 19.98 bn, payments EUR 19.93 bn).
 
   - id: wien_budget_pdf
     name: Vienna Voranschlag and Rechnungsabschluss (full documents)

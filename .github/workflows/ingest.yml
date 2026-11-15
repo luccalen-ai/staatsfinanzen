@@ -48,7 +48,7 @@ jobs:
       - name: Vienna budget and accounts
         if: env.FULL_RUN == 'true'
         continue-on-error: true
-        run: python -m ingest.wien_haushalt --years 2020-2026
+        run: python -m ingest.wien_haushalt --manual
 
       - name: Write report
         if: env.FULL_RUN == 'true'

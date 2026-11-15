@@ -16,10 +16,13 @@ Out:  data/staging/wien_haushalt/discovery.json and one parquet per file
 from __future__ import annotations
 
 import argparse
+import gzip
 import hashlib
 import io
 import json
 import re
+
+from pathlib import Path
 
 import pandas as pd
 import requests
@@ -151,10 +154,32 @@ def parse(raw: bytes | str) -> pd.DataFrame:
     return df
 
 
+MANUAL_DIR = Path(__file__).resolve().parents[1] / "data" / "manual" / SOURCE_ID
+
+
+def load_manual() -> None:
+    """Parse the files downloaded by hand into data/manual/ (see its manifest.json for provenance)."""
+    frames = []
+    for snapshot in sorted(MANUAL_DIR.glob("*/")):
+        manifest = json.loads((snapshot / "manifest.json").read_text())
+        for name, meta in manifest.items():
+            df = parse(gzip.decompress((snapshot / name).read_bytes()))
+            df["doc_id"] = meta["doc_id"]
+            frames.append(df)
+    df = pd.concat(frames, ignore_index=True)
+    out = staging_path(SOURCE_ID, "wien_vrv2015.parquet")
+    df.to_parquet(out, index=False)
+    print(f"{len(frames)} files, {len(df):,} rows -> {out}")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--years", default="2020-2026")
+    ap.add_argument("--manual", action="store_true", help="parse the hand-downloaded files in data/manual/")
     args = ap.parse_args()
+    if args.manual:
+        load_manual()
+        return
     first, last = (int(x) for x in args.years.split("-"))
 
     log: list[dict] = []

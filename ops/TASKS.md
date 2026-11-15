@@ -12,7 +12,9 @@
 - [x] Core schema in `models/schema.sql` (DuckDB), loads and seeds levels of government
 - [x] First real runs on GitHub (2026-11-15): federal budget 249,749 rows, Eurostat 199,920 rows; control checks pass for federal receipts 2024 and the 2024 spending ratio
 - [ ] Map BMF budget columns to the core schema (amounts are EUR million; hh = FH/EH, ae = 1 out / 2 in, kennzahl = BVA/Erfolg)
-- [ ] Get Vienna's detailed VRV 2015 files (blocked by a bot check, see ops/GAPS.md)
+- [x] Vienna's VRV 2015 files 2020-2026 in the repository (36 files, 221,974 rows); 2024 cash totals match the city's published figures
+- [ ] Split Vienna's figures into its Land and Gemeinde roles (method from Statistik Austria)
+- [ ] Yearly: refresh Vienna files by hand when the new Rechnungsabschluss is published (around June)
 - [ ] Start founding the Verein (statutes, board, advisory board with a public finance economist)
 - [ ] Ask about research access to anonymised Transparenzdatenbank data (§ 34 Abs. 2 TDBG 2012): which institutions qualify, whether a Verein can, or which research partner could apply
 - [ ] Decide licences for the project's own code and data
@@ -43,4 +45,4 @@ Gate: federal and Vienna detail reconcile to control totals.
 
 - [x] Agent prompt, template and backlog set up (2026-11-15)
 - [ ] First draft: Weingut Cobenzl
-- [ ] Decide publication rhythm: weekly or every two weeks
+- [x] Publication rhythm: every two weeks (drafting stays weekly)

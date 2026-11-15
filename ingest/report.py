@@ -46,7 +46,9 @@ def control_checks() -> list[str]:
             continue
         df = pd.concat(pd.read_parquet(p) for p in paths)
         for k, v in c["filter"].items():
-            df = df[df[k].astype(str) == str(v)]
+            col = df[k].astype(str)
+            # "re:<pattern>" matches by regular expression, anything else by exact value
+            df = df[col.str.match(str(v)[3:])] if str(v).startswith("re:") else df[col == str(v)]
         if df.empty:
             lines.append(f"| {c['id']} | {c['expected']:,.1f} | no matching rows | | skipped |")
             continue
@@ -58,7 +60,7 @@ def control_checks() -> list[str]:
 
 
 def main() -> None:
-    lines = [f"# Ingest report", "", f"Generated {dt.datetime.utcnow():%Y-%m-%d %H:%M} UTC by the `ingest` workflow.", ""]
+    lines = [f"# Ingest report", "", f"Generated {dt.datetime.now(dt.timezone.utc):%Y-%m-%d %H:%M} UTC by the `ingest` workflow.", ""]
 
     lines += ["## Downloaded files", "", "| File | Bytes | SHA-256 | URL |", "| --- | --- | --- | --- |"]
     for manifest in sorted(RAW_DIR.glob("*/*/manifest.json")):

@@ -1,6 +1,6 @@
 # Dossier backlog: publicly owned businesses
 
-One dossier is drafted each week; publication weekly or every two weeks after approval.
+One dossier is drafted each week; one is published every two weeks after approval.
 Status: `queued` → `drafted` → `verified` → `response_requested` → `published` (or `parked` with a reason).
 
 Selection criteria, in order: size of public money involved; open questions in the public record (audit reports, council debates, press); availability of data; spread across owners (Bund, Wien, other Länder) and sectors.
