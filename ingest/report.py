@@ -71,6 +71,9 @@ def main() -> None:
         lines += ["## Vienna catalogue attempts", "", "| Endpoint | OK | Items or error |", "| --- | --- | --- |"]
         for a in json.loads(log_path.read_text()):
             lines.append(f"| {a['endpoint']} | {a['ok']} | {a.get('items', a.get('error', ''))} |".replace("\n", " "))
+        heads = [a for a in json.loads(log_path.read_text()) if a.get("head")]
+        if heads:
+            lines += ["", "First bytes returned by the first failed download:", "", "```", heads[0]["head"], "```"]
         lines.append("")
 
     lines += control_checks()

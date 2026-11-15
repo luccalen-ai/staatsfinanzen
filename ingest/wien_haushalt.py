@@ -113,7 +113,8 @@ def select(candidates: list[dict], years: range) -> list[dict]:
         title, url = c["dataset_title"], c.get("url")
         if not url or "csv" not in (c.get("format") or "").lower():
             continue
-        if not re.search(r"\bWien\b", title):
+        # Vienna itself only: "Rechnungsabschluss Wien 2024 (Gemeinde)", not "... Breitenfurt bei Wien ..."
+        if not re.match(r"^(Rechnungsabschluss|Voranschlag) Wien (20\d\d)\b", title):
             continue
         year_match = re.search(r"(20\d\d)", title)
         if not year_match or int(year_match.group(1)) not in years:
@@ -168,13 +169,19 @@ def main() -> None:
         name = f"{res['kind']}_{res['year']}_{url_tag}.csv"
         try:
             raw_path = download(SOURCE_ID, res["url"], name)
-            df = parse(raw_path.read_bytes())
+            raw = raw_path.read_bytes()
+            if raw.lstrip()[:15].lower().startswith((b"<!doctype", b"<html")):
+                raise ValueError("server returned an HTML page, not CSV")
+            df = parse(raw)
         except Exception as exc:  # noqa: BLE001 - one bad file must not stop the others
+            head = raw_path.read_bytes()[:400].decode("utf-8", "replace") if "raw_path" in locals() and raw_path.exists() else ""
+            log.append({"endpoint": res["url"], "ok": False, "error": f"{exc}"[:200], "head": head})
             print(f"FAILED {res['url']}: {exc}")
             continue
         df["kind"], df["year"], df["source_url"] = res["kind"], res["year"], res["url"]
         df.to_parquet(staging_path(SOURCE_ID, name.replace(".csv", ".parquet")), index=False)
         print(f"{name}: {len(df):,} rows, amounts in {df.attrs['amount_columns']}")
+    staging_path(SOURCE_ID, "discovery_log.json").write_text(json.dumps(log, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":

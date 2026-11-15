@@ -32,6 +32,16 @@ controls:
     tolerance: 0.01
     source: https://www.parlament.gv.at/dokument/budgetdienst/budgetvollzug/BD-Vorlaeufiger-Gebarungserfolg-2025.pdf
 
+  - id: gesamtstaat_ausgabenquote_2024
+    description: General government expenditure ratio 2024, % of GDP (implied by the 2025 report, 55.2 % after a fall of 0.1 points)
+    table: eurostat_cofog/gov_10a_exp.parquet
+    filter: {geo: AT, sector: S13, cofog_code: TOTAL, na_item: TE, unit: PC_GDP, year: 2024}
+    column: pct_gdp
+    multiplier: 1
+    expected: 55.3
+    tolerance: 0.02              # Eurostat vintage may predate the March 2026 GDP revision
+    source: https://www.parlament.gv.at/dokument/budgetdienst/budgetvollzug/BD-Vorlaeufiger-Gebarungserfolg-2025.pdf
+
   - id: wien_auszahlungen_2024
     description: Vienna cash payments 2024 (central budget), Rechnungsabschluss
     table: wien_ogd_haushalt/rechnungsabschluss_2024_*.parquet
