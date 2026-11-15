@@ -1,3 +1,4 @@
+import pandas as pd
 """Offline tests for the ingest parsers and the core schema. Run: pytest -q"""
 
 from pathlib import Path
@@ -77,3 +78,12 @@ def test_wien_parse_keeps_codes_and_finds_amounts():
     assert df.soll.iloc[0] == pytest.approx(1_234_567.89)
     assert df.ist.iloc[1] == pytest.approx(-12.5)
     assert df.soll.iloc[2] != df.soll.iloc[2]  # empty -> NaN
+
+
+def test_beteiligungen_parse():
+    from ingest.bmf_beteiligungen import parse
+    raw = "Name;Eigentümer;Umsatz 2025;Firmenbuch\nÖBB-Holding AG;BMIMI;1.234,5;FN 247642f\nAbc GmbH;BMF;-12,0;FN 012345a\n".encode("cp1252")
+    df = parse(raw)
+    assert list(df.columns)[:4] == ["name", "eigentumer", "umsatz_2025", "firmenbuch"]
+    assert df["umsatz_2025"].tolist() == [1234.5, -12.0]
+    assert not pd.api.types.is_numeric_dtype(df["firmenbuch"])
