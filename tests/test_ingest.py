@@ -87,3 +87,23 @@ def test_beteiligungen_parse():
     assert list(df.columns)[:4] == ["name", "eigentumer", "umsatz_2025", "firmenbuch"]
     assert df["umsatz_2025"].tolist() == [1234.5, -12.0]
     assert not pd.api.types.is_numeric_dtype(df["firmenbuch"])
+
+
+def test_cost_trace(tmp_path):
+    from analysis.cost_trace import trace
+    rows = []
+    base = dict(datenquelle="Gemeinde", ansatz_text="Landwirtschaftsbetrieb", konto_grp="", konto_text="x",
+                endstand_rj=None, zugang=None, abgang=None)
+    rows.append({**base, "jahr": "2025", "ansatz_uab": "862", "haushalt": "Finanzierungshaushalt",
+                 "voranschlag_rechnungsabschluss": "Rechnungsabschluss", "mvag": "3116", "wert": 5e6})
+    rows.append({**base, "jahr": "2025", "ansatz_uab": "862", "haushalt": "Finanzierungshaushalt",
+                 "voranschlag_rechnungsabschluss": "Rechnungsabschluss", "mvag": "3221", "wert": 6e6})
+    rows.append({**base, "jahr": "2024", "ansatz_uab": "866", "ansatz_text": "Stadtforste", "haushalt": "Finanzierungshaushalt",
+                 "voranschlag_rechnungsabschluss": "Rechnungsabschluss", "mvag": "3413", "konto_text": "Gebäude und Bauten", "wert": 13.59e6})
+    p = tmp_path / "t.parquet"
+    pd.DataFrame(rows).to_parquet(p)
+    text = trace(["862"], [], [13.5e6], table=p)
+    assert "-1.00" in text            # operating balance 5 - 6
+    assert "Gebäude und Bauten" in text and "13.59" in text
+    import re
+    assert re.search(r"\|\s+2025 \|", text) and "2025.00" not in text

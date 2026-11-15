@@ -1,6 +1,6 @@
 # Dossier backlog: publicly owned businesses
 
-One dossier is drafted each week; one is published every two weeks after approval.
+Pre-launch: dossiers are drafted on demand until a few examples are approved; then one is drafted each week and one published every week or two. The weekly scheduled draft is paused until then.
 Status: `queued` → `drafted` → `verified` → `response_requested` → `published` (or `parked` with a reason).
 
 Selection criteria, in order: size of public money involved; open questions in the public record (audit reports, council debates, press); availability of data; spread across owners (Bund, Wien, other Länder) and sectors.
@@ -9,7 +9,7 @@ Entries are candidates, not findings. The notes record why an entity is on the l
 
 | # | Entity | Owner | Why it is on the list | Start with | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Weingut Cobenzl | Stadt Wien (owned since 1907, run inside MA 49, not a company) | City-run commercial winery; questions in 2026 about its organic certification; the city paid a former lessee of the neighbouring Cobenzl site about EUR 13.5 m for building investments | Vienna accounts, Ansatz 862 Landwirtschaftsbetrieb (all MA 49 farms, not the winery alone): operating receipts EUR 4.97 m vs payments EUR 5.87 m in 2025, deficit EUR 0.5-1.4 m a year 2020-2025; goods sold EUR 3.1-4.0 m. Check which costs sit elsewhere (Beamte, overheads, buildings), where the EUR 13.5 m payment was booked (likely Ansatz 866 or real estate), and ask MA 49 for the winery's own figures. Then council minutes, Stadtrechnungshof, press. Research note: `dossiers/research/cobenzl-cost-trace.md` | queued |
+| 1 | Weingut Cobenzl | Stadt Wien (owned since 1907, run inside MA 49, not a company) | City-run commercial winery; questions in 2026 about its organic certification; the city paid a former lessee of the neighbouring Cobenzl site about EUR 13.5 m for building investments | Vienna accounts, Ansatz 862 Landwirtschaftsbetrieb (all MA 49 farms, not the winery alone): operating receipts EUR 4.97 m vs payments EUR 5.87 m in 2025, deficit EUR 0.5-1.4 m a year 2020-2025; goods sold EUR 3.1-4.0 m. Check which costs sit elsewhere (Beamte, overheads, buildings), where the EUR 13.5 m payment was booked (likely Ansatz 866 or real estate), and ask MA 49 for the winery's own figures. Then council minutes, Stadtrechnungshof, press. Research note: `dossiers/research/cobenzl-cost-trace.md` | drafted: `dossiers/drafts/2026-11-15-weingut-cobenzl.md` (verifier pass pending) |
 | 2 | Wien Holding GmbH (group) | Stadt Wien (99.99 %) | Largest city holding: culture, real estate, logistics, media; many subsidiaries | Beteiligungsbericht der Stadt Wien, Wien Holding annual reports | queued |
 | 3 | Wiener Festwochen GesmbH | Stadt Wien (100 %) | Festival company wholly owned by the city | Beteiligungsbericht, Förderbericht, Kunst und Kultur budget lines | queued |
 | 4 | Stadt Wien Marketing GmbH | Stadt Wien | Marketing company directly owned by the city | Beteiligungsbericht, Medientransparenz data | queued |

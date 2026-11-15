@@ -52,7 +52,7 @@ Gate: federal and Vienna detail reconcile to control totals.
 
 - [x] Agent prompt, template and backlog set up (2026-11-15)
 - [x] Cobenzl cost trace across Vienna's accounts (2026-11-15): `dossiers/research/cobenzl-cost-trace.md`; cost-trace step added to the dossier method
-- [ ] Draft the information request to MA 49 for the winery's own figures (six questions in the research note); owner approval before sending
-- [ ] Write a reusable cost-trace query script for Vienna lines (assets, disposals, matching one-off amounts, budget against actual)
-- [ ] First draft: Weingut Cobenzl
+- [x] Information request to MA 49 drafted (2026-11-15): `dossiers/drafts/2026-11-15-weingut-cobenzl-ifg.md`. Not sent; needs the Verein's name and ZVR number and owner approval
+- [x] Cost-trace script `analysis/cost_trace.py` (seven checks; tested)
+- [x] First draft: Weingut Cobenzl (2026-11-15), verifier pass running
 - [x] Publication rhythm: every two weeks (drafting stays weekly)
