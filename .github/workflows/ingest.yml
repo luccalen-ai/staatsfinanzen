@@ -1,34 +1,66 @@
 name: ingest
 
-# Runs the offline tests, then downloads and parses the sources.
-# Staging tables are uploaded as a build artifact (data is not committed to git).
+# Runs the offline tests, then downloads and parses the sources, then commits a short report
+# (ops/ingest_report.md) so the result can be reviewed without the data itself.
+# Data is not committed; staging tables are kept as a build artifact for 30 days.
+#
+# Full runs: manual (Actions tab > ingest > Run workflow), weekly, or any push whose
+# commit message contains [ingest]. Other pushes to ingest/models/tests only run the tests.
 
 on:
   workflow_dispatch:
   schedule:
     - cron: "17 4 * * 1"   # Mondays 04:17 UTC
   push:
-    paths: ["ingest/**", "models/**", "tests/**"]
+    branches: [main]
+    paths: ["ingest/**", "models/**", "tests/**", ".github/workflows/ingest.yml"]
+
+permissions:
+  contents: write
 
 jobs:
   ingest:
     runs-on: ubuntu-latest
+    env:
+      FULL_RUN: ${{ github.event_name != 'push' || contains(github.event.head_commit.message, '[ingest]') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install duckdb pandas pyarrow pdfplumber requests pyyaml pytest
+
       - name: Offline tests
         run: python -m pytest -q
+
       - name: Eurostat COFOG
-        if: github.event_name != 'push'
+        if: env.FULL_RUN == 'true'
+        continue-on-error: true
         run: python -m ingest.eurostat_cofog --start 2015
       - name: BMF federal budget
-        if: github.event_name != 'push'
+        if: env.FULL_RUN == 'true'
+        continue-on-error: true
         run: python -m ingest.bmf_budget_csv
+      - name: Vienna budget and accounts
+        if: env.FULL_RUN == 'true'
+        continue-on-error: true
+        run: python -m ingest.wien_haushalt --years 2020-2026
+
+      - name: Write report
+        if: env.FULL_RUN == 'true'
+        run: python -m ingest.report
+
+      - name: Commit report
+        if: env.FULL_RUN == 'true'
+        run: |
+          git config user.name "ingest-bot"
+          git config user.email "ingest-bot@users.noreply.github.com"
+          git add ops/ingest_report.md
+          git diff --cached --quiet || git commit -m "Ingest report $(date -u +%Y-%m-%d) [skip ci]"
+          git push
+
       - name: Upload staging tables and raw manifests
-        if: github.event_name != 'push'
+        if: env.FULL_RUN == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: staging-${{ github.run_id }}

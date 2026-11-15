@@ -67,3 +67,13 @@ def test_bmf_rejects_text_in_amounts():
 def test_bmf_requires_amount_column():
     with pytest.raises(ValueError, match="No amount column"):
         bmf_budget_csv.parse("Konto;Name\n1;x\n")
+
+
+def test_wien_parse_keeps_codes_and_finds_amounts():
+    from ingest import wien_haushalt
+    df = wien_haushalt.parse((FIXTURES / "wien_ra_sample.csv").read_bytes())
+    assert df.attrs["amount_columns"] == ["soll", "ist"]
+    assert df.ansatz_uab.iloc[0] == "000" and df.konto.iloc[1] == "7280"  # leading zeros kept
+    assert df.soll.iloc[0] == pytest.approx(1_234_567.89)
+    assert df.ist.iloc[1] == pytest.approx(-12.5)
+    assert df.soll.iloc[2] != df.soll.iloc[2]  # empty -> NaN

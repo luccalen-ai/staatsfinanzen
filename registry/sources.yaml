@@ -162,7 +162,7 @@ sources:
     module: [money_map, rigidity]
     licence: to_check
     status: located
-    notes: offenerhaushalt.at blocks automated fetching in robots.txt. Use the same datasets through data.gv.at, where they are mirrored. Check whether the files cover Wien as Land, as Gemeinde, or both.
+    notes: offenerhaushalt.at blocks automated fetching in robots.txt. ingest/wien_haushalt.py finds the same datasets through the data.gv.at catalogue API instead. Check whether the files cover Wien as Land, as Gemeinde, or both.
 
   - id: wien_budget_pdf
     name: Vienna Voranschlag and Rechnungsabschluss (full documents)
