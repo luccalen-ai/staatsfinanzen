@@ -41,6 +41,10 @@ jobs:
         if: env.FULL_RUN == 'true'
         continue-on-error: true
         run: python -m ingest.bmf_budget_csv
+      - name: BMF execution Bund and Länder
+        if: env.FULL_RUN == 'true'
+        continue-on-error: true
+        run: python -m ingest.bmf_execution_bund_laender
       - name: Vienna budget and accounts
         if: env.FULL_RUN == 'true'
         continue-on-error: true

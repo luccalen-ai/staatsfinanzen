@@ -10,7 +10,9 @@
 - [ ] Open each `located` source before writing its ingest script; record format, licence and update cycle
 - [ ] Find the data.gv.at entries for the BMF CSVs and Vienna's files, and record their licences
 - [x] Core schema in `models/schema.sql` (DuckDB), loads and seeds levels of government
-- [ ] Read the first real BMF budget file and tighten the column mapping in `ingest/bmf_budget_csv.py`
+- [x] First real runs on GitHub (2026-11-15): federal budget 249,749 rows, Eurostat 199,920 rows; control checks pass for federal receipts 2024 and the 2024 spending ratio
+- [ ] Map BMF budget columns to the core schema (amounts are EUR million; hh = FH/EH, ae = 1 out / 2 in, kennzahl = BVA/Erfolg)
+- [ ] Get Vienna's detailed VRV 2015 files (blocked by a bot check, see ops/GAPS.md)
 - [ ] Start founding the Verein (statutes, board, advisory board with a public finance economist)
 - [ ] Ask about research access to anonymised Transparenzdatenbank data (§ 34 Abs. 2 TDBG 2012): which institutions qualify, whether a Verein can, or which research partner could apply
 - [ ] Decide licences for the project's own code and data
