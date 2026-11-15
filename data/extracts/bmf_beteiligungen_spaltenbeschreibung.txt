@@ -1,0 +1,73 @@
+CSV-Daten Beteiligungsbericht (§ 42 Abs. 5
+BHG 2013)
+1. Technische Spezifikationen ............................................................................................... 1
+2. Spaltenbeschreibung ......................................................................................................... 2
+1. Technische Spezifikationen
+• Dateiformat: CSV (Dateiendung .csv)
+• Zeichensatz: UTF-8
+• Trennzeichen: Semikolon (;)
+• Dezimaltrennzeichen: Komma (,)
+2. Spaltenbeschreibung
+Spaltenname Beschreibung
+Bezeichnung Name der Beteiligung
+Kurzbezeichnung Kurzbezeichnung der Beteiligung
+Gruppe_Beteiligungen Die einzelnen Museen und Universitäten werden zu einer Einhei-
+ten-Gruppe zusammengefasst:
+• Universitäten (gesamt) -> Gruppe
+• Universität (Einheit) -> einzelne Universität
+• Bundesmuseen (gesamt) -> Gruppe
+• Bundesmuseum (Einheit)
+ESVG_Sektor Zuordnung einer Beteiligung zum Öffentlichen Sektor gem. ESVG:
+• S.1311 (Bundessektor)
+• S.12 (Finanzielle Kapitalgesellschaften)
+• S.11 (Nichtfinanzielle Kapitalgesellschaften)
+Bereich Einteilung der Beteiligungen nach dem operativen Schwerpunkt:
+• Infrastruktur
+• Bildung & Forschung
+• Finanzen & Beteiligungsmanagement
+• Förderstellen
+• Kultur
+• Aufsicht & Regulierung
+• Daten & Analyse
+• Shared Services & Sonstige Dienstleister
+Eigentümervertreter1 Eigentümervertreter (Ressort)
+Eigentümervertreter2 2. Eigentümervertreter (Ressort), falls vorhanden
+Eigentümervertreter3 3. Eigentümervertreter (Ressort), falls vorhanden
+Bundesanteil Bundesanteil in %
+Kennzahl_Kategorie Einteilung der Kennzahlen nach:
+• Finanzkennzahl
+• Unternehmenskennzahl
+Kennzahl_Typ Unterteilung der „Kennzahl_Kategorie“ nach Typen:
+• Finanzkennzahl:
+o Auszahlung
+o Einzahlung
+• Unternehmenskennzahl:
+o Gewinn und Verlustrechnung (GuV)
+o Bilanz
+o Weitere Kennzahlen
+o Unternehmensspezifische Kennzahlen
+CSV-Daten Beteiligungsbericht (§ 42 Abs. 5 BHG 2013); Stand 25.06.2026 2 von 3
+Kennzahl_Name Name der Kennzahl
+Geschäftsjahr Geschäftsjahr
+Einheit Angegebene Einheit wie zB. Mio. €, %, VZÄ, usw.
+Datenart Finanzkennzahl:
+• Erfolg
+• BVA-E
+• BVA
+• vErfolg
+• Erfolg
+Unternehmenskennzahl und Unternehmensspezifische Kennzahl:
+• Jahresabschluss
+Wert Wert/Betrag
+UGNr_Finanzfluss Nummer der Untergliederung, in der die Auszahlung an die Beteili-
+gung und die Einzahlung von der Beteiligung erfolgt
+Untergliederung_Finanzfluss Nummer und Name der Untergliederung, in der die Auszahlung an
+die Beteiligung und die Einzahlung von der Beteiligung erfolgt
+Gebarung Unterscheidung der Finanzkennzahlen in:
+• Allgemeine Gebarung - ohne UG 23 Pensionen - Beamtin-
+nen und Beamte
+• Allgemeine Gebarung - UG 23 Pensionen - Beamtinnen und
+Beamte
+• Personalämter
+Datenstand Datenstand zum Beteiligungsbericht
+CSV-Daten Beteiligungsbericht (§ 42 Abs. 5 BHG 2013); Stand 25.06.2026 3 von 3

@@ -1,14 +1,21 @@
 # Ingest report
 
-Generated 2026-11-15 12:04 UTC by the `ingest` workflow.
+Generated 2026-11-15 12:43 UTC by the `ingest` workflow.
 
 ## Downloaded files
 
 | File | Bytes | SHA-256 | URL |
 | --- | --- | --- | --- |
+| bmf_beteiligungsbericht/2026-11-15/Beteiligungsbericht_2027_2028.csv | 2,666,413 | `0c4f5fa84167` | https://www.bmf.gv.at/dam/jcr:80655f7f-dc57-4f1c-b4b9-11fbb14edc6d/Beteiligungsbericht_2027_2028.csv |
+| bmf_beteiligungsbericht/2026-11-15/Beteiligungsbericht_2027_2028_Tabellen.xlsx | 140,508 | `cb6d16abd91b` | https://www.bmf.gv.at/dam/jcr:82231825-7698-42e1-9a15-2a9d558d1339/Beteiligungsbericht_2027_2028_Tabellen.xlsx |
+| bmf_beteiligungsbericht/2026-11-15/Spaltenbeschreibung_2027_2028.pdf | 292,280 | `7d2ccef07f63` | https://www.bmf.gv.at/dam/jcr:e2c103dd-d7ce-4853-8fb8-589ac853aca7/Spaltenbeschreibung_Beteilligungen_CSV_2027_2028.pdf |
 | bmf_budget_csv/2026-11-15/Bundeshaushalt_Budget_2024_bis_2028.csv | 79,957,091 | `e49cfc0606f9` | https://www.bmf.gv.at/dam/jcr:57d34c8f-f064-4499-8ea1-138d18fe21a9/Bundeshaushalt_Budget_2024_bis_2028.csv |
 | bmf_execution_bund_laender/2026-11-15/Monatlicher_Vollzug_Bund_Laender_2025_2026.csv | 356,092 | `fe8d1755f366` | https://www.bmf.gv.at/dam/jcr:fd99743f-d0ec-47b5-9a96-ef0ef81c4322/Monatlicher_Vollzug_Bund_Laender_2025_2026.csv |
 | eurostat_cofog/2026-11-15/gov_10a_exp.csv | 20,598,701 | `496fc8b0ea29` | https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/gov_10a_exp/A.MIO_EUR+PC_GDP.S13+S1311+S1312+S1313+S1314..TE+D1+P2+D62_D632+D3+D7+P5+D9.AT+DE+NL+DK+SE+EU27_2020?format=SDMX-CSV&startPeriod=2015 |
+| wien_beteiligungsbericht/2026-11-15/2024_uebersicht_5162233.pdf | 228,455 | `e476aa72d17d` | https://digital.wienbibliothek.at/download/pdf/5162233.pdf |
+| wien_beteiligungsbericht/2026-11-15/2024_portfolio_5162270.pdf | 298,383 | `9fb848d0ffa2` | https://digital.wienbibliothek.at/download/pdf/5162270.pdf |
+| wien_beteiligungsbericht/2026-11-15/2024_struktur_5162230.pdf | 29,450 | `c2aad76c1f31` | https://digital.wienbibliothek.at/download/pdf/5162230.pdf |
+| wien_beteiligungsbericht/2026-11-15/2023_uebersicht_5162143.pdf | 269,873 | `b339fb585528` | https://digital.wienbibliothek.at/download/pdf/5162143.pdf |
 
 ## Control totals
 
@@ -22,6 +29,36 @@ Generated 2026-11-15 12:04 UTC by the `ingest` workflow.
 | wien_einzahlungen_2024 | 19,980,000,000.0 | 19,981,655,418.4 | +0.01% | pass |
 
 ## Staging tables
+
+### `bmf_beteiligungsbericht/beteiligungen_2027_2028.parquet`
+
+9,381 rows, 21 columns.
+
+| Column | Type | Non-empty | Example values |
+| --- | --- | --- | --- |
+| bezeichnung | str | 9,381 | Rundfunk- und Telekom RegulierungsGmbH, Statistik Österreich, Wiener Zeitung GmbH, KZ-Gedenkstätte Mauthausen/Mauthausen |
+| kurzbezeichnung | str | 9,381 | RTR, STATA, WienerZeitung, KZ Mauthausen |
+| gruppe_beteiligungen | str | 9,381 | nein, Universitäten (Einheit), Bundesmuseen (Einheit), Universitäten (gesamt) |
+| esvg_sektor | str | 9,381 | S.1311, S.11, S.1314, S.12 |
+| bereich | str | 9,381 | Aufsicht & Regulierung, Daten & Analyse, Kultur, Förderstelle |
+| eigentumervertreter1 | str | 9,381 | Bundesministerium für Wohnen, Kunst, Kultur, Medien und Sport (BMWKMS), Bundeskanzleramt (BKA), Bundesministerium für In |
+| eigentumervertreter2 | str | 9,381 | , Bundesministerium für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und Wasserwirtschaft (BMLUK), Bunde |
+| eigentumervertreter3 | str | 9,381 | , Bundesministerium für Wirtschaft, Energie und Tourismus (BMWET) |
+| bundesanteil | float64 | 9,381 | 1.0, 0.51, 0.55, 0.5 |
+| kennzahl_kategorie | str | 9,381 | Unternehmenskennzahl, Finanzkennzahl |
+| kennzahl_typ | str | 9,381 | GuV, Bilanz, Weiere Kennzahlen, Auszahlungen |
+| kennzahl_name | str | 9,381 | Umsatzerlöse, Eigenmittel, Rückstellungen, Verbindlichkeiten |
+| geschaftsjahr | int64 | 9,381 | 2021, 2022, 2023, 2024 |
+| einheit | str | 9,381 | Mio. €, %, VZÄ, GWh |
+| datenart | str | 9,381 | Jahresabschluss, Erfolg, BVA, BVA-E |
+| wert | float64 | 9,381 | 15.509, 16.247, 19.217, 25.04 |
+| ugnr_finanzfluss | float64 | 2,319 | 17.0, 10.0, 15.0, 42.0 |
+| untergliederung_finanzfluss | str | 9,381 | , UG 17 Wohnen, Medien, Telekommunikation und Sport, UG 10 Bundeskanzleramt, UG 15 Finanzverwaltung |
+| gebarung | str | 9,381 | , Allgemeine Gebarung - ohne UG 23 Pensionen - Beamtinnen und Beamte, Personalämter, Allgemeine Gebarung - UG 23 Pension |
+| datenstand | int64 | 9,381 | 25062026 |
+| source_id | str | 9,381 | bmf_beteiligungsbericht |
+
+Numeric sums: bundesanteil = 9,064.79, geschaftsjahr = 18,980,488.00, wert = 7,015,551.32, ugnr_finanzfluss = 70,388.00, datenstand = 235,106,865,906.00
 
 ### `bmf_budget_csv/budget_2024_2028.parquet`
 
