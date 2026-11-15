@@ -14,6 +14,7 @@
 | 2026-11-15 | Vienna's detailed files are downloaded by hand through the offenerhaushalt.at form and committed (CC BY 4.0) | The site blocks automated downloads; the owner chose a browser download over waiting for bulk access |
 | 2026-11-15 | The private prototype dashboard uses ranked bars, not treemaps; the three levels are shown side by side and never added | Bars are easier to read and compare at a glance; ESVG, federal budget law and VRV 2015 totals are not additive |
 | 2026-11-15 | Focus: individual cases of public enterprises, Förderungen and transfers, with net cost and benefit to citizens, plus a public ledger of all publicly owned businesses. The platform argues for cuts where the facts show spending without public benefit; the conclusion follows the facts | Owner direction. Master prompt version 2 |
+| 2026-11-15 | Every dossier traces costs booked outside the entity's own line (section "Wo die Kosten stehen") and reports visible, additional and unquantified costs | Owner request: show how budget structures can obscure the full cost; describe what the accounts show, without alleging intent |
 
 ## Open
 

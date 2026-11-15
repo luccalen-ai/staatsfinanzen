@@ -19,6 +19,9 @@ Stand: <Datum> · Status: Entwurf, nicht veröffentlicht
 ## Was das Unternehmen tut und warum es öffentlich ist
 ## Geldflüsse zwischen Eigentümer und Unternehmen
 <Tabelle Jahr für Jahr: Zuflüsse, Rückflüsse, Saldo, Quelle je Zeile. Dazu eine Grafik.>
+## Wo die Kosten stehen
+Alle Stellen, an denen Kosten oder Werte des Unternehmens außerhalb seiner eigenen Zahlen liegen: andere Ansätze oder Untergliederungen, zentral getragene Pensionen und Verwaltungsleistungen, unentgeltlich genutzte Grundstücke und Gebäude, Vermögensabgänge, Käufe der eigenen Gebietskörperschaft, Haftungen. Jede Stelle mit Betrag, Quelle und offener Frage. Am Ende: sichtbare Kosten, zusätzlich nachweisbare Kosten, nicht bezifferbare Kosten.
+
 ## Wirtschaftliche Entwicklung
 ## Was Kontrollinstanzen festgestellt haben
 ## Einordnung und Vergleich

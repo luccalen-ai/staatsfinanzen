@@ -17,9 +17,10 @@
 4. Performance: revenue, result, staff, assets, for as many years as published.
 5. What the official record says: Rechnungshof and Stadtrechnungshof reports, Landesrechnungshof, parliamentary or council questions and answers, Förderbericht entries.
 6. Comparison where fair: similar private or public businesses, with the limits of the comparison stated.
-7. Net cost to the taxpayer and what it buys: public money in minus money back, per year and per resident, set against the public task the owner states and any outcome the record shows (visitors, users, jobs, protected land). If the record shows no measurable benefit for the money, say so; if it shows one, say that too.
-8. Ledger row: fill the fields of `registry/public_enterprises_manual.csv` for this entity (the generated ledger `registry/public_enterprises.csv` merges it).
-9. Open questions.
+7. Cost trace: search every other budget line for costs and assets that belong to the entity but are booked elsewhere. Checklist: (a) is it a company or run inside a department, and which budget lines carry it; (b) shared lines with other activities; (c) land and buildings used without rent, at book value and at market value where a comparison exists; (d) asset disposals and transfers; (e) one-off payments on other lines (search the accounts for matching amounts and the press for the events); (f) pensions, IT, legal, procurement and building services carried centrally; (g) revenue from the owner itself; (h) guarantees and liabilities. Budget against actual for each line. Write it up in the section "Wo die Kosten stehen". Describe what the accounts show; never call it hiding unless an audit body has said so. Start from any note in `dossiers/research/`.
+8. Net cost to the taxpayer and what it buys: public money in minus money back, per year and per resident, set against the public task the owner states and any outcome the record shows (visitors, users, jobs, protected land). If the record shows no measurable benefit for the money, say so; if it shows one, say that too.
+9. Ledger row: fill the fields of `registry/public_enterprises_manual.csv` for this entity (the generated ledger `registry/public_enterprises.csv` merges it).
+10. Open questions.
 
 **Rules**
 - Every number has a source and year. No figure from memory, no estimate presented as fact.
