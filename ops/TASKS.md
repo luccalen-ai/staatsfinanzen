@@ -46,10 +46,13 @@ Gate: federal and Vienna detail reconcile to control totals.
 
 - [x] Ledger seeded (2026-11-15): 102 federal holdings (BMF CSV, 2025, EUR 13.52 bn paid in, EUR 1.82 bn back) and 30 direct Vienna holdings (Beteiligungsbericht 2024, business year 2023, EUR 1.50 bn subsidies). `models/ledger.py` rebuilds it in every full run
 - [x] Ledger section on the dashboard: top recipients for Bund and Wien, full table
-- [ ] Find Vienna's Beteiligungsbericht 2025 (business year 2024) and the city's payments for services to its companies, not only subsidies
+- [ ] Find Vienna's Beteiligungsbericht 2025 (business year 2024; not found in the Wienbibliothek archive on 2026-11-15) and the city's payments for services to its companies, not only subsidies
 - [ ] Add per-resident figures to the ledger (population from Statistik Austria)
 - [ ] Add city enterprises without a company (MA 49 farms incl. Weingut Cobenzl, Wiener Wohnen, WIGEV) from the VRV budget lines
 
 - [x] Agent prompt, template and backlog set up (2026-11-15)
+- [x] Cobenzl cost trace across Vienna's accounts (2026-11-15): `dossiers/research/cobenzl-cost-trace.md`; cost-trace step added to the dossier method
+- [ ] Draft the information request to MA 49 for the winery's own figures (six questions in the research note); owner approval before sending
+- [ ] Write a reusable cost-trace query script for Vienna lines (assets, disposals, matching one-off amounts, budget against actual)
 - [ ] First draft: Weingut Cobenzl
 - [x] Publication rhythm: every two weeks (drafting stays weekly)
