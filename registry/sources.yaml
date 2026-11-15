@@ -1,15 +1,145 @@
-# Source registry. status: verified = opened at source; to_verify = known but not yet checked.
-# Figures in comments are from search summaries on 2026-11-15 and must be re-checked at source.
+# Source registry
+#
+# status:
+#   verified  = the source page or document itself was opened and read
+#   located   = official URL found; details come from the source's own text as shown in search results.
+#               Open it before writing an ingest script.
+#   to_find   = known to exist, not yet located
+#
+# Last review: 2026-11-15. Licence is "to_check" unless a licence statement was seen.
 
 sources:
+
+  # ---------- Money map: federal ----------
+
+  - id: bmf_budget_csv
+    name: Federal budget 2024-2028, all accounts (Bundeshaushalt Budget 2024 bis 2028)
+    publisher: BMF
+    url: https://www.bmf.gv.at/dam/jcr:57d34c8f-f064-4499-8ea1-138d18fe21a9/Bundeshaushalt_Budget_2024_bis_2028.csv
+    landing: https://www.bmf.gv.at/services/startseite-budget.html
+    provides: Federal budget by account, plan and actual; replaces parsing the per-chapter PDFs
+    format: CSV, 76 MB
+    updated: 2026-10-30
+    module: [money_map, rigidity]
+    licence: to_check
+    status: verified
+    notes: Landing page lists 17 CSV/Excel downloads. Older years have per-UG "Verzeichnis veranschlagter Konten" CSVs under service.bmf.gv.at/Budget/Budgets/<year>/bfg/teilhefte/.
+
+  - id: bmf_execution_monthly
+    name: Monthly federal budget execution (Monatlicher Vollzug Bund)
+    publisher: BMF
+    url: https://www.bmf.gv.at/dam/jcr:98850101-acd3-4602-ad35-66a23008daa7/Bundeshaushalt_Vollzug_2024_bis_2026.csv
+    provides: Monthly cash execution 2024-2026
+    format: CSV, 76 MB
+    updated: 2026-10-30
+    module: [money_map]
+    licence: to_check
+    status: verified
+
+  - id: bmf_execution_bund_laender
+    name: Monthly execution Bund and Länder 2025-2026
+    publisher: BMF (federal) and Statistik Austria (Länder)
+    url: https://www.bmf.gv.at/dam/jcr:fd99743f-d0ec-47b5-9a96-ef0ef81c4322/Monatlicher_Vollzug_Bund_Laender_2025_2026.csv
+    provides: Cash flows of Bund and all nine Länder including Wien, federal data mapped to the Länder economic classification, EUR million, cumulative by month, current and previous year only
+    format: CSV (UTF-8, semicolon, decimal comma); column description PDF on bmf.gv.at
+    updated: 2026-10-30
+    module: [money_map]
+    licence: to_check
+    status: verified
+    notes: First bridge between federal and Land data in one structure. Short history (two years).
+
+  - id: bmf_foerderungen_csv
+    name: Förderungen Bundeshaushalt
+    publisher: BMF
+    url: https://www.bmf.gv.at/dam/jcr:ab38d34e-3ef3-4c11-b90b-26320b7e3073/F%C3%B6rderungen_Bundeshaushalt.csv
+    provides: Federal Förderungen as booked in the federal budget
+    format: CSV
+    updated: 2026-08-07
+    module: [foerderungen]
+    licence: to_check
+    status: verified
+    notes: The landing page lists this file twice with different sizes (4 MB and 6 MB) and URLs. Check which one is current before ingesting.
+
+  - id: bmf_foerderungen_esvg
+    name: Förderungen ESVG, development to 2025
+    publisher: BMF
+    url: https://www.bmf.gv.at/dam/jcr:2f3a9362-2a47-4e47-835e-6ae844990850/Foerderungen_ESVG.csv
+    provides: Förderungen under the national accounts (ESA 2010) definition
+    format: CSV
+    updated: 2026-08-07
+    module: [foerderungen, benchmarks]
+    licence: to_check
+    status: verified
+
+  - id: bmf_beteiligungen
+    name: Beteiligungsbericht 2027 & 2028
+    publisher: BMF
+    url: https://www.bmf.gv.at/dam/jcr:80655f7f-dc57-4f1c-b4b9-11fbb14edc6d/Beteiligungsbericht_2027_2028.csv
+    provides: Companies the Bund holds directly and by majority, and their links to the federal budget
+    format: CSV
+    updated: 2026-06-26
+    module: [money_map, findings]
+    licence: to_check
+    status: verified
+
+  - id: bmf_gesamtstaat
+    name: Öffentliche Finanzen bis 2031 (general government plan)
+    publisher: BMF
+    url: https://www.bmf.gv.at/dam/jcr:64e5ef7c-97af-4f6d-b8e0-d3ffe4a764e1/Gesamtstaatsplanung_2027_bis_2031.csv
+    provides: General government projections to 2031
+    format: CSV
+    updated: 2026-08-07
+    module: [money_map]
+    licence: to_check
+    status: verified
+
+  - id: bmf_lfp
+    name: Langfristige Budgetprognose 2025
+    publisher: BMF
+    url: https://www.bmf.gv.at/dam/jcr:b67a115a-7ae8-42d1-80c8-ab4f07e65070/LFP2025.csv
+    provides: Long-term projection of public finances under demographic change
+    format: CSV
+    updated: 2025-12-23
+    module: [money_map, rigidity]
+    licence: to_check
+    status: verified
+
+  - id: bra
+    name: Bundesrechnungsabschluss (audited federal accounts)
+    publisher: Rechnungshof
+    url: https://rechnungshof.gv.at/rh/home/home_1/home_9/BRA-2025-Band-1.pdf
+    provides: Audited federal accounts in four volumes plus a numbers section per UG; accounts of entities administered by the Bund
+    format: PDF per volume and per UG; volume 2 also interactive
+    module: [money_map]
+    licence: to_check
+    status: located
+    notes: Audited actuals, the final control for federal figures. 2025 edition sent to Parliament 2026-06-26.
+
+  # ---------- Money map: general government and benchmarks ----------
+
   - id: statat_cofog
-    name: Government expenditure by function (COFOG)
+    name: Staatsausgaben nach Aufgabenbereichen (COFOG)
     publisher: Statistik Austria
-    url: https://www.statistik.at/en/statistics/national-economy-and-public-finance/public-finance/public-finance/government-expenditure-by-function
-    provides: Consolidated general government spending, 10 divisions, 69 groups
-    format: tables, open data portal
+    url: https://www.statistik.at/statistiken/volkswirtschaft-und-oeffentliche-finanzen/oeffentliche-finanzen/oeffentliche-finanzen/staatsausgaben-nach-aufgabenbereichen
+    provides: Consolidated general government spending, 10 divisions and 69 groups, ESA 2010
+    format: ODS, years 2022-2025 on the page
+    updated: 2026-09-30
+    next_release: 2027-03-31
     module: [money_map, benchmarks]
-    status: to_verify
+    licence: to_check
+    status: verified
+    notes: No split by level of government and only four years on the page. Use eurostat_cofog for history and subsectors.
+
+  - id: eurostat_cofog
+    name: General government expenditure by function (gov_10a_exp)
+    publisher: Eurostat
+    url: https://ec.europa.eu/eurostat/cache/metadata/en/gov_10a_exp_esms.htm
+    provides: COFOG levels I and II by ESA transaction, by subsector (central, state, local, social security), all EU countries plus some EFTA
+    format: API, bulk download
+    module: [money_map, benchmarks]
+    licence: to_check
+    status: located
+    notes: Main source for the split by level of government, the 2019 baseline and EU peer comparison. Switzerland via its own statistics office.
 
   - id: statat_open_data
     name: Statistik Austria open data portal
@@ -18,25 +148,67 @@ sources:
     provides: Machine-readable official statistics, mirrored weekly to data.gv.at
     format: CSV
     module: [money_map]
-    status: to_verify
+    licence: to_check
+    status: located
 
-  - id: bmf_budget
-    name: Federal budget (Bundesvoranschlag) by Untergliederung and Detailbudget
-    publisher: BMF
-    url: https://service.bmf.gv.at/Budget/Budgets/
-    provides: Plan and actual by account, through 2028
-    format: PDF per chapter; machine-readable version to check
+  # ---------- Vienna ----------
+
+  - id: wien_ogd_haushalt
+    name: Vienna budget and accounts as open data (Voranschlag, Rechnungsabschluss)
+    publisher: Stadt Wien, via offenerhaushalt.at and data.gv.at
+    url: https://www.offenerhaushalt.at/gemeinde/wien/downloads
+    provides: Voranschlag and Rechnungsabschluss from the city 2020-2026; Statistik Austria accounts back to 2009
+    format: CSV
     module: [money_map, rigidity]
-    status: to_verify
+    licence: to_check
+    status: located
+    notes: offenerhaushalt.at blocks automated fetching in robots.txt. Use the same datasets through data.gv.at, where they are mirrored. Check whether the files cover Wien as Land, as Gemeinde, or both.
+
+  - id: wien_budget_pdf
+    name: Vienna Voranschlag and Rechnungsabschluss (full documents)
+    publisher: Stadt Wien (MA 5)
+    url: https://www.wien.gv.at/politik/budget
+    provides: Full budget and accounts since 1998/1999, plan for 2026, accounts for 2025, business plans of Wien Kanal, Wiener Gesundheitsverbund and Wiener Wohnen
+    format: PDF
+    module: [money_map]
+    licence: to_check
+    status: located
+    notes: Reference for explanations and for entities outside the core budget. District budgets published separately.
+
+  - id: wien_foerderbericht
+    name: Förderbericht der Stadt Wien
+    publisher: Stadt Wien (MA 5)
+    url: https://www.wien.gv.at/spezial/foerderbericht/vorwort-und-gesamtubersicht/gesamtubersicht-uber-die-ausbezahlten-forderungen-der-stadt-wien/
+    provides: Paid-out Förderungen by department and programme with number of cases, required by the Wiener Fördertransparenzgesetz; since the 2025 report also district and Land Förderungen
+    format: HTML and PDF per year (2022-2025)
+    module: [foerderungen]
+    licence: to_check
+    status: located
+    notes: Programme-level payouts for a Land, which the Transparenzdatenbank does not give. Replaced the older Subventionsbericht.
+
+  # ---------- Förderungen ----------
 
   - id: tdb_feed
     name: Transparenzdatenbank programme feed
     publisher: BMF
     url: https://transparenzportal.gv.at/tdb/resources/cms/20260811_Leitfaden_TDB_JSON-RSS-Feed.pdf
-    provides: Förderung programmes with funder, level and RIS link to legal basis
-    format: JSON, RSS
+    provides: Programme catalogue only - name, funder and level, target groups, COFOG, legal basis, budgeted volume. No payout data.
+    format: RSS, JSON, via a saved search profile
     module: [foerderungen, rigidity]
-    status: to_verify
+    licence: to_check
+    status: verified
+    notes: Creating the search profile requires login with ID Austria or USP. Useful for the legal-basis link to RIS, not for amounts.
+
+  - id: tdb_research_data
+    name: Transparenzdatenbank anonymised data for research (§ 34 Abs. 2 TDBG 2012)
+    publisher: BMF
+    url: https://transparenzportal.gv.at/tdb/tp/berichtUebermittlungAnonymDaten/1/Datenlieferung_WIIW.pdf
+    provides: Aggregated payouts by level of government, COFOG, district, sector, company size, age, income, number of recipients
+    format: delivered on request to research institutions
+    module: [foerderungen]
+    licence: n/a
+    status: located
+    notes: Strongest route to payout data across levels. Delivered to institutions such as wiiw. Requires a research partner or recognised research status; see ops/GAPS.md.
 
   - id: bmf_foerderungsbericht
     name: Förderungsbericht
@@ -45,25 +217,31 @@ sources:
     provides: Direct and indirect federal Förderungen, annual since 2004
     format: PDF
     module: [foerderungen]
-    status: to_verify
+    licence: to_check
+    status: located
 
-  - id: budgetdienst
-    name: Budgetdienst analyses
-    publisher: Parlament
-    url: https://www.parlament.gv.at/fachinfos/budgetdienst/budget/
-    provides: Independent analysis of budgets, Förderungen, EU flows, spending since 2019
-    format: PDF
-    module: [money_map, foerderungen, cross_border, findings]
-    status: to_verify
+  - id: ama_agrar
+    name: EU agricultural payment recipients
+    publisher: AMA
+    url: https://www.ama.at/allgemein/veroeffentlichungen/ifg-proaktive-informationspflicht
+    provides: Recipients of EU agricultural funds by name; recipients under EUR 1,250 a year in coded form
+    format: web database (transparenzdatenbank.at)
+    module: [foerderungen, cross_border]
+    licence: to_check
+    status: located
+    notes: Contains natural persons. Use only aggregated, or legal persons, per the master prompt.
 
-  - id: fiskalrat
-    name: Fiskalrat forecasts and recommendations
-    publisher: Fiskalrat
-    url: https://www.fiskalrat.at
-    provides: Deficit and debt forecasts, reform recommendations
-    format: PDF
-    module: [findings]
-    status: to_verify
+  - id: rtr_medientransparenz
+    name: Medientransparenz (public advertising and media funding)
+    publisher: RTR / KommAustria
+    url: https://www.rtr.at/rtr/service/opendata/Open_Data.en.html
+    provides: Advertising orders and media funding by public bodies, quarterly
+    format: CSV, XLSX, XML, JSON and REST API (data.rtr.at/api/v1/tables/)
+    module: [foerderungen, findings]
+    licence: open, attribution required (per RTR open data page)
+    status: located
+
+  # ---------- Cross-border ----------
 
   - id: bmf_eu_annex
     name: EU-Beilage zum Budget
@@ -72,7 +250,8 @@ sources:
     provides: EU contribution and returns by budget line and year
     format: PDF
     module: [cross_border]
-    status: to_verify
+    licence: to_check
+    status: located
 
   - id: bmf_eza_annex
     name: Entwicklungszusammenarbeit-Beilage zum Budget
@@ -81,25 +260,104 @@ sources:
     provides: Total ODA by ministry and instrument
     format: PDF
     module: [cross_border]
-    status: to_verify
+    licence: to_check
+    status: located
+
+  - id: oecd_crs
+    name: OECD Creditor Reporting System and DAC tables
+    publisher: OECD
+    url: https://oecd.org/en/data/insights/data-explainers/2024/07/frequently-asked-questions-on-official-development-assistance-oda.html
+    provides: Austrian ODA at project level (CRS) and aggregates (DAC1, DAC2a)
+    format: OECD Data Explorer API, bulk download; Python package oda_reader
+    module: [cross_border, benchmarks]
+    licence: to_check
+    status: located
+    notes: Covers total Austrian ODA, not only ADA.
 
   - id: ada_projects
     name: ADA project list
     publisher: Austrian Development Agency
     url: https://www.entwicklung.at/en/projects/all-projects/?type=0
-    provides: Funded projects and volumes
+    provides: More than 500 funded projects, over EUR 640 million a year
     format: web list
     module: [cross_border]
-    status: to_verify
+    licence: to_check
+    status: located
 
-  - id: offenerhaushalt
-    name: offenerhaushalt.at
-    publisher: KDZ
-    url: https://www.offenerhaushalt.at
-    provides: Municipal accounts, debt and guarantees
-    format: CSV
-    module: [money_map]
-    status: to_verify
+  - id: eu_fts
+    name: EU Financial Transparency System
+    publisher: European Commission
+    url: https://ec.europa.eu/budget/financial-transparency-system/
+    provides: Recipients of EU funds under direct and indirect management
+    format: web search, download
+    module: [cross_border]
+    licence: to_check
+    status: located
+
+  - id: kohesio
+    name: Kohesio
+    publisher: European Commission
+    url: https://kohesio.ec.europa.eu/en/faq
+    provides: Projects and beneficiaries of EU cohesion funds, 2014-2020 and 2021-2027
+    format: CSV, XLSX, RDF
+    module: [cross_border]
+    licence: to_check
+    status: located
+
+  # ---------- Findings and context ----------
+
+  - id: rh_nachfrage
+    name: Rechnungshof Nachfrageverfahren (follow-up on recommendations)
+    publisher: Rechnungshof
+    url: https://www.rechnungshof.gv.at/rh/home/wirksam/wirksam/Nachfrageverfahren_und_Follow-up-Ueberpruefungen.html
+    provides: Implementation status of every recommendation, per report, annual
+    format: PDF
+    module: [findings]
+    licence: to_check
+    status: located
+    notes: The ready-made input for the audit recommendation tracker.
+
+  - id: budgetdienst
+    name: Budgetdienst analyses
+    publisher: Parlament
+    url: https://www.parlament.gv.at/fachinfos/budgetdienst/budget/
+    provides: Independent analysis of budgets, Förderungen, EU flows, spending since 2019, per-UG analyses
+    format: PDF
+    module: [money_map, foerderungen, cross_border, findings]
+    licence: to_check
+    status: located
+
+  - id: fiskalrat
+    name: Fiskalrat forecasts and recommendations
+    publisher: Fiskalrat
+    url: https://www.fiskalrat.at
+    provides: Deficit and debt forecasts, reform recommendations
+    format: PDF
+    module: [findings]
+    licence: to_check
+    status: located
+
+  - id: parlament_ogd
+    name: Parliament open data (incl. written questions and answers)
+    publisher: Parlament
+    url: https://www.parlament.gv.at/recherchieren/open-data/index.html
+    provides: 25 datasets including written questions to ministers and their answers
+    format: JSON API; R package ParlAT, Python package atparlpy
+    module: [all]
+    licence: CC BY 4.0 for most datasets
+    status: located
+    notes: Answers to parliamentary questions often contain figures published nowhere else.
+
+  - id: procurement
+    name: Public procurement core data (Kerndaten von Vergabeverfahren)
+    publisher: Contracting authorities, catalogued on data.gv.at
+    url: https://www.data.gv.at
+    provides: Mandatory open-data notices of tenders and awards above and below EU thresholds
+    format: metadata on data.gv.at pointing to each authority's core-data source
+    module: [findings]
+    licence: free licence required by § 59 and § 64 BVergG 2018
+    status: located
+    notes: Federal contracts under EUR 50,000 are exempt. Data is spread across many sources; harvesting needs its own script.
 
   - id: informationsregister
     name: Informationsregister
@@ -108,25 +366,5 @@ sources:
     provides: Documents published proactively under the Informationsfreiheitsgesetz since 2025-09-01
     format: mixed
     module: [all]
-    status: to_verify
-
-  - id: wien_budget
-    name: Vienna budget and accounts (Voranschlag, Rechnungsabschluss)
-    publisher: Stadt Wien
-    url: null  # to find
-    provides: Vienna as Land and Gemeinde
-    format: unknown
-    module: [money_map, rigidity, foerderungen]
-    status: to_find
-
-  # Known but not yet located or checked
-  - {id: rechnungshof, name: Rechnungshof reports and follow-ups, publisher: Rechnungshof, url: null, module: [findings], status: to_find}
-  - {id: bra, name: Bundesrechnungsabschluss, publisher: Rechnungshof, url: null, module: [money_map], status: to_find}
-  - {id: eu_fts, name: EU Financial Transparency System, publisher: European Commission, url: null, module: [cross_border], status: to_find}
-  - {id: kohesio, name: Kohesio (EU cohesion projects), publisher: European Commission, url: null, module: [cross_border], status: to_find}
-  - {id: farm_payments, name: Agricultural payment recipients, publisher: AMA, url: null, module: [foerderungen], status: to_find}
-  - {id: medientransparenz, name: Media transparency data, publisher: RTR, url: null, module: [foerderungen], status: to_find}
-  - {id: procurement, name: Public procurement notices (TED and national), publisher: EU / BBG, url: null, module: [findings], status: to_find}
-  - {id: eurostat_gov, name: Eurostat government finance statistics, publisher: Eurostat, url: null, module: [benchmarks], status: to_find}
-  - {id: oecd_oda, name: OECD ODA statistics, publisher: OECD, url: null, module: [cross_border, benchmarks], status: to_find}
-  - {id: parl_questions, name: Answers to parliamentary questions, publisher: Parlament, url: null, module: [all], status: to_find}
+    licence: to_check
+    status: located
