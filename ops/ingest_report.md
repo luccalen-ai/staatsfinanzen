@@ -1,6 +1,6 @@
 # Ingest report
 
-Generated 2026-11-15 11:29 UTC by the `ingest` workflow.
+Generated 2026-11-15 11:31 UTC by the `ingest` workflow.
 
 ## Downloaded files
 
@@ -8,36 +8,54 @@ Generated 2026-11-15 11:29 UTC by the `ingest` workflow.
 | --- | --- | --- | --- |
 | bmf_budget_csv/2026-11-15/Bundeshaushalt_Budget_2024_bis_2028.csv | 79,957,091 | `e49cfc0606f9` | https://www.bmf.gv.at/dam/jcr:57d34c8f-f064-4499-8ea1-138d18fe21a9/Bundeshaushalt_Budget_2024_bis_2028.csv |
 | eurostat_cofog/2026-11-15/gov_10a_exp.csv | 20,598,701 | `496fc8b0ea29` | https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/gov_10a_exp/A.MIO_EUR+PC_GDP.S13+S1311+S1312+S1313+S1314..TE+D1+P2+D62_D632+D3+D7+P5+D9.AT+DE+NL+DK+SE+EU27_2020?format=SDMX-CSV&startPeriod=2015 |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2020_b6f0dadb.csv | 35,981 | `e020d26a2021` | https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2020_3e66bb55.csv | 35,981 | `e27dc07f43e9` | https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2020_17d4fde9.csv | 35,981 | `cf3eb339e47f` | https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2020_301a5956.csv | 35,981 | `65d7bf9b15e5` | https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2020_17ab1b0a.csv | 35,981 | `dbb35aaa4700` | https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2020_ac91a96e.csv | 35,981 | `03ebdd05fb05` | https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_67c01200.csv | 36,341 | `dab226e9c905` | https://offenerhaushalt.at/gemeinde/breitenfurt-bei-wien/download?year=2021&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_d88cac52.csv | 36,341 | `417fb7b79420` | https://offenerhaushalt.at/gemeinde/breitenfurt-bei-wien/download?year=2021&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_dd9c335c.csv | 36,341 | `3185efe173d5` | https://offenerhaushalt.at/gemeinde/breitenfurt-bei-wien/download?year=2021&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_bd32799c.csv | 36,341 | `80e8d14cb04b` | https://offenerhaushalt.at/gemeinde/breitenfurt-bei-wien/download?year=2021&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_d738504e.csv | 36,341 | `6db70d6e678a` | https://offenerhaushalt.at/gemeinde/breitenfurt-bei-wien/download?year=2021&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_c14d3880.csv | 36,341 | `f0f38ebbac46` | https://offenerhaushalt.at/gemeinde/breitenfurt-bei-wien/download?year=2021&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_09ad89a6.csv | 35,981 | `986e3f92890d` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_bdf2c6d0.csv | 35,981 | `1d00e5fc0ae0` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_b374fbf7.csv | 35,981 | `c1cc70d1eda5` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_3867585f.csv | 35,981 | `0b12e5565279` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_df8b6b29.csv | 35,981 | `516feb0011fb` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_db43d435.csv | 35,981 | `95777db6e1de` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_47095e60.csv | 36,341 | `b3a65181352c` | https://offenerhaushalt.at/gemeinde/breitenfurt-bei-wien/download?year=2022&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_e5a8980e.csv | 36,341 | `9435fb7dc86b` | https://offenerhaushalt.at/gemeinde/breitenfurt-bei-wien/download?year=2022&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_de07d892.csv | 36,341 | `725cb32832df` | https://offenerhaushalt.at/gemeinde/breitenfurt-bei-wien/download?year=2022&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_3b982801.csv | 36,341 | `486496f28819` | https://offenerhaushalt.at/gemeinde/breitenfurt-bei-wien/download?year=2022&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_1b204438.csv | 36,341 | `1dc8f3f71f0d` | https://offenerhaushalt.at/gemeinde/breitenfurt-bei-wien/download?year=2022&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_aa66ad08.csv | 36,341 | `11e2dfbb14bc` | https://offenerhaushalt.at/gemeinde/breitenfurt-bei-wien/download?year=2022&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_30a4e374.csv | 36,335 | `c7724505149d` | https://offenerhaushalt.at/gemeinde/gerasdorf-bei-wien/download?year=2022&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_91bf508a.csv | 36,335 | `6a75c695426d` | https://offenerhaushalt.at/gemeinde/gerasdorf-bei-wien/download?year=2022&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_97c0178f.csv | 36,335 | `797b1e44f336` | https://offenerhaushalt.at/gemeinde/gerasdorf-bei-wien/download?year=2022&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_e6b278b8.csv | 35,981 | `31f94f581c84` | https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_41ba78bc.csv | 35,981 | `0e6559efa253` | https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at |
-| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_2c8ad8f8.csv | 35,981 | `d60e9801966f` | https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2020_b6f0dadb.csv | 13,475 | `076ebe84dfa4` | https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2020_3e66bb55.csv | 13,479 | `cbe86757f9d1` | https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2020_17d4fde9.csv | 13,441 | `91c6cae46c67` | https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2020_301a5956.csv | 13,445 | `0acbbca7a375` | https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2020_17ab1b0a.csv | 13,419 | `448f6d78adfa` | https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2020_ac91a96e.csv | 13,423 | `e6510e071b2a` | https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_09ad89a6.csv | 13,419 | `5d2ad30e09a1` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_bdf2c6d0.csv | 13,423 | `3a3b1aa61d7b` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_b374fbf7.csv | 13,350 | `7cb701a0ef5c` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_3867585f.csv | 13,354 | `fc4b97a5b329` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_df8b6b29.csv | 13,350 | `975c8afd50b9` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2021_db43d435.csv | 13,398 | `c537f4267312` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_e6b278b8.csv | 13,394 | `247a370820a8` | https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_41ba78bc.csv | 13,398 | `63b534ff93aa` | https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_2c8ad8f8.csv | 13,394 | `9e297331bb3e` | https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_6ada8750.csv | 13,398 | `9ed0c0908f1f` | https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_3a9ebc95.csv | 13,356 | `f013ba54d729` | https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2022_620c2902.csv | 13,360 | `b75deaa87273` | https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2023_1e954416.csv | 13,356 | `27f1eedcd87e` | https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2023_da8fab6c.csv | 13,360 | `b64dd59bc614` | https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2023_a8ccd912.csv | 13,356 | `14d68bcbd27b` | https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2023_e78721aa.csv | 13,424 | `aac8d7aed46a` | https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2023_d40413bb.csv | 13,420 | `b9dd4d80624e` | https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2023_1aa5e0cd.csv | 13,424 | `607217a92406` | https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2024_53258e9d.csv | 13,420 | `5cf8d47cf615` | https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2024_f3638fe1.csv | 13,424 | `1382aebcc348` | https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2024_b648e2cb.csv | 13,521 | `67f0b04681de` | https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2024_452c5a82.csv | 13,525 | `baae42de4722` | https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2024_fa8adf76.csv | 13,521 | `c65134086759` | https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2024_6df29b5c.csv | 13,525 | `8b4ce11b0519` | https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2025_a2c8b6cf.csv | 13,521 | `9c236d475b21` | https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2025_eb62a018.csv | 13,385 | `02d2ad99e3aa` | https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2025_3d236feb.csv | 13,381 | `1b57d8e957ef` | https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2025_6ff44dcc.csv | 13,385 | `bf2906465d84` | https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2025_605e94e0.csv | 13,381 | `f2c04503f575` | https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/rechnungsabschluss_2025_be9818b2.csv | 13,410 | `4cfba95909bf` | https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at |
+| wien_ogd_haushalt/2026-11-15/voranschlag_2021_0ef83b85.csv | 13,406 | `947361570674` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=va&haushalt=ehh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/voranschlag_2021_67722867.csv | 13,406 | `d2c9a53fc48d` | https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=va&haushalt=fhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/voranschlag_2022_20225c1b.csv | 13,406 | `3cf5a14f31b5` | https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=va&haushalt=ehh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/voranschlag_2022_3d4b33f4.csv | 13,406 | `60b12ee83cf5` | https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=va&haushalt=fhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/voranschlag_2023_5d26c433.csv | 13,375 | `f3f33dd7f49f` | https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=va&haushalt=ehh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/voranschlag_2023_be9be6c5.csv | 13,375 | `7549a48552a5` | https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=va&haushalt=fhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/voranschlag_2024_ba74a833.csv | 13,375 | `1eab53fbc489` | https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=va&haushalt=ehh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/voranschlag_2024_d443ad6e.csv | 13,375 | `2bfd89d1690f` | https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=va&haushalt=fhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/voranschlag_2025_8dec2f78.csv | 13,375 | `1511fd310b9b` | https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=va&haushalt=ehh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/voranschlag_2025_0f6aa25c.csv | 13,375 | `4f57af667159` | https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=va&haushalt=fhh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/voranschlag_2026_1ea74528.csv | 13,436 | `861aa719bba6` | https://offenerhaushalt.at/gemeinde/wien/download?year=2026&rechnungsabschluss=va&haushalt=ehh&origin=gemeinde |
+| wien_ogd_haushalt/2026-11-15/voranschlag_2026_3570de4f.csv | 13,436 | `f39510b00c05` | https://offenerhaushalt.at/gemeinde/wien/download?year=2026&rechnungsabschluss=va&haushalt=fhh&origin=gemeinde |
 
 ## Vienna catalogue attempts
 
@@ -46,7 +64,75 @@ Generated 2026-11-15 11:29 UTC by the `ingest` workflow.
 | https://www.data.gv.at/katalog/api/3/action/package_search | False | HTTPError: 404 Client Error: Not Found for url: https://www.data.gv.at/katalog/api/3/action/package_search?q=Rechnungsabschluss+Wien&rows=200 |
 | https://www.data.gv.at/api/3/action/package_search | False | HTTPError: 404 Client Error: Not Found for url: https://www.data.gv.at/api/3/action/package_search?q=Rechnungsabschluss+Wien&rows=200 |
 | https://www.data.gv.at/api/hub/search/search | True | 0 |
-| https://data.europa.eu/api/hub/search/search | True | 2021 |
+| https://data.europa.eu/api/hub/search/search | True | 2049 |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2020&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=ra&haushalt=ehh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=ra&haushalt=ehh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=ra&haushalt=fhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=ra&haushalt=fhh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=ra&haushalt=vhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=ra&haushalt=vhh&origin=statistik_at | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=va&haushalt=ehh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2021&rechnungsabschluss=va&haushalt=fhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=va&haushalt=ehh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2022&rechnungsabschluss=va&haushalt=fhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=va&haushalt=ehh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2023&rechnungsabschluss=va&haushalt=fhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=va&haushalt=ehh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2024&rechnungsabschluss=va&haushalt=fhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=va&haushalt=ehh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2025&rechnungsabschluss=va&haushalt=fhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2026&rechnungsabschluss=va&haushalt=ehh&origin=gemeinde | False | server returned an HTML page, not CSV |
+| https://offenerhaushalt.at/gemeinde/wien/download?year=2026&rechnungsabschluss=va&haushalt=fhh&origin=gemeinde | False | server returned an HTML page, not CSV |
+
+First bytes returned by the first failed download:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script nonce="4cpcATYdxbcGOX5JXzkxgA==">
+      (function(){
+          setTimeout(function(){
+              window.location.reload();
+          }, 5000);
+      }())
+  </script>
+  <link rel="icon" href="data:,">
+  <title>One moment, please...</title>
+  <style non
+```
 
 ## Control totals
 
@@ -55,6 +141,7 @@ Generated 2026-11-15 11:29 UTC by the `ingest` workflow.
 | bund_fh_einzahlungen_2024 | 101,568,000,000.0 | 101,567,892,541.0 | -0.00% | pass |
 | gesamtstaat_ausgaben_2025 | 283,000,000,000.0 | no matching rows | | skipped |
 | gesamtstaat_ausgabenquote_2025 | 55.2 | no matching rows | | skipped |
+| gesamtstaat_ausgabenquote_2024 | 55.3 | 55.2 | -0.18% | pass |
 | wien_auszahlungen_2024 | 19,930,000,000.0 | no table | | skipped |
 
 ## Vienna datasets found on data.gv.at
@@ -67,94 +154,46 @@ Generated 2026-11-15 11:29 UTC by the `ingest` workflow.
 | rechnungsabschluss | 2020 | Rechnungsabschluss Wien 2020 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2020 | Rechnungsabschluss Wien 2020 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2020 | Rechnungsabschluss Wien 2020 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
-| rechnungsabschluss | 2021 | Rechnungsabschluss Breitenfurt bei Wien 2021 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2021 | Rechnungsabschluss Breitenfurt bei Wien 2021 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2021 | Rechnungsabschluss Breitenfurt bei Wien 2021 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2021 | Rechnungsabschluss Breitenfurt bei Wien 2021 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2021 | Rechnungsabschluss Breitenfurt bei Wien 2021 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2021 | Rechnungsabschluss Breitenfurt bei Wien 2021 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
 | rechnungsabschluss | 2021 | Rechnungsabschluss Wien 2021 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2021 | Rechnungsabschluss Wien 2021 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2021 | Rechnungsabschluss Wien 2021 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2021 | Rechnungsabschluss Wien 2021 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2021 | Rechnungsabschluss Wien 2021 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2021 | Rechnungsabschluss Wien 2021 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
-| rechnungsabschluss | 2022 | Rechnungsabschluss Breitenfurt bei Wien 2022 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2022 | Rechnungsabschluss Breitenfurt bei Wien 2022 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2022 | Rechnungsabschluss Breitenfurt bei Wien 2022 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2022 | Rechnungsabschluss Breitenfurt bei Wien 2022 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2022 | Rechnungsabschluss Breitenfurt bei Wien 2022 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2022 | Rechnungsabschluss Breitenfurt bei Wien 2022 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2022 | Rechnungsabschluss Gerasdorf bei Wien 2022 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadtgemeinde Gerasdorf bei Wien |
-| rechnungsabschluss | 2022 | Rechnungsabschluss Gerasdorf bei Wien 2022 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadtgemeinde Gerasdorf bei Wien |
-| rechnungsabschluss | 2022 | Rechnungsabschluss Gerasdorf bei Wien 2022 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadtgemeinde Gerasdorf bei Wien |
 | rechnungsabschluss | 2022 | Rechnungsabschluss Wien 2022 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2022 | Rechnungsabschluss Wien 2022 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2022 | Rechnungsabschluss Wien 2022 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2022 | Rechnungsabschluss Wien 2022 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2022 | Rechnungsabschluss Wien 2022 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2022 | Rechnungsabschluss Wien 2022 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
-| rechnungsabschluss | 2023 | Rechnungsabschluss Breitenfurt bei Wien 2023 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2023 | Rechnungsabschluss Breitenfurt bei Wien 2023 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2023 | Rechnungsabschluss Breitenfurt bei Wien 2023 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
 | rechnungsabschluss | 2023 | Rechnungsabschluss Wien 2023 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2023 | Rechnungsabschluss Wien 2023 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2023 | Rechnungsabschluss Wien 2023 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2023 | Rechnungsabschluss Wien 2023 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2023 | Rechnungsabschluss Wien 2023 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2023 | Rechnungsabschluss Wien 2023 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
-| rechnungsabschluss | 2024 | Rechnungsabschluss Breitenfurt bei Wien 2024 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2024 | Rechnungsabschluss Breitenfurt bei Wien 2024 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2024 | Rechnungsabschluss Breitenfurt bei Wien 2024 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2024 | Rechnungsabschluss Gerasdorf bei Wien 2024 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadtgemeinde Gerasdorf bei Wien |
-| rechnungsabschluss | 2024 | Rechnungsabschluss Gerasdorf bei Wien 2024 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadtgemeinde Gerasdorf bei Wien |
-| rechnungsabschluss | 2024 | Rechnungsabschluss Gerasdorf bei Wien 2024 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadtgemeinde Gerasdorf bei Wien |
 | rechnungsabschluss | 2024 | Rechnungsabschluss Wien 2024 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2024 | Rechnungsabschluss Wien 2024 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2024 | Rechnungsabschluss Wien 2024 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2024 | Rechnungsabschluss Wien 2024 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2024 | Rechnungsabschluss Wien 2024 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2024 | Rechnungsabschluss Wien 2024 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
-| rechnungsabschluss | 2025 | Rechnungsabschluss Breitenfurt bei Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2025 | Rechnungsabschluss Breitenfurt bei Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2025 | Rechnungsabschluss Breitenfurt bei Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| rechnungsabschluss | 2025 | Rechnungsabschluss Gerasdorf bei Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadtgemeinde Gerasdorf bei Wien |
-| rechnungsabschluss | 2025 | Rechnungsabschluss Gerasdorf bei Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadtgemeinde Gerasdorf bei Wien |
-| rechnungsabschluss | 2025 | Rechnungsabschluss Gerasdorf bei Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadtgemeinde Gerasdorf bei Wien |
 | rechnungsabschluss | 2025 | Rechnungsabschluss Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2025 | Rechnungsabschluss Wien 2025 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2025 | Rechnungsabschluss Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2025 | Rechnungsabschluss Wien 2025 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2025 | Rechnungsabschluss Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | rechnungsabschluss | 2025 | Rechnungsabschluss Wien 2025 (Statistik Austria) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
-| voranschlag | 2020 | Voranschlag Breitenfurt bei Wien 2020 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| voranschlag | 2020 | Voranschlag Breitenfurt bei Wien 2020 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| voranschlag | 2020 | Voranschlag Breitenfurt bei Wien 2020 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| voranschlag | 2021 | Voranschlag Breitenfurt bei Wien 2021 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| voranschlag | 2021 | Voranschlag Breitenfurt bei Wien 2021 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
 | voranschlag | 2021 | Voranschlag Wien 2021 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | voranschlag | 2021 | Voranschlag Wien 2021 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
-| voranschlag | 2022 | Voranschlag Breitenfurt bei Wien 2022 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| voranschlag | 2022 | Voranschlag Breitenfurt bei Wien 2022 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
 | voranschlag | 2022 | Voranschlag Wien 2022 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | voranschlag | 2022 | Voranschlag Wien 2022 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
-| voranschlag | 2023 | Voranschlag Breitenfurt bei Wien 2023 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| voranschlag | 2023 | Voranschlag Breitenfurt bei Wien 2023 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
 | voranschlag | 2023 | Voranschlag Wien 2023 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | voranschlag | 2023 | Voranschlag Wien 2023 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
-| voranschlag | 2024 | Voranschlag Breitenfurt bei Wien 2024 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| voranschlag | 2024 | Voranschlag Breitenfurt bei Wien 2024 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
 | voranschlag | 2024 | Voranschlag Wien 2024 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | voranschlag | 2024 | Voranschlag Wien 2024 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
-| voranschlag | 2025 | Voranschlag Breitenfurt bei Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| voranschlag | 2025 | Voranschlag Breitenfurt bei Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| voranschlag | 2025 | Voranschlag Gerasdorf bei Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadtgemeinde Gerasdorf bei Wien |
-| voranschlag | 2025 | Voranschlag Gerasdorf bei Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadtgemeinde Gerasdorf bei Wien |
 | voranschlag | 2025 | Voranschlag Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | voranschlag | 2025 | Voranschlag Wien 2025 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
-| voranschlag | 2026 | Voranschlag Breitenfurt bei Wien 2026 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| voranschlag | 2026 | Voranschlag Breitenfurt bei Wien 2026 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Gemeinde Breitenfurt bei Wien |
-| voranschlag | 2026 | Voranschlag Gerasdorf bei Wien 2026 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadtgemeinde Gerasdorf bei Wien |
 | voranschlag | 2026 | Voranschlag Wien 2026 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 | voranschlag | 2026 | Voranschlag Wien 2026 (Gemeinde) | https://www.offenerhaushalt.at/impressum | Stadt Wien |
 
