@@ -9,9 +9,11 @@
 | 2026-11-15 | Code lives in a private GitHub repository, to move to an organisation the Verein owns | History, backup, collaboration, automated publishing |
 | 2026-11-15 | Presentation rule: most intuitive and visually beautiful form, five-second test, beauty never bends the data | Owner requirement |
 | 2026-11-15 | Benchmarks include non-EU peers and Austria against itself since 2019 | Owner request |
+| 2026-11-15 | Weekly dossier on one publicly owned business, drafted automatically, published only after verification, owner approval and right of reply | Owner request; regular publishable output |
 
 ## Open
 
 - When to open the site to the public: from day one, or after the phase 1 gate and legal review
 - EU peer set: Germany, Netherlands, Denmark, Sweden proposed, not confirmed
 - Licences for code and data
+- Publication rhythm for dossiers: weekly or every two weeks

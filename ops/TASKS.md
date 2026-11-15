@@ -9,7 +9,8 @@
 - [x] Machine-readable federal budget found: BMF CSV downloads replace PDF parsing
 - [ ] Open each `located` source before writing its ingest script; record format, licence and update cycle
 - [ ] Find the data.gv.at entries for the BMF CSVs and Vienna's files, and record their licences
-- [ ] Fix the core schema in `models/`
+- [x] Core schema in `models/schema.sql` (DuckDB), loads and seeds levels of government
+- [ ] Read the first real BMF budget file and tighten the column mapping in `ingest/bmf_budget_csv.py`
 - [ ] Start founding the Verein (statutes, board, advisory board with a public finance economist)
 - [ ] Ask about research access to anonymised Transparenzdatenbank data (§ 34 Abs. 2 TDBG 2012): which institutions qualify, whether a Verein can, or which research partner could apply
 - [ ] Decide licences for the project's own code and data
@@ -27,9 +28,17 @@ First ingest scripts, in this order:
 4. `wien_ogd_haushalt` — Vienna accounts and budget
 5. `statat_cofog` — latest official COFOG totals as control
 
+Status: `eurostat_cofog` and `bmf_budget_csv` written with offline tests; they run in the GitHub `ingest` workflow because the development workspace cannot reach those sites.
+
 Then:
 
 - [ ] Reconciliation to control totals, transfers Bund–Vienna matched
 - [ ] First flow diagram and treemap, private
 
 Gate: federal and Vienna detail reconcile to control totals.
+
+## Weekly dossiers on publicly owned businesses
+
+- [x] Agent prompt, template and backlog set up (2026-11-15)
+- [ ] First draft: Weingut Cobenzl
+- [ ] Decide publication rhythm: weekly or every two weeks
