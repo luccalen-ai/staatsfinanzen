@@ -53,6 +53,10 @@ jobs:
         if: env.FULL_RUN == 'true'
         continue-on-error: true
         run: python -m ingest.bmf_beteiligungen
+      - name: Vienna shareholdings report
+        if: env.FULL_RUN == 'true'
+        continue-on-error: true
+        run: python -m ingest.wien_beteiligungen
 
       - name: Write report
         if: env.FULL_RUN == 'true'
