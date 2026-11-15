@@ -74,13 +74,17 @@ def accrual(c, a: str) -> pd.DataFrame:
 
 
 def assets(c, a: str) -> pd.DataFrame:
+    """Year-end values. Gross values are reduced by the write-down accounts (Wertberichtigungen,
+    Kontengruppen 091-098), so land, buildings and other fixed assets are net values."""
     return c.sql(f"""
       select y as year,
-        round(sum(case when konto_grp in ('000','001','002') then endstand_rj end)/1e6, 1) as land_m,
-        round(sum(case when konto_grp like '01%' then endstand_rj end)/1e6, 1) as buildings_m,
-        round(sum(case when konto_grp between '020' and '079' then endstand_rj end)/1e6, 1) as other_fixed_m,
+        round(sum(case when konto_grp in ('000','001','002','091') then endstand_rj end)/1e6, 1) as land_net_m,
+        round(sum(case when konto_grp like '01%' then endstand_rj end)/1e6, 1) as buildings_gross_m,
+        round(sum(case when konto_grp like '01%' or konto_grp in ('092','097') then endstand_rj end)/1e6, 1) as buildings_net_m,
+        round(sum(case when konto_grp between '020' and '079' or konto_grp in ('093','094','095','096','098') then endstand_rj end)/1e6, 1) as other_fixed_net_m,
         round(sum(case when konto_grp between '000' and '079' then zugang end)/1e6, 2) as additions_m,
         round(sum(case when konto_grp between '000' and '079' then abgang end)/1e6, 2) as disposals_m,
+        round(sum(case when konto_text ilike 'Vermögensübertragung innerhalb%' then endstand_rj end)/1e6, 2) as transfers_within_admin_m,
         round(sum(case when konto_grp between '080' and '089' then endstand_rj end)/1e6, 2) as holdings_m
       from v where ansatz_uab in ({a}) and haushalt = 'Vermögenshaushalt'
         and voranschlag_rechnungsabschluss = 'Rechnungsabschluss'
@@ -143,7 +147,7 @@ def trace(ansatz: list[str], related: list[str], amounts: list[float], tol: floa
            md(names), "",
            "## 1. Cash, budget (Voranschlag) against actual (Rechnungsabschluss)", "", md(cash(c, a)), "",
            "## 2. Accrual result", "", md(accrual(c, a)), "",
-           "## 3. Assets on the line", "", md(assets(c, a)), "",
+           "## 3. Assets on the line (net of write-downs; buildings also gross)", "", md(assets(c, a)), "",
            "## 4. Disposals: book value off, cash in, loss or gain", "", md(disposals(c, a)), "",
            f"## 5. Payments matching amounts from the public record (±{tol:.0%})", "", md(matching(c, amounts, tol)), "",
            "## 6. Costs carried centrally", "",

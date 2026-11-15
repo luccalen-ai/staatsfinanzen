@@ -26,8 +26,9 @@ Ansatz 862, cash, EUR m:
 
 ## 2. Capital tied up, not costed
 
-Ansatz 862 carries EUR 449.1 m of land and buildings at end 2025 (unbuilt land 378.7, built land
-36.1, buildings 34.3; down from 466.9 in 2024). The cash view charges nothing for using them; the
+Ansatz 862 carries EUR 414.8 m of land at end 2025 (unbuilt 378.7, built 36.1) and buildings at a gross
+EUR 34.3 m, EUR 2.9 m net of EUR 31.45 m write-downs: EUR 417.7 m net. (Corrected 2026-11-15: an
+earlier version gave EUR 449.1 m as book value; that was the gross figure.) The cash view charges nothing for using them; the
 accrual view charges only depreciation (EUR 0.49 m in 2025). The winery's share of these assets is
 not stated. A market comparison (lease value of vineyard land in Grinzing and on the Bisamberg)
 would show the cost of the capital the city provides free.

@@ -3,7 +3,7 @@
 Status: Entwurf. Versand nur nach Freigabe durch den Vorstand des Vereins.
 Rechtsgrundlage: Informationsfreiheitsgesetz (IFG), BGBl. I Nr. 5/2024, in Kraft seit 1. September 2025.
 Empfänger: Magistrat der Stadt Wien, MA 49 – Klima, Forst- und Landwirtschaftsbetrieb; in Kopie MA 5 – Finanzwesen (Fragen 2, 4 und 5).
-Form: schriftlich, per E-Mail an die Dienststelle. Frist laut IFG: vier Wochen, verlängerbar um weitere vier Wochen.
+Form: schriftlich, per E-Mail an die Dienststelle (§ 7 IFG; auch mündlich oder telefonisch möglich). Frist: vier Wochen; Verlängerung um weitere vier Wochen nur aus besonderen Gründen und mit Begründung innerhalb der ersten Frist (§ 8 Abs. 1 und 2 IFG). Rechtsgrundlagen von der unabhängigen Prüfung am 15.11.2026 bestätigt.
 Vor dem Versand prüfen: aktuelle Adresse der Dienststelle, Name und Anschrift des Vereins als Antragsteller, ZVR-Zahl.
 
 ---
